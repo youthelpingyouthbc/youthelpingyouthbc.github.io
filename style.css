@@ -46,3 +46,9 @@ div {
     height: 100vh;
     width: 100vw;
 }
+
+.home_section {
+    min-height: 100vh;
+    width: 100%;
+    background: linear-gradient(180deg, #97DBD1 40.07%, rgba(196, 196, 196, 0) 93.93%);
+}
