@@ -15,6 +15,7 @@ nav {
     align-items: center;
     justify-content: space-between !important;
     width: 100%;
+    top: 0;
     background: #333333;
     height: 70px;
     filter: drop-shadow(0px 14px 23px rgba(0, 0, 0, 0.25));
@@ -40,15 +41,69 @@ nav {
     color: white;
     text-decoration: none;
     font-family: 'Poppins', sans-serif;
+    text-transform: uppercase;
 }
 
-div {
-    height: 100vh;
-    width: 100vw;
-}
 
 .home_section {
     min-height: 100vh;
     width: 100%;
     background: linear-gradient(180deg, #97DBD1 40.07%, rgba(196, 196, 196, 0) 93.93%);
+}
+
+.home_content {
+    top: 25vh;
+    position: relative;
+}
+
+.home_content:after {
+    /* Clear floats after the columns */
+    content: "";
+    display: table;
+    clear: both;
+}
+
+
+.home_image_container {
+    float:left;
+    width: 35%;
+}
+.home_image {
+    width: 220px;
+    height: auto;
+    margin: 0 auto;
+    display: block;
+    top: 20px;
+    position: relative;
+}
+
+.right_content {
+    width: 65%;
+    float:left;
+}
+
+.home_info {
+    font-size: 2em;
+}
+
+.home_title {
+    font-size: 3em;
+    margin: -20px 0px -20px 0px;
+}
+
+.sign_up_btn {
+    color: #FFFFFF;
+    font-family: NATS;
+    font-style: normal;
+    font-weight: normal;
+    text-align: center;
+    text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25), 0px 4px 4px rgba(0, 0, 0, 0.25);
+    background: #55CEBC;
+    box-shadow: 6px 0px 19px rgba(0, 0, 0, 0.25);
+    display: block;
+    height: 55px;
+    width: 200px;
+    font-size: 1.2em;
+    line-height: 55px;
+    text-decoration: none;
 }
