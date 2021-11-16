@@ -7,6 +7,7 @@ body {
     padding: 0;
     box-sizing: border-box;
     overflow-x: hidden;
+    font-size: 100%;
 }
 
 nav {
@@ -107,3 +108,46 @@ nav {
     line-height: 55px;
     text-decoration: none;
 }
+
+/*About section*/ 
+.about_background {
+    min-height: 50vh;
+    width: 100%;
+    background-color: #CBFFF7;
+}
+
+.about_image {
+    width: 240px;
+    height: auto;
+    margin: 0 auto;
+    display: block;
+    top: 20px;
+    position: relative;
+    filter: drop-shadow(0px 1px 9px #55CEBC);
+}
+
+.about_image_container {
+    float:center;
+    width: 35%;
+}
+
+.about_content {
+    text-align: center;
+    padding: 50px 50px 75px 50px;
+
+}
+
+.about_title {
+    font-size: 3em;
+    font-family: 'NATS', 'Poppins', sans-serif;
+    margin: -20px 0px -20px 0px;
+    color: #333333;
+    text-shadow: 0px 7px 17px rgba(0, 0, 0, 0.25);
+}
+
+.about_info {
+    font-family: 'Inter', 'Poppins', sans-serif;
+    /* font-size: 1em; */ 
+
+}
+
