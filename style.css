@@ -229,29 +229,47 @@ nav {
 /* each column container */
 
 .links_container {
+    margin-left: auto;
+    margin-right: auto;
+    width: 20em;
     text-align: center;
+    position: relative;
+    bottom: 118px;
 }
 .youthhacks2022_container {
     text-align: left;
 }
 .questions_container {
     text-align: right;
+    position: relative;
+    bottom: 299px;
 }
 .youthhacks2022_text {
-    color: #00FED8;
+    color: #ffffff;
     font-size: 25px;
+    width: 20em;
     font-family: 'Inter', sans-serif;
     font-weight: normal;
 }
 .useful_links_text {
-    color: #00FED8;
+    color: #ffffff;
     font-size: 25px;
     font-family: 'Inter', sans-serif;
     font-weight: normal;
 }
 .questions_text {
-    color: #00FED8;
+    color: #ffffff;
     font-size: 25px;
     font-family: 'Inter', sans-serif;
     font-weight: normal;
+}
+
+.footer_container {
+    text-align: center;
+
+}
+.footer_text {
+    color: #000000;
+    font-family: 'NATS', 'Poppins', sans-serif; 
+
 }
