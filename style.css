@@ -26,6 +26,7 @@ nav {
     background: #333333;
     height: 70px;
     filter: drop-shadow(0px 14px 23px rgba(0, 0, 0, 0.25));
+    z-index: 99;
 }
 
 .navbar_ul {
@@ -91,11 +92,11 @@ nav {
 
 .home_info {
     font-size: 2em;
+    margin: 10px 0px 10px 0px;
 }
 
 .home_title {
     font-size: 3em;
-    margin: -20px 0px -20px 0px;
 }
 
 .sign_up_btn {
@@ -114,6 +115,8 @@ nav {
     font-size: 1.2em;
     line-height: 55px;
     text-decoration: none;
+    position: relative;
+    margin-top: 20px;
 }
 
 /*About section*/ 
@@ -146,7 +149,6 @@ nav {
 .about_title {
     font-size: 3em;
     font-family: 'NATS', 'Poppins', sans-serif;
-    margin: -20px 0px -20px 0px;
     color: #333333;
     text-shadow: 0px 7px 17px rgba(0, 0, 0, 0.25);
 }
