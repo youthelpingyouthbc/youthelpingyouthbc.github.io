@@ -123,27 +123,82 @@ nav {
 .about_background {
     min-height: 50vh;
     width: 100%;
-    background-color: #CBFFF7;
 }
 
 .about_image {
-    width: 240px;
+    width: 200px;
     height: auto;
     margin: 0 auto;
     display: block;
-    top: 20px;
+    top: 25px;
+    margin-bottom: 20px;
     position: relative;
     filter: drop-shadow(0px 1px 9px #55CEBC);
 }
 
-.about_image_container {
-    float:center;
-    width: 35%;
+.about_text {
+    background: #CBFFF7;
+    position: relative;
+    top: 25px;
+    padding: 0px 50px;
 }
-
 .about_content {
     text-align: center;
-    padding: 50px 50px 75px 50px;
+    background: #5e9287;
+    padding: 50px 0px;
+}
+
+.triangle_base {
+    width: 0;
+    height: 0;
+    border-style: solid;
+}
+
+.top_triangles {
+    margin-bottom: -200px;
+    z-index: 2;
+}
+
+.outer_triangle_top {
+    border-width: 0 60vw 250px 60vw;
+    border-color: transparent transparent #55CEBC transparent;
+    margin-left: -10vw;
+}
+
+.middle_triangle_top {
+    border-width: 0 55vw 225px 55vw;
+    border-color: transparent transparent #85F8E7 transparent;
+    margin-top: -225px;
+    margin-left: -5vw;
+}
+
+.inner_triangle_top {
+    border-width: 0 50vw 200px 50vw;
+    border-color: transparent transparent #CBFFF7 transparent;
+    margin-top: -200px;
+}
+
+.outer_triangle_bottom {
+    border-width: 250px 60vw 0 60vw;
+    border-color: #55CEBC transparent transparent transparent;
+    margin-left: -10vw;
+}
+
+.middle_triangle_bottom {
+    border-width: 225px 55vw 0 55vw;
+    border-color: #85F8E7 transparent transparent transparent;
+    z-index: 1;
+    margin-bottom: -225px;
+    margin-left: -5vw;
+    position: relative;
+}
+.inner_triangle_bottom {
+    border-width: 200px 50vw 0 50vw;
+    border-color: #CBFFF7 transparent transparent transparent;
+    margin-top: -50px;
+    margin-bottom: -200px;
+    z-index: 2;
+    position: relative;
 }
 
 .about_title {
@@ -157,7 +212,8 @@ nav {
     font-family: 'Inter', 'Poppins', sans-serif;
     /* font-size: 1em; */ 
     line-height: 1.5;
-
+    padding: 10px 50px 75px -5px;
+    margin-bottom: 75px;
 }
 
 /* What is a hackathon */
@@ -241,6 +297,7 @@ nav {
 .youthhacks2022_container {
     text-align: left;
 }
+
 .questions_container {
     text-align: right;
     position: relative;
