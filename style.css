@@ -260,7 +260,7 @@ nav {
 
 .question .question_title {
     font-family: Roboto, sans-serif;
-    font-size: 30px;
+    font-size: 25px;
     padding-bottom: 7px;
 }
 
@@ -326,12 +326,9 @@ nav {
 .footer_text {
     color: #000000;
     font-family: 'NATS', 'Poppins', sans-serif; 
-<<<<<<< HEAD
-=======
 }
 
 /* Space class for viewing purposes */
 .space {
     height: 50vh;
->>>>>>> b584eab13ee98c5ea7aeff9f5e2e9c628b3af7a8
 }
