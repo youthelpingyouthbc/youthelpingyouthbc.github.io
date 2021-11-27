@@ -210,10 +210,63 @@ nav {
     text-shadow: 0px 7.16px 10px rgba(0, 0, 0, 0.25);
  }
 
- /* Testing Spae */
- #space {
-     height: 100px;
- }
+/* FAQ Section */
+#faq {
+    background-color: #333333;
+    padding: 2rem 0px 2rem 0px;
+}
+
+#faq #title {
+    font-family: Poppins, sans-serif;
+    color: white;
+    font-style: bold;
+    font-size: 55px;
+    text-align: center;
+}
+
+#faq #info {
+    font-family: Roboto, sans-serif;
+    color: white;
+    font-size: 20px;
+    text-align: center;
+    padding-bottom: 20px;
+}
+
+.row {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.col {
+    justify-content: space;
+}
+
+.question {
+    width: 40vw;
+    margin: 2rem;
+    box-shadow: 13px 13px rgba(0, 0, 0, 0.25);
+}
+
+.question .question_teal{
+    background-color: #00FFD9;
+    padding: 2rem;
+}
+
+.question .question_white {
+    background-color: white;
+    padding: 2rem;
+}
+
+.question .question_title {
+    font-family: Roboto, sans-serif;
+    font-size: 30px;
+    padding-bottom: 7px;
+}
+
+.question .answer {
+    font-family: Roboto, sans-serif;
+}
 
 /*Contact section*/
 .contact_background {
@@ -273,5 +326,9 @@ nav {
 .footer_text {
     color: #000000;
     font-family: 'NATS', 'Poppins', sans-serif; 
+}
 
+/* Space class for viewing purposes */
+.space {
+    height: 50vh;
 }
