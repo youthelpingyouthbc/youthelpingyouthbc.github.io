@@ -38,6 +38,7 @@ nav {
 
 .navbar_li_left {
     float: left;
+    padding-left: 15px;
 }
 
 .navbar_li {
