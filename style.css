@@ -346,7 +346,7 @@ nav {
     width: 20em;
     text-align: center;
     position: relative;
-    bottom: 118px;
+    bottom: 135px;
 }
 .youthhacks2022_container {
     text-align: left;
@@ -355,26 +355,31 @@ nav {
 .questions_container {
     text-align: right;
     position: relative;
-    bottom: 299px;
+    bottom: 270px;
 }
 .youthhacks2022_text {
     color: #ffffff;
     font-size: 25px;
     width: 20em;
-    font-family: 'Inter', sans-serif;
+    font-family: 'Kanit', sans-serif;
     font-weight: normal;
 }
 .useful_links_text {
     color: #ffffff;
     font-size: 25px;
-    font-family: 'Inter', sans-serif;
+    font-family: 'Kanit', sans-serif;
     font-weight: normal;
+
 }
 .questions_text {
     color: #ffffff;
     font-size: 25px;
-    font-family: 'Inter', sans-serif;
+    font-family: 'Kanit', sans-serif;
     font-weight: normal;
+}
+.footer_elements {
+    vertical-align: middle;
+
 }
 
 .footer_container {
@@ -383,7 +388,7 @@ nav {
 }
 .footer_text {
     color: #000000;
-    font-family: 'NATS', 'Poppins', sans-serif; 
+    font-family: 'Kanit', sans-serif;
 }
 
 /* Space class for viewing purposes */
