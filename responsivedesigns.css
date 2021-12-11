@@ -18,21 +18,50 @@
   #text {
     width: 70vw;
   }
+
   .what_is_hckthn #text #title{
     font-size: 2em;
     padding: 20px 0px;
   }
+
   #title, #info {
     text-align: center;
   }
-
-    
 }
 
 
 @media only screen and (max-width: 700px) {
   /* Code for the home section */
+  .home_info {
+    display: none;
+  }
 
+  .home_info_mobile {
+    display: block;
+  }
 
-  
+  .home_image_container {
+    float: none;
+    position: relative;
+    margin: 0 auto;
+    width: 100%;
+    margin-top: -70px;
+    margin-bottom: 30px;
+  }
+  .home_image {
+    width: 180px;
+  }
+  .right_content {
+      width: 90%;
+      float:none;
+      margin: 0 auto;
+  }
+  .home_section {
+    min-height: 110vh;
+  }
+
+  /* Code for the about section */
+  .about_image {
+    width: 180px;
+  }
 }
