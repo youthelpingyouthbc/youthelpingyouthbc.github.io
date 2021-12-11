@@ -341,10 +341,10 @@ nav {
     background-color: #FFFFFF;
     padding: 50px;
     align-content: center;
-    background: linear-gradient(180deg, #CDFEF7 20.07%, rgba(126, 112, 112, 0) 93.93%);
+    /* background: linear-gradient(180deg, #CDFEF7 20.07%, rgba(126, 112, 112, 0) 93.93%); */
   }
 
-  .sponsorship_title {
+.sponsorship_title {
     font-family: 'Kanit', sans-serif;
     font-size: 100px;
     padding: 20px;
@@ -357,6 +357,11 @@ nav {
     font-size: 25px;
     padding: 50px;
     text-align: center;
+    text-decoration: none;
+}
+
+.cyan {
+    color: #4EEFD7;
     text-decoration: none;
 }
 
