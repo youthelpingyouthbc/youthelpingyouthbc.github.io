@@ -247,6 +247,12 @@ nav {
     margin: auto;
 }
 
+.what_is_hackathon_image {
+    position: relative;
+    width: 25em;
+    height: auto;
+}
+
 .what_is_hckthn #text {
     display: block;
     margin: auto;
