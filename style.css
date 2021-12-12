@@ -94,6 +94,8 @@ nav {
 .home_info {
     font-size: 2em;
     margin: 10px 0px 10px 0px;
+    color: #000000;
+    font-family: 'Kanit', sans-serif;
 }
 .home_info_mobile {
     display: none;
@@ -102,6 +104,8 @@ nav {
 
 .home_title {
     font-size: 3em;
+    color: #000000;
+    font-family: 'Kanit', sans-serif;
 }
 
 .sign_up_btn {
@@ -410,12 +414,13 @@ nav {
 }
 .youthhacks2022_container {
     text-align: left;
+    position: relative;
 }
 
 .questions_container {
     text-align: right;
     position: relative;
-    bottom: 270px;
+    bottom: 310px;
 }
 .youthhacks2022_text {
     color: #ffffff;
@@ -436,6 +441,7 @@ nav {
     font-size: 25px;
     font-family: 'Kanit', sans-serif;
     font-weight: normal;
+    text-decoration: none;
 }
 .footer_elements {
     vertical-align: middle;
@@ -444,7 +450,7 @@ nav {
 
 .footer_container {
     text-align: center;
-    margin-top: -150px;
+    margin-top: -130px;
 }
 
 .footer_text {
