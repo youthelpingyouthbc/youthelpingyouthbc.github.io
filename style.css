@@ -288,19 +288,20 @@ nav {
 }
 
 #faq #title {
-    font-family: Poppins, sans-serif;
+    font-family: NATS, sans-serif;
     color: white;
+    font-size: 3em;
     font-style: bold;
-    font-size: 55px;
     text-align: center;
 }
 
 #faq #info {
-    font-family: Roboto, sans-serif;
+    font-family: NATS, sans-serif;
     color: white;
-    font-size: 20px;
+    font-size: 1em;
     text-align: center;
-    padding-bottom: 20px;
+    padding: 15px 10px;
+
 }
 
 .row {
