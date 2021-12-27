@@ -31,17 +31,18 @@
 		<meta property="og:title" content="">
 		<meta name="description" content=""/>
 				
-		<link rel="icon" href="images/logo.jpg" type="image/icon type">
+		<link rel="icon" href="images/logo.png" type="image/icon type">
 		<!-- Social media -->
 			<meta name="title" property="og:title" content="">
 			<meta property="og:type" content="Website">
 			<meta property="og:image" content="" /> 
 		<!-- Social media ^ ^ ^-->
 
+		<!-- Imports Font Awesome (MUST LOAD BEFORE "style.css" or the fa-bars will appear on desktop) -->
+		<script src="https://kit.fontawesome.com/69c2472d0e.js" crossorigin="anonymous"></script>
+
         <link rel = "stylesheet" href = "style.css">
 		<link rel = "stylesheet" href = "responsivedesigns.css">
-
-        <link rel = "script" href="script.js">
 
 		<!-- Imports the Poppins font -->
 		<link rel="preconnect" href="https://fonts.googleapis.com">
@@ -53,23 +54,43 @@
 		<link rel="preconnect" href="https://fonts.googleapis.com">
 		<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 		<link href="https://fonts.googleapis.com/css2?family=Kanit:wght@300;400&display=swap" rel="stylesheet">
+	
 	</head>
 		
 	<body id = "home">
         <header>
-            <nav>
+            <nav class="desktop_nav">
                 <ul class="navbar_ul">
 					<li class="navbar_li_left"><a class="navbar_li_text" href="/index.html">Youth Helping Youth</a></li>
                 	
-					<li class="navbar_li"><a class="navbar_li_text" href="#contact">Contact</a></li>
-					<li class="navbar_li"><a class="navbar_li_text" href="#faq">FAQ</a></li>
-					<li class="navbar_li"><a class="navbar_li_text" href="#sponsors">Sponsors</a></li>
+					<li class="navbar_li"><a class="navbar_li_text nav_right" href="#contact">Contact</a></li>
+					<li class="navbar_li"><a class="navbar_li_text nav_right" href="#sponsors">Sponsors</a></li>
+					<li class="navbar_li"><a class="navbar_li_text nav_right" href="#faq">FAQ</a></li>
 					<!--<li class="navbar_li"><a class="navbar_li_text" href="#judges">Judges</a></li>
                     <li class="navbar_li"><a class="navbar_li_text" href="#speakers">Speakers</a></li> -->
-					<li class="navbar_li"><a class="navbar_li_text" href="#about">About</a></li>
-					<li class="navbar_li"><a class="navbar_li_text" href="#home">Home</a></li>
+					<li class="navbar_li"><a class="navbar_li_text nav_right" href="#about">About</a></li>
+					<li class="navbar_li"><a class="navbar_li_text nav_right" href="#home">Home</a></li>
+				
+
+					<i class="fas fa-bars hamburger_menu" id="nav_ham" onclick="show_mobile_nav()"></i>
+					<i class="fas fa-times close_mobnav_icon" id="nav_cross" onclick="show_mobile_nav()"></i>
+			
 				</ul>
             </nav>
+			
+			<nav class="mobile_nav" id="mobile_nav_id">
+				<ul class="mobile_navbar_ul">
+					<li class="mobile_navbar_li"><a class="mobile_nav_text" href="#home" onclick="show_mobile_nav()">Home</a></li>
+					<li class="mobile_navbar_li"><a class="mobile_nav_text" href="#about" onclick="show_mobile_nav()">About</a></li>
+					<li class="mobile_navbar_li"><a class="mobile_nav_text" href="#faq" onclick="show_mobile_nav()">FAQ</a></li>
+					<li class="mobile_navbar_li"><a class="mobile_nav_text" href="#sponsors" onclick="show_mobile_nav()">Sponsors</a></li>
+					<li class="mobile_navbar_li"><a class="mobile_nav_text" href="#contact" onclick="show_mobile_nav()">Contact</a></li>
+				
+				</ul>
+			</nav>
+
+			<div class="nav_blur" id="nav_blur" onclick="show_mobile_nav()"></div>
+
         </header>
 
         <main>
@@ -241,7 +262,7 @@
 				<h2 class="sponsorship_text">Sponsors TBA! Come back on January 1st 2020!</h2>	
 
 				<h2 class="sponsorship_text"> Interested in sponsoring <span class="cyan">YOUTHHACKS 2022?</span> <br>Send us an inquiry at <a class="cyan" href="mailto:bc@youthelpingyouth.org">bc@youthelpingyouth.org</a></h2>	
-				<a class="view_sponsor_btn" href="#" target="_blank">View our package</a>
+				<a class="view_sponsor_btn" href="assets/sponsorship_package.pdf" target="_blank">View our package</a>
 			</div>
 				
 			<section id="contact" class="contact_background">
@@ -252,7 +273,7 @@
                 
                 <div class="links_container">
                 	<h2 class="contact_headings" id="useful_links_title">USEFUL LINKS<h2>
-                	<p class="useful_links_text">ABOUT<br>FAQ<br>SPONSOR PACKAGE</p>
+                	<p class="useful_links_text"><a class="questions_text" href="#about">ABOUT</a><br><a class="questions_text" href="#faq">FAQ</a><br><a class="questions_text" href="assets/sponsorship_package.pdf" target="_blank">SPONSOR PACKAGE</a></p>
                 </div>
 
                 <div class="questions_container">
@@ -283,4 +304,5 @@
 
         </main>
 	</body>
+	<script src="script.js"></script>
 </html>

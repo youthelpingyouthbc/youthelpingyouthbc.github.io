@@ -16,7 +16,7 @@ body {
     font-size: 100%;
 }
 
-nav {
+.desktop_nav {
     position: fixed;
     display: flex;
     align-items: center;
@@ -52,8 +52,60 @@ nav {
     font-family: 'Poppins', sans-serif;
     text-transform: uppercase;
 }
+.mobile_nav {
+    display: none;
+    position: fixed;
+    width: 60%;
+    top: 0;
+    background: #333333;
+    height: 100vh;
+    z-index: 98;
+    right: -100%;
+    transition: 0.4s;
+    box-shadow: -5px 0 15px -5px #000000;
+}
 
+.hamburger_menu {
+    display: none;
+}
 
+.mobile_navbar_ul {
+    list-style-type: none;
+    width: 100%;
+    font-size: 20px;
+    font-weight: bold;
+    margin-top: 200px;
+    margin-right: 20px;
+}
+
+.mobile_navbar_li {
+    text-align: right;
+    padding: 5px;
+}
+.close_mobnav_icon {
+    color: #FFFFFF;
+    float: right;
+    display: none;
+    padding-right: 20px;
+    font-size: 1.5em;
+    cursor: pointer;
+}
+.mobile_nav_text {
+    color: white;
+    text-decoration: none;
+    font-family: 'Poppins', sans-serif;
+    text-transform: uppercase;
+}
+.nav_blur {
+    display: none;
+    width: 100vw;
+    height: 100vh;
+    background: #000000;
+    opacity: 0.7;
+    z-index: 60;
+    position: fixed;
+    top: 0;
+}
 .home_section {
     min-height: 100vh;
     width: 100%;
@@ -429,13 +481,14 @@ nav {
     width: 20em;
     font-family: 'Kanit', sans-serif;
     font-weight: normal;
+    z-index: 0;
 }
 .useful_links_text {
     color: #ffffff;
     font-size: 25px;
     font-family: 'Kanit', sans-serif;
     font-weight: normal;
-
+    z-index: 1;
 }
 .questions_text {
     color: #ffffff;

@@ -1,3 +1,20 @@
+@media only screen and (max-width: 900px) {
+  .nav_right {
+    display: none;
+  }
+  .hamburger_menu {
+    display: inline;
+    color: #FFFFFF;
+    float: right;
+    padding-right: 20px;
+    font-size: 1.5em;
+    cursor: pointer;
+  }
+  .mobile_nav {
+    display: flex;
+  }
+}
+
 @media only screen and (max-width: 800px) {
   /* Code for the what is a hackathon section */
   .what_is_hckthn {
