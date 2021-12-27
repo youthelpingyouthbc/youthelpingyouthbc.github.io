@@ -467,7 +467,6 @@ body {
 }
 .youthhacks2022_container {
     text-align: left;
-    position: relative;
 }
 
 .questions_container {
@@ -481,14 +480,12 @@ body {
     width: 20em;
     font-family: 'Kanit', sans-serif;
     font-weight: normal;
-    z-index: 0;
 }
 .useful_links_text {
     color: #ffffff;
     font-size: 25px;
     font-family: 'Kanit', sans-serif;
     font-weight: normal;
-    z-index: 1;
 }
 .questions_text {
     color: #ffffff;
@@ -499,7 +496,6 @@ body {
 }
 .footer_elements {
     vertical-align: middle;
-
 }
 
 .footer_container {

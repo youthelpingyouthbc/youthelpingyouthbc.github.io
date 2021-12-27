@@ -1,20 +1,3 @@
-@media only screen and (max-width: 900px) {
-  .nav_right {
-    display: none;
-  }
-  .hamburger_menu {
-    display: inline;
-    color: #FFFFFF;
-    float: right;
-    padding-right: 20px;
-    font-size: 1.5em;
-    cursor: pointer;
-  }
-  .mobile_nav {
-    display: flex;
-  }
-}
-
 @media only screen and (max-width: 800px) {
   /* Code for the what is a hackathon section */
   .what_is_hckthn {
@@ -88,17 +71,17 @@
   }
 }
 
-@media only screen and (max-width: 800px) {
+@media only screen and (max-width: 1400px) {
   /* Code for the contact section */
-  .contact_background {
-    padding: 50px;
+.contact_background {
     padding-bottom: 25px;
-  }
+}
 
 .contact_headings {
-    font-size: 25px;
+    font-size: 2em;
     text-align: center;
     bottom: 10px;
+    vertical-align: middle;
 }
 
 .questions_container {
@@ -106,42 +89,32 @@
     bottom: -60px;
 }
 .youthhacks2022_text {
-    font-size: 13px;
-    left: 10px;
+    font-size: 1em;
+    width: 75%;
 }
 .useful_links_text {
-    font-size: 13px;
+    font-size: 1em;
 }
 .questions_text {
-    font-size: 13px;
+    font-size: 1em; 
 }
 .footer_socials {
     vertical-align: middle;
-    size: 10px;
+    size: 10em;
 }
 /* each column container */
 
 .links_container {
       bottom: -20px;
-      right: 25px;
+      right: 35px;
 }
 .youthhacks2022_container {
-      text-align: center;
       bottom: 10px;
+      text-align: center;
 }
 .questions_container {
       text-align: center;
       bottom: -60px;
-}
-.youthhacks2022_text {
-      font-size: 13px;
-      left: 10px;
-}
-.useful_links_text {
-      font-size: 13px;
-}
-  .questions_text {
-      font-size: 13px;
 }
 .footer_socials {
       vertical-align: middle;
