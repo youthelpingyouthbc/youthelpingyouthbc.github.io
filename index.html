@@ -43,6 +43,9 @@
 
         <link rel = "stylesheet" href = "style.css">
 		<link rel = "stylesheet" href = "responsivedesigns.css">
+		
+		<!-- imports animations -->
+		<link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
 
 		<!-- Imports the Poppins font -->
 		<link rel="preconnect" href="https://fonts.googleapis.com">
@@ -194,21 +197,21 @@
 
                     <div class = "col">
 
-                        <div class = "question">
+                        <div class = "question" data-aos="fade-right" data-aos-duration="2000">
                             <div class = "question_white" id = "2">
                                 <p class = "question_title">Do I need a team to participate?</p>
                                 <p class = "answer">You can sign up individually or with a team. If you don’t have a team yet, you can build one on our Discord server!</p>
                             </div>
                         </div>
                         
-                        <div class = "question">
+                        <div class = "question" data-aos="fade-right" data-aos-duration="2000">
                             <div class = "question_teal" id = "4">
                                 <p class = "question_title">How much does it cost?</p>
                                 <p class = "answer">Nothing! Our Hackathon is entirely free to attend!</p>
                             </div>
                         </div>
 						
-						<div class = "question">
+						<div class = "question" data-aos="fade-right" data-aos-duration="2000">
                             <div class = "question_white" id = "6">
                                 <p class = "question_title">Will YouthHacks 2022 be online or in-person?</p>
                                 <p class = "answer">Due to the COVID-19 pandemic, YouthHacks 2022 will be 100% virtual! </p>
@@ -219,7 +222,7 @@
 
                     <div class="col">
 
-                        <div class = "question">
+                        <div class = "question" data-aos="fade-left" data-aos-duration="2000">
                             <div class = "question_teal" id = "1">
                                 <p class = "question_title">Can I work on my project before the event?</p>
                                 <p class = "answer">No, we prohibit participants from bringing and continuing a project they have already worked on, and your final project should be new and only built during the week of the YouthHacks 2022.</p>
@@ -227,20 +230,20 @@
                         </div>
 
                         <div class = "question">
-                            <div class = "question_white" id="3">
+                            <div class = "question_white" id="3" data-aos="fade-left" data-aos-duration="2000">
                                 <p class = "question_title">What if I’ve never coded before?</p>
                                 <p class = "answer">No worries! This hackathon is completely beginner-friendly, and coding workshops will be hosted throughout our event!</p>
                             </div>
                         </div>
 						
-						<div class = "question">
+						<div class = "question" data-aos="fade-left" data-aos-duration="2000">
                             <div class = "question_teal" id="5">
                                 <p class = "question_title">Who can attend?</p>
                                 <p class = "answer">All high school students or university students under the age of 24. Beginners are welcome and encouraged to apply!</p>
                             </div>
                         </div>
 
-                        <div class = "question" id="call_to_action">
+                        <div class = "question" id="call_to_action" data-aos="fade-left" data-aos-duration="2000">
                             <div class = "question_white">
                                 <p class = "question_title">Have more questions?</p>
                                 <p class = "answer">Reach out to us at <a href="mailto:bc@youthelpingyouth.org">bc@youthelpingyouth.org</a></p>
@@ -303,6 +306,13 @@
             </section>
 
         </main>
+  	
+  	<!-- for animations -->
+  	<script src="https://unpkg.com/aos@next/dist/aos.js"></script>
+	<script>
+    	AOS.init();
+	</script>	
+	
 	</body>
 	<script src="script.js"></script>
 </html>
