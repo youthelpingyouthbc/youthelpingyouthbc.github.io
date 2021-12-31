@@ -42,7 +42,7 @@ body {
 
 .navbar_li_left {
     float: left;
-    padding-left: 15px;
+    padding-left: 55px;
 }
 
 .navbar_li {
@@ -60,6 +60,13 @@ body {
 
 .navbar_li_text:hover {
     color: var(--main-colour);
+}
+
+.nav_logo {
+    width: 30px;
+    height: auto;
+    position: absolute;
+    margin-left: -40px; /* 55 - 40 = 15 margin left */
 }
 
 .mobile_nav {
