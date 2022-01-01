@@ -1,11 +1,8 @@
 /* variables */
 :root {
-    --main-color: #778ab1;
+    --main-colour: #778ab1;
     --black: #000000;
 }
-:root {
-    --main-colour: #4EEFD7;
-  }
 
 *{
     margin: 0;
@@ -139,7 +136,7 @@ body {
 .home_section {
     min-height: 100vh;
     width: 100%;
-    background: linear-gradient(180deg, var(--main-color) 40.07%, rgba(196, 196, 196, 0) 93.93%);
+    background: linear-gradient(180deg, var(--main-colour) 40.07%, rgba(196, 196, 196, 0) 93.93%);
 }
 
 .home_content {
@@ -230,7 +227,7 @@ body {
     top: 45px;
     margin-bottom: 20px;
     position: relative;
-    filter: drop-shadow(0px 1px 9px var(--main-color));
+    filter: drop-shadow(0px 1px 9px var(--main-colour));
 }
 
 .about_text {
@@ -316,7 +313,7 @@ body {
 /* What is a hackathon */
 .divider {
     height: 1.5rem;
-    background-color: var(--main-color);
+    background-color: var(--main-colour);
 }
 
 #top {
@@ -419,7 +416,7 @@ body {
 }
 
 .question .question_teal{
-    background-color: var(--main-color);
+    background-color: var(--main-colour);
     padding: 2rem;
     transition: 0.3s;
 }
@@ -453,7 +450,7 @@ body {
     font-family: 'Kanit', sans-serif;
     font-size: 100px;
     padding: 20px;
-    color:var(--main-color);
+    color:var(--main-colour);
     text-align: center;
 }
 
@@ -476,7 +473,7 @@ body {
     font-family: 'Kanit', sans-serif;
     text-align: center;
     text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25), 0px 4px 4px rgba(0, 0, 0, 0.25);
-    background: var(--main-color);;
+    background: var(--main-colour);;
     box-shadow: 6px 0px 19px rgba(0, 0, 0, 0.25);
     display: block;
     font-size: 1.2em;
@@ -499,11 +496,11 @@ body {
   width: 300;
   background-color: #333333;
   padding: 50px;
-  border-top: 30px solid var(--main-color);
+  border-top: 30px solid var(--main-colour);
   box-shadow: 0px 20px 40px #333333;
 }
 .contact_headings {
-  color: var(--main-color);;
+  color: var(--main-colour);;
   font-size: 40px;
   font-family: 'NATS', 'Poppins', sans-serif;
 }
@@ -545,7 +542,13 @@ body {
     font-family: 'Kanit', sans-serif;
     font-weight: normal;
     text-decoration: none;
+    transition: 0.3s;
 }
+
+.questions_text:hover {
+    color: var(--main-colour);
+}
+
 .footer_elements {
     vertical-align: middle;
 }

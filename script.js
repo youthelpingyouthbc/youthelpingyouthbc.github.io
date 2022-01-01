@@ -1,3 +1,5 @@
+
+
 function show_mobile_nav() {
     mobile_nav_bar = document.getElementById("mobile_nav_id");
     nav_blur = document.getElementById('nav_blur');
@@ -16,3 +18,18 @@ function show_mobile_nav() {
         nav_cross.style.display = "block";
     }
 }
+
+var i = 0;
+var txt = 'ORLDWIDE // MARCH 18 - 20TH';
+var speed = 50;
+
+function typeWriter() {
+    if (i < txt.length) {
+        document.getElementById("typing_animation").innerHTML += txt.charAt(i);
+        i++;
+
+        setTimeout(typeWriter, speed);
+    }
+}
+
+typeWriter();
