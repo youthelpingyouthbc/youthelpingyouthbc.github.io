@@ -3,6 +3,10 @@
     --main-color: #778ab1;
     --black: #000000;
 }
+:root {
+    --main-colour: #4EEFD7;
+  }
+
 *{
     margin: 0;
     padding: 0;
@@ -43,7 +47,7 @@ body {
 
 .navbar_li_left {
     float: left;
-    padding-left: 15px;
+    padding-left: 55px;
 }
 
 .navbar_li {
@@ -56,7 +60,20 @@ body {
     text-decoration: none;
     font-family: 'Poppins', sans-serif;
     text-transform: uppercase;
+    transition: 0.3s;
 }
+
+.navbar_li_text:hover {
+    color: var(--main-colour);
+}
+
+.nav_logo {
+    width: 30px;
+    height: auto;
+    position: absolute;
+    margin-left: -40px; /* 55 - 40 = 15 margin left */
+}
+
 .mobile_nav {
     display: none;
     position: fixed;
@@ -87,6 +104,7 @@ body {
     text-align: right;
     padding: 5px;
 }
+
 .close_mobnav_icon {
     color: #FFFFFF;
     float: right;
@@ -100,7 +118,13 @@ body {
     text-decoration: none;
     font-family: 'Poppins', sans-serif;
     text-transform: uppercase;
+    transition: 0.3s;
 }
+
+.mobile_nav_text:hover {
+    color: var(--main-colour);
+}
+
 .nav_blur {
     display: none;
     width: 100vw;
@@ -184,6 +208,11 @@ body {
     position: relative;
     margin-top: 20px;
     border-radius: 10px;
+    transition: 0.3s;
+}
+
+.sign_up_btn:hover {
+    background: #97DBD1; 
 }
 
 /*About section*/ 
@@ -376,6 +405,12 @@ body {
     width: 40vw;
     margin: 2rem;
     box-shadow: 13px 13px rgba(0, 0, 0, 0.25);
+    transition: 0.3s;
+}
+
+.question:hover {
+    transform: scale(1.05);
+    box-shadow: 15px 15px rgba(0, 0, 0, 0.25);
 }
 
 .question .question_teal{
@@ -445,8 +480,12 @@ body {
     margin-left: auto;
     margin-right: auto;
     border-radius: 10px;
+    transition: 0.3s;
 }
 
+.view_sponsor_btn:hover {
+    background: #97DBD1; 
+}
 
 /*Contact section*/
 .contact_background {
