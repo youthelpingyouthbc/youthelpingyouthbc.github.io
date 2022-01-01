@@ -1,3 +1,8 @@
+/* variables */
+:root {
+    --main-color: #778ab1;
+    --black: #000000;
+}
 :root {
     --main-colour: #4EEFD7;
   }
@@ -134,7 +139,7 @@ body {
 .home_section {
     min-height: 100vh;
     width: 100%;
-    background: linear-gradient(180deg, #97DBD1 40.07%, rgba(196, 196, 196, 0) 93.93%);
+    background: linear-gradient(180deg, var(--main-color) 40.07%, rgba(196, 196, 196, 0) 93.93%);
 }
 
 .home_content {
@@ -192,7 +197,7 @@ body {
     font-weight: normal;
     text-align: center;
     text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25), 0px 4px 4px rgba(0, 0, 0, 0.25);
-    background: #55CEBC;
+    background: #004369;
     box-shadow: 6px 0px 19px rgba(0, 0, 0, 0.25);
     display: block;
     height: 55px;
@@ -225,18 +230,18 @@ body {
     top: 45px;
     margin-bottom: 20px;
     position: relative;
-    filter: drop-shadow(0px 1px 9px #55CEBC);
+    filter: drop-shadow(0px 1px 9px var(--main-color));
 }
 
 .about_text {
-    background: #CBFFF7;
+    background: #dbe3ee;
     position: relative;
     top: 25px;
     padding: 0px 50px;
 }
 .about_content {
     text-align: center;
-    background: #5e9287;
+    background: #3A568D;
     padding: 50px 0px;
 }
 
@@ -253,32 +258,32 @@ body {
 
 .outer_triangle_top {
     border-width: 0 60vw 250px 60vw;
-    border-color: transparent transparent #55CEBC transparent;
+    border-color: transparent transparent #1a3263 transparent;
     margin-left: -10vw;
 }
 
 .middle_triangle_top {
     border-width: 0 55vw 225px 55vw;
-    border-color: transparent transparent #85F8E7 transparent;
+    border-color: transparent transparent #778ab1 transparent;
     margin-top: -225px;
     margin-left: -5vw;
 }
 
 .inner_triangle_top {
     border-width: 0 50vw 200px 50vw;
-    border-color: transparent transparent #CBFFF7 transparent;
+    border-color: transparent transparent #dbe3ee transparent;
     margin-top: -200px;
 }
 
 .outer_triangle_bottom {
     border-width: 250px 60vw 0 60vw;
-    border-color: #55CEBC transparent transparent transparent;
+    border-color: #1a3263 transparent transparent transparent;
     margin-left: -10vw;
 }
 
 .middle_triangle_bottom {
     border-width: 225px 55vw 0 55vw;
-    border-color: #85F8E7 transparent transparent transparent;
+    border-color: #778ab1 transparent transparent transparent;
     z-index: 1;
     margin-bottom: -225px;
     margin-left: -5vw;
@@ -286,7 +291,7 @@ body {
 }
 .inner_triangle_bottom {
     border-width: 200px 50vw 0 50vw;
-    border-color: #CBFFF7 transparent transparent transparent;
+    border-color: #dbe3ee transparent transparent transparent;
     margin-top: -50px;
     margin-bottom: -200px;
     z-index: 2;
@@ -311,7 +316,7 @@ body {
 /* What is a hackathon */
 .divider {
     height: 1.5rem;
-    background-color: #00FFD9;
+    background-color: var(--main-color);
 }
 
 #top {
@@ -323,7 +328,7 @@ body {
 }
 
 .what_is_hackathon {
-    background-color: #CDFEF7;
+    background-color: #dbe3ee;
     padding: 2rem 0px 2rem 0px;
 }
 
@@ -410,7 +415,7 @@ body {
 }
 
 .question .question_teal{
-    background-color: #00FFD9;
+    background-color: var(--main-color);
     padding: 2rem;
 }
 
@@ -420,7 +425,7 @@ body {
 }
 
 .question .question_title {
-    font-family: Roboto, sans-serif;
+    font-family:'Kanit', sans-serif;
     font-size: 25px;
     padding-bottom: 7px;
 }
@@ -442,7 +447,7 @@ body {
     font-family: 'Kanit', sans-serif;
     font-size: 100px;
     padding: 20px;
-    color:#4EEFD7;
+    color:var(--main-color);
     text-align: center;
 }
 
@@ -455,7 +460,7 @@ body {
 }
 
 .cyan {
-    color: #4EEFD7;
+    color: #778AB1;
     text-decoration: none;
 }
 
@@ -465,7 +470,7 @@ body {
     font-family: 'Kanit', sans-serif;
     text-align: center;
     text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25), 0px 4px 4px rgba(0, 0, 0, 0.25);
-    background: #55CEBC;
+    background: var(--main-color);;
     box-shadow: 6px 0px 19px rgba(0, 0, 0, 0.25);
     display: block;
     font-size: 1.2em;
@@ -488,11 +493,11 @@ body {
   width: 300;
   background-color: #333333;
   padding: 50px;
-  border-top: 30px solid #00FED8;
+  border-top: 30px solid var(--main-color);
   box-shadow: 0px 20px 40px #333333;
 }
 .contact_headings {
-  color: #00FED8;
+  color: var(--main-color);;
   font-size: 40px;
   font-family: 'NATS', 'Poppins', sans-serif;
 }
