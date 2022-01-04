@@ -462,6 +462,30 @@ body {
     text-decoration: none;
 }
 
+.sponsor_logos_containers {
+    width: 80vw;
+    margin: 0 auto;
+    display: block;
+}
+
+.sponsor_logos {
+    width: auto;
+    height: 80px;
+    margin: 0px auto;
+    margin-bottom: 50px;
+    display: block;
+    transition: 0.3s;
+}
+
+.sponsor_logos:hover {
+    transform: scale(1.05);
+}
+
+.xyz_logo {
+    width: auto;
+    height: 130px;
+}
+
 .cyan {
     color: #778AB1;
     text-decoration: none;
