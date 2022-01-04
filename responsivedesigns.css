@@ -14,6 +14,20 @@
     display: flex;
   }
 }
+@media only screen and (max-width: 1500px) {
+    .home_image_container {
+        width: 35%;
+    }
+    .home_image {
+        width: 350px;
+        top: -2px;
+    }
+    .home_info_mobile {
+        color: #000000;
+        font-family: 'Kanit', sans-serif;
+        font-size: 20px;
+    }
+}
 @media only screen and (max-width: 800px) {
   /* Code for the what is a hackathon section */
   .what_is_hckthn {
@@ -38,6 +52,7 @@
   .what_is_hckthn #text #title{
     font-size: 2em;
     padding: 20px 0px;
+    font-family: Kanit, sans-serif;
   }
 
   #faq #title {

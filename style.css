@@ -157,12 +157,13 @@ body {
 }
 
 .home_image {
-    width: 220px;
+    width: 600px;
     height: auto;
     margin: 0 auto;
     display: block;
-    top: 20px;
+    top: -105px;
     position: relative;
+    filter: drop-shadow(0px 10px 9px var(--main-colour));
 }
 
 .right_content {
@@ -342,8 +343,10 @@ body {
 
 .what_is_hackathon_image {
     position: relative;
-    width: 25em;
+    width: 35em;
     height: auto;
+    max-height: 120%;
+    max-width: 150%;
 }
 
 .what_is_hckthn #text {
@@ -355,14 +358,14 @@ body {
 }
 
 .what_is_hckthn #text #info {
-    font-family: Poppins, Inter, sans-serif;
+    font-family: Inter, sans-serif;
     font-style: regular;
-    font-size: 1em;
+    font-size: 1.2em;
 }
 
-.what_is_hckthn #text #title{
-    font-family: NATS, sans-serif;
-    font-size: 3em;
+.what_is_hckthn #title{
+    font-family: Kanit, sans-serif;
+    font-size: 5em;
     text-shadow: 0px 7.16px 10px rgba(0, 0, 0, 0.25);
  }
 
@@ -373,19 +376,19 @@ body {
 }
 
 #faq #title {
-    font-family: NATS, sans-serif;
+    font-family: Kanit, sans-serif;
     color: white;
-    font-size: 3em;
+    font-size: 4em;
     font-style: bold;
     text-align: center;
 }
 
 #faq #info {
-    font-family: NATS, sans-serif;
+    font-family: Poppins, sans-serif;
     color: white;
     font-size: 1em;
     text-align: center;
-    padding: 15px 10px;
+    padding: 15px 5px;
 
 }
 
