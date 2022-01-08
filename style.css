@@ -523,12 +523,19 @@ body {
 
 /*Contact section*/
 .contact_background {
-  width: 300;
-  background-color: #333333;
-  padding: 50px;
-  border-top: 30px solid var(--main-colour);
-  box-shadow: 0px 20px 40px #333333;
+    width: 100%;
+    background-color: #333333;
+    padding: 40px;
+    border-top: 30px solid var(--main-colour);
+    box-shadow: 0px 20px 40px #333333;
 }
+
+.contact_background_sections {
+    width: 90%;
+    margin: 0 auto;
+    display: block;
+}
+
 .contact_headings {
   color: var(--main-colour);;
   font-size: 40px;
@@ -544,6 +551,7 @@ body {
     position: relative;
     bottom: 135px;
 }
+
 .youthhacks2022_container {
     text-align: left;
 }
