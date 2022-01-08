@@ -28,8 +28,7 @@
         font-family: 'Kanit', sans-serif;
         font-size: 20px;
     }
-}
-@media only screen and (max-width: 1400px) {
+
   /* Code for the what is a hackathon section */
   .what_is_hckthn {
     display: block;
@@ -197,7 +196,14 @@
     padding: 10px;
     text-align: center;
   }
-
+  .sponsor_logos {
+    width: 80%;
+    height: auto;
+  }
+  .xyz_logo {
+    width: 40%;
+    height: auto;
+  }
   .sponsorship_text {
     font-family: Poppins, sans-serif;
     font-size: 16px;
