@@ -14,13 +14,14 @@
     display: flex;
   }
 }
-@media only screen and (max-width: 1500px) {
+@media only screen and (max-width: 1400px) {
     .home_image_container {
         width: 35%;
     }
     .home_image {
         width: 350px;
-        top: -2px;
+        top: 120px;
+        padding: 50px;
     }
     .home_info_mobile {
         color: #000000;
@@ -28,7 +29,7 @@
         font-size: 20px;
     }
 }
-@media only screen and (max-width: 800px) {
+@media only screen and (max-width: 1400px) {
   /* Code for the what is a hackathon section */
   .what_is_hckthn {
     display: block;
@@ -63,16 +64,6 @@
   #title, #info {
     text-align: center;
   }
-
-  .sponsor_logos {
-    width: 80%;
-    height: auto;
-  }
-  .xyz_logo {
-    width: 40%;
-    height: auto;
-  }
-
 }
 
 
@@ -147,7 +138,6 @@
 .links_container {
       bottom: -20px;
       text-align: center;
-      width: 100%;
 }
 .youthhacks2022_container {
       bottom: 10px;
