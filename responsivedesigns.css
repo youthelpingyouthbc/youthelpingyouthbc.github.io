@@ -72,9 +72,7 @@
     width: 40%;
     height: auto;
   }
-
 }
-
 
 @media only screen and (max-width: 700px) {
   /* Code for the home section */
@@ -160,7 +158,6 @@
 .footer_socials {
       vertical-align: middle;
       size: 10px;
-
 }
 
 .footer_container {
@@ -182,7 +179,6 @@
     margin: 2rem auto;
   }
 }
-
 
 
 @media only screen and (max-width: 800px) {
