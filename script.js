@@ -1,5 +1,3 @@
-
-
 function show_mobile_nav() {
     mobile_nav_bar = document.getElementById("mobile_nav_id");
     nav_blur = document.getElementById('nav_blur');
@@ -20,7 +18,7 @@ function show_mobile_nav() {
 }
 
 var i = 0;
-var txt = 'ORLDWIDE // MARCH 18 - 20TH';
+var txt = 'ORLDWIDE // MARCH 18 - 20TH */';
 var speed = 50;
 
 function typeWriter() {
