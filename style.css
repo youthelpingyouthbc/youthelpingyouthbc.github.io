@@ -138,11 +138,11 @@ body {
     min-height: 100vh;
     width: 100%;
     background: linear-gradient(180deg, var(--main-colour) 40.07%, rgba(196, 196, 196, 0) 93.93%);
+    margin-bottom: 510px;
 }
 
 .home_content {
     top: 25vh;
-    position: relative;
 }
 
 .home_content:after {
@@ -150,11 +150,13 @@ body {
     content: "";
     display: table;
     clear: both;
+    position: relative;
 }
 
 .home_image_container {
     float:left;
     width: 35%;
+    position: relative;
 }
 
 .home_image {
@@ -162,7 +164,7 @@ body {
     height: auto;
     margin: 0 auto;
     display: block;
-    top: -105px;
+    top: 48px;
     position: relative;
     filter: drop-shadow(0px 10px 9px var(--main-colour));
 }
@@ -170,6 +172,8 @@ body {
 .right_content {
     width: 65%;
     float:left;
+    position: relative;
+    top: 150px;
 }
 
 .home_info {
@@ -195,9 +199,9 @@ body {
     font-style: normal;
     font-weight: normal;
     text-align: center;
-    text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25), 0px 4px 4px rgba(0, 0, 0, 0.25);
+    text-shadow: 0px 4px 2px rgba(0, 0, 0, 0.2), 0px 4px 2px rgba(0, 0, 0, 0.2);
     background: #004369;
-    box-shadow: 6px 0px 19px rgba(0, 0, 0, 0.25);
+    box-shadow: 6px 0px 10px rgba(0, 0, 0, 0.1);
     display: inline-block;
     height: 55px;
     width: 260px;
@@ -210,9 +214,45 @@ body {
     transition: 0.3s;
     margin-right: 10px;
 }
+.sign_up_mentor_btn {
+    color:#004369;
+    font-family: 'Kanit', sans-serif;
+    font-style: normal;
+    font-weight: normal;
+    text-align: center;
+    background-color: rgba(0, 67, 105, 0.1);
+    border-style: solid;
+    border-color: #004369;
+    box-shadow: 6px 0px 10px rgba(0, 0, 0, 0.1);
+    display: inline-block;
+    height: 55px;
+    width: 260px;
+    font-size: 1.2em;
+    line-height: 50px;
+    text-decoration: none;
+    position: relative;
+    margin-top: 20px;
+    top: 1px;
+    border-radius: 10px;
+    transition: 0.3s;
+    margin-right: 10px;
+
+}
 
 .sign_up_btn:hover {
-    background: #97DBD1; 
+    background: #4564a4; 
+}
+
+.sign_up_mentor_btn:hover {
+    border-color: #1754D1;
+    color: #1754D1;
+}
+
+.landscape {
+    position: absolute;
+    left: 0.1px;
+    top: 404px;
+    z-index: 3;
 }
 
 /*About section*/ 
