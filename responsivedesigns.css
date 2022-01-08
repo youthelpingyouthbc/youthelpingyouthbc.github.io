@@ -63,15 +63,6 @@
   #title, #info {
     text-align: center;
   }
-
-  .sponsor_logos {
-    width: 80%;
-    height: auto;
-  }
-  .xyz_logo {
-    width: 40%;
-    height: auto;
-  }
 }
 
 @media only screen and (max-width: 700px) {
