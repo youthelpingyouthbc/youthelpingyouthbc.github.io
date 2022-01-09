@@ -138,11 +138,7 @@ body {
     min-height: 100vh;
     width: 100%;
     background: linear-gradient(180deg, var(--main-colour) 40.07%, rgba(196, 196, 196, 0) 93.93%);
-<<<<<<< Updated upstream
-    margin-bottom: 440px;
-=======
     margin-bottom: 600px;
->>>>>>> Stashed changes
 }
 
 .home_content {
@@ -248,24 +244,16 @@ body {
 }
 
 .sign_up_mentor_btn:hover {
-    border-color: #599DEF;
-    color: #599DEF;
+    border-color: #1754D1;
+    color: #1754D1;
 }
 
 .landscape {
     position: absolute;
-<<<<<<< Updated upstream
-    left: 0.1px;
-    top: 300px;
-    z-index: -1;
-    width: 100%;
-    height: auto;
-=======
     width: 105%;
     right: -15px;
     top: 614px;
     z-index: 3;
->>>>>>> Stashed changes
 }
 
 /*About section*/ 
@@ -416,7 +404,7 @@ body {
     font-family: Inter, sans-serif;
     font-style: regular;
     font-size: 1.2em;
-    line-height:40px;
+    line-height: 100px;
 }
 
 .what_is_hckthn #title{
@@ -572,7 +560,7 @@ body {
 }
 
 .view_sponsor_btn:hover {
-    background: #4564a4; 
+    background: #97DBD1; 
 }
 
 /*Contact section*/

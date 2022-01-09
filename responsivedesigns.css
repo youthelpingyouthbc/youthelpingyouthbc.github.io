@@ -28,7 +28,8 @@
         font-family: 'Kanit', sans-serif;
         font-size: 20px;
     }
-
+}
+@media only screen and (max-width: 1400px) {
   /* Code for the what is a hackathon section */
   .what_is_hckthn {
     display: block;
@@ -64,6 +65,7 @@
     text-align: center;
   }
 }
+
 
 @media only screen and (max-width: 700px) {
   /* Code for the home section */
@@ -148,6 +150,7 @@
 .footer_socials {
       vertical-align: middle;
       size: 10px;
+
 }
 
 .footer_container {
@@ -169,6 +172,7 @@
     margin: 2rem auto;
   }
 }
+
 
 
 @media only screen and (max-width: 800px) {
