@@ -86,7 +86,8 @@
     margin-bottom: 30px;
   }
   .home_image {
-    width: 180px;
+    width: 300px;
+    margin-bottom: -120px;
   }
   .right_content {
       width: 90%;
@@ -138,6 +139,7 @@
 .links_container {
       bottom: -20px;
       text-align: center;
+      width: 100%;
 }
 .youthhacks2022_container {
       bottom: 10px;
@@ -162,6 +164,20 @@
     font-size: 15px;
 }
 }
+
+
+@media only screen and (max-width: 1150px) {
+  .home_section {
+    min-height: auto;
+  }
+  .landscape {
+    margin-top: -200px;
+    height: 100vh;
+    width: auto;
+    left: -20px;
+  }
+}
+
 
 @media only screen and (max-width: 650px) {
   .row {
