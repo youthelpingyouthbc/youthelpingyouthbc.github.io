@@ -404,7 +404,7 @@ body {
     font-family: Inter, sans-serif;
     font-style: regular;
     font-size: 1.2em;
-    line-height: 100px;
+    line-height: 40px;
 }
 
 .what_is_hckthn #title{
@@ -560,7 +560,7 @@ body {
 }
 
 .view_sponsor_btn:hover {
-    background: #97DBD1; 
+    background: #4564a4; 
 }
 
 /*Contact section*/
