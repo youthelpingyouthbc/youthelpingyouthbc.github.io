@@ -28,6 +28,14 @@
         font-family: 'Kanit', sans-serif;
         font-size: 20px;
     }
+    .logo_wings_image {
+        width: 300px;
+        top: 120px;
+    }
+    .logo_center_image {
+        width: 140px;
+        top: 300px;
+    }
 }
 @media only screen and (max-width: 1400px) {
   /* Code for the what is a hackathon section */
