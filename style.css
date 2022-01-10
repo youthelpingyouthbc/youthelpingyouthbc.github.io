@@ -138,7 +138,7 @@ body {
     min-height: 100vh;
     width: 100%;
     background: linear-gradient(180deg, var(--main-colour) 40.07%, rgba(196, 196, 196, 0) 93.93%);
-    margin-bottom: 600px;
+    margin-bottom: -10px;
 }
 
 .home_content {
@@ -174,6 +174,7 @@ body {
     float:left;
     position: relative;
     top: 150px;
+    z-index: 2;
 }
 
 .home_info {
@@ -249,11 +250,10 @@ body {
 }
 
 .landscape {
-    position: absolute;
-    width: 105%;
-    right: -15px;
-    top: 614px;
-    z-index: 3;
+    position: relative;
+    width: 105vw;
+    z-index: 1;
+    left: -2.5%;
 }
 
 /*About section*/ 
