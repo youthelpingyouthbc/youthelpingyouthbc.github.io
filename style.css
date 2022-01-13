@@ -533,7 +533,10 @@ body {
     width: auto;
     height: 130px;
 }
-
+.taskade_logo {
+    width: auto;
+    height: 110px;
+}
 .cyan {
     color: #778AB1;
     text-decoration: none;
