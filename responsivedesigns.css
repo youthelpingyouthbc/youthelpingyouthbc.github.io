@@ -110,6 +110,13 @@
   .about_image {
     width: 180px;
   }
+
+  .inner_triangle_top {
+      border-width: 0 55vw 225px 55vw;
+      margin-top: -205px;
+      margin-left: -5vw;
+  }
+
 }
 
 @media only screen and (max-width: 1400px) {

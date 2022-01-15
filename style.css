@@ -305,6 +305,7 @@ body {
     text-align: center;
     background: #3A568D;
     padding: 50px 0px;
+    background-image: url("images/design1.png");
 }
 
 .triangle_base {
@@ -332,15 +333,20 @@ body {
 }
 
 .inner_triangle_top {
-    border-width: 0 50vw 200px 50vw;
+    border-width: 0 51vw 210px 51vw;
+    /* border-width: 0 50vw 200px 50vw; */
     border-color: transparent transparent #dbe3ee transparent;
-    margin-top: -200px;
+    margin-top: -205px;
+    margin-left: -1vw;
 }
 
-.outer_triangle_bottom {
-    border-width: 250px 60vw 0 60vw;
-    border-color: #1a3263 transparent transparent transparent;
-    margin-left: -10vw;
+.inner_triangle_bottom {
+    border-width: 200px 50vw 0 50vw;
+    border-color: #dbe3ee transparent transparent transparent;
+    margin-top: -50px;
+    margin-bottom: -200px;
+    z-index: 2;
+    position: relative;
 }
 
 .middle_triangle_bottom {
@@ -351,13 +357,11 @@ body {
     margin-left: -5vw;
     position: relative;
 }
-.inner_triangle_bottom {
-    border-width: 200px 50vw 0 50vw;
-    border-color: #dbe3ee transparent transparent transparent;
-    margin-top: -50px;
-    margin-bottom: -200px;
-    z-index: 2;
-    position: relative;
+
+.outer_triangle_bottom {
+    border-width: 250px 60vw 0 60vw;
+    border-color: #1a3263 transparent transparent transparent;
+    margin-left: -10vw;
 }
 
 .about_title {
@@ -433,6 +437,13 @@ body {
     font-family: Kanit, sans-serif;
     font-size: 5em;
     text-shadow: 0px 7.16px 10px rgba(0, 0, 0, 0.25);
+ }
+
+ .design_section {
+    background: #333;
+    margin-bottom: -5px;
+    width: 100vw;
+    /* z-index: -1; */
  }
 
 /* FAQ Section */
