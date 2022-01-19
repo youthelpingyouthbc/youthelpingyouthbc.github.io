@@ -105,6 +105,14 @@
   .home_section {
     min-height: 110vh;
   }
+  .sign_up_mentor_btn {
+    color:#FFFFFF;
+    border-color: #FFFFFF;
+  }
+  .sign_up_mentor_btn:hover {
+    border-color: #1a3263;
+    color: #1a3263;
+  }
 
   /* Code for the about section */
   .about_image {
