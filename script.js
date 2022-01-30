@@ -18,7 +18,7 @@ function show_mobile_nav() {
 }
 
 var i = 0;
-var txt = 'ORLDWIDE // MARCH 18 - 20TH */';
+var txt = 'ORLDWIDE // MARCH 18TH - 20TH */';
 var speed = 50;
 
 function typeWriter() {

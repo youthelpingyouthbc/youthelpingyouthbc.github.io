@@ -575,6 +575,18 @@ body {
     text-decoration: none;
 }
 
+.link_styles {
+    color: #778AB1;
+    text-decoration: none;
+    transition: 0.3s;
+}
+
+.link_styles:hover {
+    color: #778AB1;
+    text-decoration: underline;
+}
+
+
 .view_sponsor_btn {
     color: #FFFFFF;
     position: relative;
