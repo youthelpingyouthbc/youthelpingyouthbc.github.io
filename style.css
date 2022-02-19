@@ -570,6 +570,12 @@ body {
     width: auto;
     height: 110px;
 }
+
+.grantme_logo {
+    width: auto;
+    height: 160px;
+}
+
 .cyan {
     color: #778AB1;
     text-decoration: none;
