@@ -631,6 +631,17 @@ body {
     width: auto;
     height: 110px;
 }
+
+.risingyouthlogo {
+    width: auto;
+    height: 300px;
+}
+
+.risingyouthfunded {
+    width: 300px;
+    height: auto;
+}
+
 .cyan {
     color: #778AB1;
     text-decoration: none;
