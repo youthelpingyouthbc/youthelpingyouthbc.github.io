@@ -484,9 +484,9 @@ body {
 }
 
 .mentor_image {
-    width: auto;
+    width: 100%;
     height: auto;
-
+    object-fit: cover;
 }
 
 .mentor_name {
@@ -627,6 +627,12 @@ body {
     width: auto;
     height: 130px;
 }
+
+.panago_logo {
+    width: auto;
+    height: 150px;
+}
+
 .taskade_logo {
     width: auto;
     height: 110px;
@@ -638,7 +644,7 @@ body {
 }
 
 .risingyouthfunded {
-    width: 300px;
+    width: 500px;
     height: auto;
 }
 
