@@ -258,7 +258,6 @@ body {
     border-radius: 10px;
     transition: 0.3s;
     margin-right: 10px;
-
 }
 
 .sign_up_btn:hover {
@@ -269,6 +268,7 @@ body {
     border-color: #4564a4;
     color: #4564a4;
 }
+
 
 .landscape {
     position: relative;
@@ -364,6 +364,7 @@ body {
     margin-left: -10vw;
 }
 
+
 .about_title {
     font-size: 3em;
     font-family: 'NATS', 'Poppins', sans-serif;
@@ -438,6 +439,36 @@ body {
     font-size: 5em;
     text-shadow: 0px 7.16px 10px rgba(0, 0, 0, 0.25);
  }
+
+
+ .schedule {
+    color:#004369;
+    font-family: 'Kanit', sans-serif;
+    font-style: normal;
+    font-weight: normal;
+    text-align: center;
+    background-color: rgba(0, 67, 105, 0.1);
+    border-style: solid;
+    border-color: #004369;
+    box-shadow: 6px 0px 10px rgba(0, 0, 0, 0.1);
+    display: inline-block;
+    height: 55px;
+    width: 260px;
+    font-size: 1.2em;
+    line-height: 50px;
+    text-decoration: none;
+    position: relative;
+    margin-top: 20px;
+    margin-bottom: 10px;
+    top: 1px;
+    border-radius: 10px;
+    transition: 0.3s;
+    margin-right: 10px;
+}
+.schedule:hover {
+    border-color: #4564a4;
+    color: #4564a4;
+}
 
 .mentors {
     position: relative;
@@ -652,6 +683,11 @@ body {
 .grantme_logo {
     width: auto;
     height: 200px;
+}
+
+.global_lounge {
+    width: auto;
+    height: 180px;
 }
 
 .cyan {
