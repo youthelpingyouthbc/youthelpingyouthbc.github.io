@@ -28,8 +28,43 @@ body {
     font-family: "Inter", sans-serif;
 }
 
-a.footer_links {
+.footer_nav {
+    position: absolute;
+    display: flex;
+    left: 1000px;
+    justify-content: center;
+    bottom: 333px;
     color: var(--white);
+    list-style: none;
+    font-size: 16px;
+    font-family: "Inter", sans-serif;
+    font-weight: 400;
+}
+
+.footer_links {
+    display: block;
+    text-decoration: underline;
+    text-underline-offset: 2.5px;
+    font-size: 16px;
+    padding: 20px;
+}
+
+.footer_socials {
+    display: block;
+    margin-left: auto;
+}
+.column {
+  float: left;
+  padding: 15px; /* spacing between social link logos */
+
+}
+
+.socials_links {
+    position: absolute;
+    right: 80px;
+    display: flex;
+    justify-content: center;
+    bottom: 340px;
 }
 
 .impact {
