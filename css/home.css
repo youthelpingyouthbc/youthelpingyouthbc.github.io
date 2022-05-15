@@ -1,3 +1,13 @@
+:root {
+    /* variables for colours */
+    --black: #333333;
+    --white: #FFFFFF;
+    --teal: #55CEBC;
+    --peach: #FF7257;
+    --yellow: #F5B46B;
+    --dark-blue: #1A3263;
+}
+
 body {
     margin: 0;
 }
