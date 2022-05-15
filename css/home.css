@@ -18,6 +18,20 @@ body {
     margin: 0 auto;
 }
 
+/* FOOTER SECTION */
+.footer_section {
+    background-color: var(--black);
+}
+
+.footer_text {
+    color: var(--white);
+    font-family: "Inter", sans-serif;
+}
+
+a.footer_links {
+    color: var(--white);
+}
+
 .impact {
 
 }
