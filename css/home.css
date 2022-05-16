@@ -21,6 +21,7 @@ body {
 /* FOOTER SECTION */
 .footer_section {
     background-color: var(--black);
+    height: 200px;
 }
 
 .footer_text {
@@ -28,12 +29,22 @@ body {
     font-family: "Inter", sans-serif;
 }
 
+#footer_title {
+   
+    bottom: 300px;
+    
+}
+
+#footer_slogan {
+    bottom: 10px;
+}
+
 .footer_nav {
     position: absolute;
     display: flex;
     left: 1000px;
     justify-content: center;
-    bottom: 333px;
+    bottom: 385px;
     color: var(--white);
     list-style: none;
     font-size: 16px;
@@ -47,6 +58,16 @@ body {
     text-underline-offset: 2.5px;
     font-size: 16px;
     padding: 20px;
+}
+
+.established_text {
+    color: var(--white);
+    position: absolute;
+    font-weight: 300;
+    display: flex;
+    left: 1017px;
+    justify-content: center;
+    bottom: 345px;
 }
 
 .footer_socials {
@@ -64,7 +85,7 @@ body {
     right: 80px;
     display: flex;
     justify-content: center;
-    bottom: 340px;
+    bottom: 390px;
 }
 
 .impact {
