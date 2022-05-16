@@ -25,24 +25,28 @@ body {
 }
 
 .footer_text {
+    position: absolute;
     color: var(--white);
     font-family: "Inter", sans-serif;
+    padding: 3px;
+    left: 80px;
+    bottom: 352px;
+    line-height: 85%;
 }
 
 #footer_title {
-   
-    bottom: 300px;
-    
+    font-size: 25px;
 }
 
 #footer_slogan {
-    bottom: 10px;
+    font-weight: 400;
+    font-size: 16px;
 }
 
 .footer_nav {
     position: absolute;
     display: flex;
-    left: 1000px;
+    left: 950px;
     justify-content: center;
     bottom: 385px;
     color: var(--white);
@@ -65,7 +69,7 @@ body {
     position: absolute;
     font-weight: 300;
     display: flex;
-    left: 1017px;
+    left: 968px;
     justify-content: center;
     bottom: 345px;
 }
