@@ -6,11 +6,70 @@
     --peach: #FF7257;
     --yellow: #F5B46B;
     --dark-blue: #1A3263;
+    --blue: #778AB1;
 }
 
 body {
     margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Inter", sans-serif;
 }
+
+a {
+    color: var(--white);
+    text-decoration: none;
+}
+
+/* NAV AND FOOTER SHARED */
+#navbar, .footer_section {
+    color: var(--white);
+}
+
+.title {
+    font-size: 25px;
+}
+
+.slogan {
+    font-weight: 400;
+    font-size: 16px;
+}
+
+/* NAVBAR SECTION */
+#navbar {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+
+    height: fit-content;
+    padding: 0.5rem 3rem;
+
+    background-color: var(--black);
+}
+
+.logo {
+    height: fit-content;
+    line-height: 85%;
+}
+
+ul {
+    display: flex;
+    padding: 0;
+    list-style-type: none;
+}
+
+.nav-links {
+    margin: 0 0.5rem;
+    padding: 0.5rem;
+    border-radius: 10px;
+    transition: ease-in-out 0.2s;
+}
+
+.nav-links:hover {
+    background-color: var(--blue);
+}
+
+/* OUR IMPACT SECTION */
 
 .our_impact_section {
     position: relative;
@@ -26,21 +85,10 @@ body {
 
 .footer_text {
     position: absolute;
-    color: var(--white);
-    font-family: "Inter", sans-serif;
     padding: 3px;
     left: 80px;
     bottom: 352px;
     line-height: 85%;
-}
-
-#footer_title {
-    font-size: 25px;
-}
-
-#footer_slogan {
-    font-weight: 400;
-    font-size: 16px;
 }
 
 .footer_nav {
@@ -49,10 +97,8 @@ body {
     left: 950px;
     justify-content: center;
     bottom: 385px;
-    color: var(--white);
     list-style: none;
     font-size: 16px;
-    font-family: "Inter", sans-serif;
     font-weight: 400;
 }
 
@@ -65,7 +111,6 @@ body {
 }
 
 .established_text {
-    color: var(--white);
     position: absolute;
     font-weight: 300;
     display: flex;
