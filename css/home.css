@@ -26,13 +26,19 @@ a {
     color: var(--white);
 }
 
-.title {
+.logo-title {
     font-size: 1.2em;
 }
 
-.slogan {
+.logo-slogan {
     font-weight: 400;
     font-size: 0.75em;
+}
+
+/* TITLES */
+.title {
+    font-size: 2em;
+    text-align: center;
 }
 
 /* NAVBAR SECTION */
@@ -149,7 +155,6 @@ ul {
 .column {
   float: left;
   padding: 15px; /* spacing between social link logos */
-
 }
 
 .socials_links {
@@ -158,8 +163,4 @@ ul {
     display: flex;
     justify-content: center;
     bottom: 390px;
-}
-
-.impact {
-
 }
