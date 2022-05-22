@@ -86,7 +86,7 @@ ul {
   }
 
 .impact {
-    width: 25%;
+    width: 24%;
     float: left;
     margin: 0 auto;
     display: block;
@@ -98,6 +98,13 @@ ul {
     font-weight: bold;
     font-size: 1.5em;
 }
+
+/* .impact_divider {
+    height: 90%;
+    width: 1%;
+    position: relative;
+    background: #333;
+} */
 
 /* FOOTER SECTION */
 .footer_section {
