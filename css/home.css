@@ -75,6 +75,28 @@ ul {
     position: relative;
     display: block;
     margin: 0 auto;
+    height: 50vh;
+    
+}
+
+.our_impact_section:after {
+    content: "";
+    display: table;
+    clear: both;
+  }
+
+.impact {
+    width: 25%;
+    float: left;
+    margin: 0 auto;
+    display: block;
+    text-align: center;
+}
+
+.impact_text {
+    font-family: 'Inter';
+    font-weight: bold;
+    font-size: 1.5em;
 }
 
 /* FOOTER SECTION */
