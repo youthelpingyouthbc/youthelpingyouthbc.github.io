@@ -41,12 +41,6 @@ a {
     text-align: center;
 }
 
-/* CALENDAR SECTION */
-#calendar {
-    text-align: center;
-    margin: 0 auto;
-}
-
 /* NAVBAR SECTION */
 #navbar {
     display: flex;
@@ -118,6 +112,12 @@ ul {
     position: relative;
     background: #333;
 } */
+
+/* CALENDAR SECTION */
+#calendar {
+    text-align: center;
+    margin: 0 auto;
+}
 
 /* FOOTER SECTION */
 .footer_section {
