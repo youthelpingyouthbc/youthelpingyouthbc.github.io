@@ -41,12 +41,6 @@ a {
     text-align: center;
 }
 
-/* CALENDAR SECTION */
-#calendar {
-    text-align: center;
-    margin: 0 auto;
-}
-
 /* NAVBAR SECTION */
 #navbar {
     display: flex;
@@ -120,6 +114,13 @@ ul {
 } */
 
  /* FOOTER SECTION */ 
+/* CALENDAR SECTION */
+#calendar {
+    text-align: center;
+    margin: 0 auto;
+}
+
+/* FOOTER SECTION */
 .footer_section {
     height: 15vh;
     background-color: var(--black);
