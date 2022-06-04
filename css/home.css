@@ -164,8 +164,8 @@ ul {
 
 .sub_div {
     position: absolute;
-    padding-top: 2rem;
-    padding-left: 2.7rem;
+    margin-top: 1.6rem;
+    margin-left: 2.7rem;
 }
 .established_text {
     font-weight: 300;
