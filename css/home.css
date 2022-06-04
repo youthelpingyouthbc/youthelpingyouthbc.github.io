@@ -26,11 +26,11 @@ a {
     color: var(--white);
 }
 
-.logo-title {
+.logo-title, .footer_title {
     font-size: 1.2em;
 }
 
-.logo-slogan {
+.logo-slogan, .footer_slogan {
     font-weight: 400;
     font-size: 0.75em;
 }
@@ -43,6 +43,7 @@ a {
 
 /* NAVBAR SECTION */
 #navbar {
+    position: relative;
     display: flex;
     align-items: center;
     justify-content: space-between;
@@ -74,6 +75,48 @@ ul {
 
 .nav-links:hover {
     background-color: var(--blue);
+}
+
+#navbar-burger {
+    display: none;
+    cursor: pointer;
+}
+
+.nav-links.clicked {
+    display: block;
+}
+
+/* mobile */
+@media screen and (max-width: 1024px) {
+    .nav-links {
+        margin: 0 0.25rem;
+        padding: 0.3rem;
+    }
+}
+
+@media screen and (max-width: 900px) {
+    ul {
+        position: absolute;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        width: 100%;
+        top: 10vh;
+        left: 50%;
+        transform: translate(-50%, 0);
+        z-index: 100;
+        background-color: var(--black);
+    }
+
+    .nav-links {
+        width: inherit;
+        display: none;
+        transition: transform 0.3s ease-in-out;
+    }
+
+    #navbar-burger {
+        display: block;
+    }
 }
 
 /* OUR IMPACT SECTION */
@@ -113,61 +156,70 @@ ul {
     background: #333;
 } */
 
+ /* FOOTER SECTION */ 
+/* CALENDAR SECTION */
+#calendar {
+    text-align: center;
+    margin: 0 auto;
+}
+
 /* FOOTER SECTION */
 .footer_section {
+    height: 15vh;
     background-color: var(--black);
-    height: 200px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 0rem 3rem;
 }
 
 .footer_text {
-    position: absolute;
     padding: 3px;
     left: 80px;
-    bottom: 352px;
     line-height: 85%;
 }
 
 .footer_nav {
-    position: absolute;
     display: flex;
     left: 950px;
     justify-content: center;
-    bottom: 385px;
     list-style: none;
     font-size: 16px;
     font-weight: 400;
 }
 
+
 .footer_links {
     display: block;
     text-decoration: underline;
     text-underline-offset: 2.5px;
-    font-size: 16px;
-    padding: 20px;
+    font-size: 0.9em;
+    margin: 0 0.5rem;
+    padding: 0.5rem;
+    border-radius: 10px;
 }
 
 .established_text {
-    position: absolute;
     font-weight: 300;
     display: flex;
-    left: 968px;
     justify-content: center;
-    bottom: 345px;
+    text-align: center;
 }
 
 .footer_socials {
     display: block;
     margin-left: auto;
 }
+
+
 .column {
   float: left;
-  padding: 15px; /* spacing between social link logos */
+  padding: 15px; /* spacing between social link logos */ 
 }
 
 .socials_links {
-    position: absolute;
     right: 80px;
     display: flex;
     justify-content: center;
     bottom: 390px;
-}
+} 
