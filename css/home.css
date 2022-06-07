@@ -43,6 +43,7 @@ a {
 
 /* NAVBAR SECTION */
 #navbar {
+    position: relative;
     display: flex;
     align-items: center;
     justify-content: space-between;
@@ -74,6 +75,48 @@ ul {
 
 .nav-links:hover {
     background-color: var(--blue);
+}
+
+#navbar-burger {
+    display: none;
+    cursor: pointer;
+}
+
+.nav-links.clicked {
+    display: block;
+}
+
+/* mobile */
+@media screen and (max-width: 1024px) {
+    .nav-links {
+        margin: 0 0.25rem;
+        padding: 0.3rem;
+    }
+}
+
+@media screen and (max-width: 900px) {
+    ul {
+        position: absolute;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        width: 100%;
+        top: 10vh;
+        left: 50%;
+        transform: translate(-50%, 0);
+        z-index: 100;
+        background-color: var(--black);
+    }
+
+    .nav-links {
+        width: inherit;
+        display: none;
+        transition: transform 0.3s ease-in-out;
+    }
+
+    #navbar-burger {
+        display: block;
+    }
 }
 
 /* OUR IMPACT SECTION */
