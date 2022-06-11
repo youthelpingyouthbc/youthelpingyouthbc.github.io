@@ -119,6 +119,46 @@ ul {
     }
 }
 
+.top_section {
+    background: #DBE3EE;
+    height: 100vh;
+    width: 100%;
+}
+
+.top_section_container {
+    margin: 0 10%;
+}
+
+.top_section_container:after {
+    content: "";
+    display: table;
+    clear: both;
+}
+
+.top_image_container {
+    width: 50%;
+    float: left;
+    position: relative;
+    height: auto;
+	margin: 5% 0px;
+}
+
+.top_text_container {
+    width: 50%;
+    float: left;
+    position: relative;
+    height: auto;
+	margin: 5% 0px;
+}
+
+.top_title {
+    font-family: 'Poppins';
+    font-weight: bold;
+    font-size: 3em;
+    text-align: right;
+    color: #333333;
+}
+
 /* OUR IMPACT SECTION */
 
 .our_impact_section {
