@@ -54,6 +54,7 @@ a {
     z-index: 9999;
     background-color: var(--black);
     box-shadow: 0px 3px 3px rgb(0 0 0 / 25%);
+    z-index: 1000;
 }
 
 .logo {
@@ -72,7 +73,7 @@ ul {
     margin: 0 0.5rem;
     padding: 0.5rem;
     border-radius: 10px;
-    transition: ease-in-out 0.2s;
+    transition: all 0.5s ease-in-out;
 }
 
 .nav-links:hover {
@@ -99,21 +100,18 @@ ul {
 @media screen and (max-width: 900px) {
     ul {
         position: absolute;
+        left: 0;
+        top: 9vh;
+        width: 100%;
         display: flex;
         flex-direction: column;
-        align-items: center;
-        width: 100%;
-        top: 10vh;
-        left: 50%;
-        transform: translate(-50%, 0);
-        z-index: 100;
+        text-align: center;
         background-color: var(--black);
     }
 
     .nav-links {
         width: inherit;
         display: none;
-        transition: transform 0.3s ease-in-out;
     }
 
     #navbar-burger {
@@ -127,6 +125,7 @@ ul {
     height: auto;
     width: 100%;
     position: relative;
+    margin: 5% 0;
 }
 
 .top_section_container {
@@ -144,7 +143,7 @@ ul {
     float: left;
     position: relative;
     height: auto;
-	margin: 5% 0px;
+	margin: 0% 0px;
     top: 100px;
 }
 .top_greylogo {
@@ -157,7 +156,7 @@ ul {
     position: relative;
     height: auto;
 	margin: 5% 0px;
-    margin-top: 80px;
+    margin-top: 50px;
 }
 
 .top_title {
