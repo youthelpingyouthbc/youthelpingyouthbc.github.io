@@ -3,9 +3,10 @@ const mobile = () => {
     const nav = document.querySelectorAll('.nav-links');
 
     menu.addEventListener('click', () => {
-        nav.classList.toggle('clicked');
+        nav.forEach(item => {
+            item.classList.toggle('clicked')
+        });
     });
 }
 
 mobile()
-
