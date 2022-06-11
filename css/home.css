@@ -43,15 +43,17 @@ a {
 
 /* NAVBAR SECTION */
 #navbar {
-    position: relative;
+    position: fixed;
     display: flex;
     align-items: center;
     justify-content: space-between;
-
+    width: 100%;
     height: fit-content;
+    top: 0;
     padding: 0rem 3rem;
-
+    z-index: 9999;
     background-color: var(--black);
+    box-shadow: 0px 3px 3px rgb(0 0 0 / 25%);
 }
 
 .logo {
@@ -119,10 +121,12 @@ ul {
     }
 }
 
+/* TOP SECTION */
 .top_section {
     background: #DBE3EE;
-    height: 100vh;
+    height: auto;
     width: 100%;
+    position: relative;
 }
 
 .top_section_container {
@@ -141,14 +145,19 @@ ul {
     position: relative;
     height: auto;
 	margin: 5% 0px;
+    top: 100px;
 }
-
+.top_greylogo {
+    position: relative;
+    width: 400px;
+}
 .top_text_container {
     width: 50%;
     float: left;
     position: relative;
     height: auto;
 	margin: 5% 0px;
+    margin-top: 80px;
 }
 
 .top_title {
@@ -157,7 +166,70 @@ ul {
     font-size: 3em;
     text-align: right;
     color: #333333;
+    margin-bottom: 0px;
+    text-transform: uppercase;
 }
+
+.established_date {
+    text-align: right;
+    text-transform: uppercase;
+}
+
+/* TOP SECTION ^^^ */
+
+/* MIDDLE SECTION */
+
+
+.middle_section {
+    background: #FFFFFF;
+    height: auto;
+    width: 100%;
+    position: relative;
+}
+
+.middle_section_container {
+    margin: 0 10%;
+}
+
+.middle_section_container:after {
+    content: "";
+    display: table;
+    clear: both;
+}
+
+.middle_text_container {
+    width: 50%;
+    float: left;
+    position: relative;
+    height: auto;
+	margin: 5% 0px;
+    top: 80px;
+}
+
+.middle_text {
+    font-family: 'Poppins';
+    font-size: 1em;
+    color: #333333;
+    margin-bottom: 0px;
+}
+
+.middle_image_container {
+    width: 50%;
+    float: left;
+    position: relative;
+    height: auto;
+	margin: 5% 0px;
+    top: -100px;
+}
+.middle_yhymember {
+    position: relative;
+    height: 600px;
+    width: auto;
+    float: right;
+}
+
+
+/* MIDDLE SECTION ^^^ */
 
 /* OUR IMPACT SECTION */
 
@@ -165,11 +237,10 @@ ul {
     position: relative;
     display: block;
     margin: 0 auto;
-    height: 50vh;
-    
+    min-height: 50vh;
 }
 
-.our_impact_section:after {
+.impact_containers:after {
     content: "";
     display: table;
     clear: both;
@@ -182,11 +253,16 @@ ul {
     display: block;
     text-align: center;
 }
-
+.impact_title {
+    text-align: center;
+    width: 100%;
+    display: block;
+    font-size: 2em;
+}
 .impact_text {
     font-family: 'Inter';
     font-weight: bold;
-    font-size: 1.5em;
+    font-size: 2em;
 }
 
 /* .impact_divider {
@@ -268,4 +344,104 @@ ul {
     display: flex;
     justify-content: center;
     bottom: 390px;
-} 
+}
+
+
+
+
+@media only screen and (max-width: 950px) {
+    .top_title {
+        font-size: 2em;
+    }
+    .top_greylogo {
+        width: 300px;
+    }
+}
+
+
+@media only screen and (max-width: 680px) {
+    .top_image_container {
+        /* display: none; */
+        width: 100%;
+        float: none;
+        display: block;
+        margin: 0 auto;
+    }
+
+    .top_greylogo {
+        position: relative;
+        width: 200px;
+        margin: 0 auto;
+        display: block;
+    }
+
+    .top_text_container {
+        width: 100%;
+        float: none;
+        margin-top: 160px;
+        margin-bottom: 60px;
+    }
+    .top_title {
+        text-align: left;
+    }
+    .established_date {
+        text-align: left;
+        text-transform: uppercase;
+    }
+}
+
+
+
+@media only screen and (max-width: 950px) {
+    .middle_text_container {
+        width: 100%;
+        float: none;
+    }
+    .middle_image_container {
+        width: 100%;
+        float: none;
+        margin-top: 220px;
+    }
+    .middle_yhymember {
+        height: 400px;
+    }
+}
+
+@media only screen and (max-width: 800px) {
+
+    .impact_containers:after {
+        content: "";
+        display: table;
+        clear: both;
+      }
+    
+    .impact {
+        width: 50%;
+        float: left;
+        margin: 0 auto;
+        display: block;
+        text-align: center;
+    }
+    .impact_title {
+        text-align: center;
+        width: 100%;
+        display: block;
+        font-size: 2em;
+    }
+}
+
+
+@media only screen and (max-width: 450px) {
+    .impact_containers:after {
+        content: "";
+        display: table;
+        clear: both;
+      }
+    
+    .impact {
+        width: 100%;
+        float: none;
+    }
+}
+
+
