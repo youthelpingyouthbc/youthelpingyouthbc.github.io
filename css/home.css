@@ -214,6 +214,7 @@ ul {
 }
 
 .footer_text {
+    margin-bottom: -22px;
     padding: 3px;
     left: 80px;
     line-height: 85%;
@@ -221,7 +222,7 @@ ul {
 
 .footer_nav {
     display: flex;
-    left: 950px;
+    left: 59.375rem; /* lol ignore this insane measurement, will fix later dw */
     justify-content: center;
     list-style: none;
     font-size: 16px;
@@ -239,18 +240,23 @@ ul {
     border-radius: 10px;
 }
 
-.established_text {
-    font-weight: 300;
-    display: flex;
-    justify-content: center;
-    text-align: center;
-}
-
 .footer_socials {
-    display: block;
+    position: relative;
     margin-left: auto;
 }
 
+.sub_div {
+    position: absolute;
+    margin-top: 1.6rem;
+    margin-left: 2.7rem;
+}
+.established_text {
+    font-weight: 300;
+    font-size: 11px;
+    /* display: flex;
+    justify-content: center;
+    text-align: center; */
+}
 
 .column {
   float: left;
