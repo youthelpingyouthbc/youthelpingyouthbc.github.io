@@ -116,16 +116,17 @@ ul {
     }
 
     .nav-links {
-        width: inherit;
+        width: 100%;
         display: none;
-        padding: 15px;
+        padding: 15px 0px;
         cursor: pointer;
     }
     .logo-title {display: none;}
     .logo-slogan {display: none;}
     .nav_mobile_nav {
         display: block;
-        width: 40px;
+        width: 50px;
+        padding: 10px 0;
         height: auto;
         filter: invert(100%);
     }
