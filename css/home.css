@@ -290,9 +290,10 @@ ul {
 
  /* FOOTER SECTION */ 
 /* CALENDAR SECTION */
-#calendar {
+.calendar {
     text-align: center;
     margin: 0 auto;
+    padding: 20px 0;
 }
 
 /* FOOTER SECTION */
@@ -459,5 +460,3 @@ ul {
         float: none;
     }
 }
-
-
