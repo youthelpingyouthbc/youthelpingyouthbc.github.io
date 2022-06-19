@@ -269,6 +269,11 @@ ul {
     display: block;
     text-align: center;
 }
+
+.impact_border {
+    border-right: 1px solid black;
+}
+
 .impact_title {
     text-align: center;
     width: 100%;
