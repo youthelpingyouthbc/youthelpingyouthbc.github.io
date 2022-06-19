@@ -50,7 +50,7 @@ a {
     width: 100%;
     height: fit-content;
     top: 0;
-    padding: 0rem 3rem;
+    /* padding: 0rem 3rem; */
     z-index: 9999;
     background-color: var(--black);
     box-shadow: 0px 3px 3px rgb(0 0 0 / 25%);
@@ -60,6 +60,8 @@ a {
 .logo {
     height: fit-content;
     line-height: 50%;
+    position: relative;
+    left: 1rem;
 }
 
 ul {
@@ -73,16 +75,20 @@ ul {
     margin: 0 0.5rem;
     padding: 0.5rem;
     border-radius: 10px;
-    transition: all 0.5s ease-in-out;
+    transition: all 0.3s ease-in-out;
 }
 
 .nav-links:hover {
     background-color: var(--blue);
 }
-
+.nav_mobile_nav {
+    display: none;
+}
 #navbar-burger {
     display: none;
     cursor: pointer;
+    position: relative;
+    right: 1rem;
 }
 
 .nav-links.clicked {
@@ -101,7 +107,7 @@ ul {
     ul {
         position: absolute;
         left: 0;
-        top: 9vh;
+        top: 40px;
         width: 100%;
         display: flex;
         flex-direction: column;
@@ -112,6 +118,16 @@ ul {
     .nav-links {
         width: inherit;
         display: none;
+        padding: 15px;
+        cursor: pointer;
+    }
+    .logo-title {display: none;}
+    .logo-slogan {display: none;}
+    .nav_mobile_nav {
+        display: block;
+        width: 40px;
+        height: auto;
+        filter: invert(100%);
     }
 
     #navbar-burger {
