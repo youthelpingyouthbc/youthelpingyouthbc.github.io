@@ -44,6 +44,47 @@
 		
 		<!-- Adds Poppins font -->
 		<link href='https://fonts.googleapis.com/css?family=Poppins' rel='stylesheet'>
+
+		    <style>
+            .top_section {
+                background: none;
+                height: auto;
+                width: 100%;
+                position: relative;
+                margin: none;
+				position: relative;
+ 				text-align: center;
+            }
+
+            .events_cover_image {
+                top: 0%;
+                width: 100%;
+                height:100%;
+                object-fit: contain;
+				filter: brightness(50%);
+            }
+			
+            .top_title, .established_date {
+				z-index: 2;
+				position: absolute;
+  				left: 50%;
+ 				transform: translate(-50%, -50%);
+				color: #FFFFFF;
+            }
+			
+			.top_title {
+				top: 30%;
+				font-size: 9em;
+			}
+
+			.established_date {
+				text-transform: none;
+				font-family: 'Inter';
+				font-size: 1.25em;
+				top: 48%;
+			}
+
+        </style>
 		
 	</head>
 		
@@ -77,18 +118,8 @@
 
 			<img class="events_cover_image" src="imgs/events-cover-image.jpeg" alt="Youth Helping Youth University Panel">
 
-			<!-- <div class="top_section_container">
-                <div class="top_text_container">
-					
-				</div>
 
-				
-			    <img class="events_cover_image" src="imgs/events-cover-image.jpeg" alt="Youth Helping Youth University Panel">
-				
-
-			</div> -->
-
-		<!-- <section style="height: 100vh; width: 100%; background: rgb(173, 237, 255);"> -->
+		<!-- <section style="height: 100vh; width: 100%; background: rgb(173, 237, 255);"> --> 
 
 		</section>
 
@@ -162,117 +193,3 @@
 		<script>feather.replace()</script>
 	</body>
 </html>
-
-<!DOCTYPE html>
-<html>
-	<head>
-		<!-- Global site tag (gtag.js) - Google Analytics -->
-		<script async src="https://www.googletagmanager.com/gtag/js?id=G-4T34GYJ9NV"></script>
-		<script>
-		  window.dataLayer = window.dataLayer || [];
-		  function gtag(){dataLayer.push(arguments);}
-		  gtag('js', new Date());
-
-		  gtag('config', 'G-4T34GYJ9NV');
-		</script>
-
-		<!-- Global site tag (gtag.js) - Google Analytics -->
-		<script async src="https://www.googletagmanager.com/gtag/js?id=UA-212164554-1"></script>
-		<script>
-		  window.dataLayer = window.dataLayer || [];
-		  function gtag(){dataLayer.push(arguments);}
-		  gtag('js', new Date());
-
-		  gtag('config', 'UA-212164554-1');
-		</script>
-
-		<!-- IMPORTS INTER FONT-->
-		<link rel="preconnect" href="https://fonts.googleapis.com">
-		<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-		<link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;700&family=Kanit:wght@300;400&display=swap" rel="stylesheet">
-
-		<title>YHY BC</title>
-
-		<meta charset="UTF-8">
-		<meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=no">
-		<meta name="keywords" content="Youth, Youth Helping Youth, Global, YHYBC, yhybritishcolumbia, YHY BC, YHY, Opportunities, Youth opportunities , BC youth, BC opportunities, Canadian opportunities, Community, Volunteering, Non profit organization , Non-profit organization in BC, NPO, Non-profit organization in Surrey, hacakathon, free hackathon, hackathons near me, hackathons in bc, hackathons in canada">
-		<meta name="application-name" content="">
-		<meta name="description" content=""/>
-		<meta property="og:title" content="">
-		<meta name="description" content=""/>
-
-		<link rel="stylesheet" href="css/home.css">
-
-		<script src="https://kit.fontawesome.com/69c2472d0e.js" crossorigin="anonymous"></script>
-		<script src="https://unpkg.com/feather-icons"></script>
-		
-		<!-- Adds Poppins font -->
-		<link href='https://fonts.googleapis.com/css?family=Poppins' rel='stylesheet'>
-
-        <style>
-            .top_section {
-                background: none;
-                height: auto;
-                width: 100%;
-                position: relative;
-                margin: none;
-				position: relative;
- 				text-align: center;
-            }
-
-            .events_cover_image {
-                top: 0%;
-                width: 100%;
-                height:100%;
-                object-fit: contain;
-				filter: brightness(50%);
-            }
-			
-            .top_title, .established_date {
-				z-index: 2;
-				position: absolute;
-  				left: 50%;
- 				transform: translate(-50%, -50%);
-				color: #FFFFFF;
-            }
-			
-			.top_title {
-				top: 30%;
-				font-size: 10em;
-			}
-
-			.established_date {
-				text-transform: none;
-				font-family: 'Inter';
-				font-size: 1.25em;
-				top: 48%;
-			}
-
-        </style>
-		
-	</head>
-		
-	<body>
-        <header>
-			<nav id="navbar">
-				<div class="logo">
-					<h1 class="logo-title">YOUTH HELPING YOUTH BC</h1>
-					<h2 class="logo-slogan">Providing opportunities for youth in British Columbia</h2>
-				</div>
-				
-				<ul>
-					<li class="nav-links"><a href="index.html">Home</a></li>
-					<li class="nav-links"><a href="#">Our Mission</a></li>
-					<li class="nav-links"><a href="events.html">Events</a></li>
-					<li class="nav-links"><a href="#">FAQ</a></li>
-					<li class="nav-links"><a href="#">Contact</a></li>
-				</ul>
-
-				<div id="navbar-burger">
-					<i data-feather="menu"></i>
-				</div>
-				
-			</nav>
-        </header>
-	
-
