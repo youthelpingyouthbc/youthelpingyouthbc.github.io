@@ -67,3 +67,45 @@
         font-size: 1.5em;
     }
 }
+
+.past_events_containers {
+    margin: 0 10%;
+}
+
+.past_events {
+    position:relative;
+	width: 100%;
+	display:grid;
+	grid-gap: 20px;
+	justify-items: center;
+	grid-template-columns: repeat(auto-fit, minmax(300px , 1fr));
+	margin:0 auto;
+
+    margin-bottom: 50px;
+}
+
+.past_event {
+    background: blue;
+    border-radius: 15px;
+    width: 300px;
+    height: 400px;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.past_event_one {
+    background-image: URL("../imgs/currenteventplaceholder.png");
+}
+
+.past_event_button {
+    position: relative;
+    top: 85%;
+    background: #778AB1;
+    border-radius: 10px;
+    text-align: center;
+
+    display: block;
+    margin: 0 auto;
+    padding: 10px 0px;
+    width: 90%;
+}
