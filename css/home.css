@@ -1,5 +1,5 @@
 /* TOP SECTION */
-.top_section {
+.home_top_section {
     background: #DBE3EE;
     height: auto;
     width: 100%;
@@ -7,17 +7,17 @@
     margin: 5% 0;
 }
 
-.top_section_container {
+.home_top_section_container {
     margin: 0 10%;
 }
 
-.top_section_container:after {
+.home_top_section_container:after {
     content: "";
     display: table;
     clear: both;
 }
 
-.top_image_container {
+.home_top_image_container {
     width: 50%;
     float: left;
     position: relative;
@@ -25,11 +25,11 @@
 	margin: 0% 0px;
     top: 100px;
 }
-.top_greylogo {
+.home_top_greylogo {
     position: relative;
     width: 400px;
 }
-.top_text_container {
+.home_top_text_container {
     width: 50%;
     float: left;
     position: relative;
@@ -38,7 +38,7 @@
     margin-top: 50px;
 }
 
-.top_title {
+.home_top_title {
     font-family: 'Poppins';
     font-weight: bold;
     font-size: 3em;
@@ -48,7 +48,7 @@
     text-transform: uppercase;
 }
 
-.established_date {
+.home_established_date {
     text-align: right;
     text-transform: uppercase;
 }
@@ -163,14 +163,14 @@
 
 @media only screen and (max-width: 950px) {
    
-    .top_greylogo {
-        width: 300px;
+    .home_top_greylogo {
+        width: 250px;
     }
 }
 
 
 @media only screen and (max-width: 680px) {
-    .top_image_container {
+    .home_top_image_container {
         /* display: none; */
         width: 100%;
         float: none;
@@ -178,24 +178,24 @@
         margin: 0 auto;
     }
 
-    .top_greylogo {
+    .home_top_greylogo {
         position: relative;
-        width: 400px;
+        width: 100px;
         margin: 0 auto;
         display: block;
     }
 
-    .top_text_container {
+    .home_top_text_container {
         width: 100%;
         float: none;
         margin-top: 160px;
         margin-bottom: 60px;
     }
-    .top_title {
-        font-size: 2.7em;
+    .home_top_title {
+        font-size: 2em;
         text-align: center;
     }
-    .established_date {
+    .home_established_date {
         text-align: center;
         text-transform: uppercase;
     }
