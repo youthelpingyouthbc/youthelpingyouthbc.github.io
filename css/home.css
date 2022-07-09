@@ -162,9 +162,7 @@
 
 
 @media only screen and (max-width: 950px) {
-    .top_title {
-        font-size: 2em;
-    }
+   
     .top_greylogo {
         width: 300px;
     }
@@ -182,7 +180,7 @@
 
     .top_greylogo {
         position: relative;
-        width: 200px;
+        width: 400px;
         margin: 0 auto;
         display: block;
     }
@@ -194,10 +192,11 @@
         margin-bottom: 60px;
     }
     .top_title {
-        text-align: left;
+        font-size: 2.7em;
+        text-align: center;
     }
     .established_date {
-        text-align: left;
+        text-align: center;
         text-transform: uppercase;
     }
 }
