@@ -25,7 +25,14 @@ function increase_impact_counter() {
 }
 
 function impact_counter() {
-    setInterval(increase_impact_counter, 10);
+    setInterval(increase_impact_counter, 300);
 }
 
-impact_counter()
+
+window.onscroll = function(event) {
+    impact_section_y = document.getElementById("impact_containers").getBoundingClientRect().top - document.body.getBoundingClientRect().top - 400
+
+    if (impact_section_y <= scrollY) {
+        impact_counter()
+    }
+};
