@@ -18,12 +18,35 @@
     />
 
     <link rel="stylesheet" href="css/about.css" />
+    <link rel="stylesheet" href="css/universal.css">
 
     <!--IMPORTS ANIMATIONS-->
     <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
   </head>
 
   <body>
+    <header>
+			<nav id="navbar">
+				<div class="logo">
+					<h1 class="logo-title">YOUTH HELPING YOUTH BC</h1>
+					<h2 class="logo-slogan">Providing opportunities for youth in British Columbia</h2>
+					<img class="nav_mobile_nav" src="imgs/greylogo.png">
+				</div>
+				
+				<ul>
+					<li class="nav-links"><a href="index.html">Home</a></li>
+					<li class="nav-links"><a href="about.html">Our Mission</a></li>
+					<li class="nav-links"><a href="events.html">Events</a></li>
+					<li class="nav-links"><a href="faq.html">FAQ</a></li>
+					<li class="nav-links"><a href="#">Contact</a></li>
+				</ul>
+
+				<div id="navbar-burger">
+					<i data-feather="menu"></i>
+				</div>
+			</nav>
+    </header>
+
     <div>
       <div>
         <p id="m_values">Our Values</p>
@@ -144,10 +167,68 @@
       </div>
     </section>
 
+    <section id="team">
+      <img src="./imgs/greylogo.png" id="team-yhylogo">
+      <div id="inner-circle">
+        <div class="small-circle"></div>
+        <div class="small-circle"></div>
+        <div class="small-circle"></div>
+        <div class="small-circle"></div>
+        <div class="small-circle"></div>
+        <div class="small-circle"></div>
+      </div>
+
+      <div id="outer-circle">
+        <div class="small-circle"></div>
+        <div class="small-circle"></div>
+        <div class="small-circle"></div>
+        <div class="small-circle"></div>
+        <div class="small-circle"></div>
+        <div class="small-circle"></div>
+      </div>
+    </section>
+
+    <div class="footer_section">
+			<div class="footer_text">
+				<h1 class="footer_title">YOUTH HELPING YOUTH BC.</h1>
+				<h2 class="footer_slogan">Providing opportunities for youth all over British Columbia.</h2>
+			</div>
+
+			<img class="footer_mobile_nav" src="imgs/greylogo.png">
+			
+			<div class="footer_nav">
+				<li class="footer_links"><a href="#">Home</a></li>
+				<li class="footer_links"><a href="about.html">Our Mission</a></li>
+				<li class="footer_links"><a href="events.html">Events</a></li>
+				<li class="footer_links"><a href="#">FAQ</a></li>
+			</div>
+
+			
+			<div class="socials_links">
+				<div class="column">
+					<a href="https://www.facebook.com/pg/youthelpingyouth/posts/" target="_blank"><img class="footer_socials" src="imgs/facebook-icon.png" alt="YHY BC'S Facebook page"/></a>
+				  </div>
+				  <div class="column">
+					<a href="https://www.instagram.com/yhybritishcolumbia/" target="_blank"><img class="footer_socials" src="imgs/instagram-icon.png" alt="YHY BC'S Instagram page"/></a>
+				  </div>
+				  <div class="column">
+					<a href="https://www.linkedin.com/company/youth-helping-youth" target="_blank"><img class="footer_socials" src="imgs/linkedin-icon.png" alt="YHY BC'S Linkedin page"/></a>
+				  </div>
+				 <div class="column">
+					<a href="mailto: bc@youthelpingyouth.org" target="_blank"><img class="footer_socials" src="imgs/email-icon.png" alt="YHY BC'S Gmail"/></a>
+				  </div> 
+				  
+				  <div class="sub_div">
+					<h5 class="established_text">© YHY British Columbia</h5>
+				  </div>
+		
+			</div>
+
     <!-- for animations -->
     <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
     <script>
       AOS.init();
     </script>
+
   </body>
 </html>

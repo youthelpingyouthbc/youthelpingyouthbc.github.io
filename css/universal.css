@@ -250,8 +250,8 @@ ul {
 
 .established_date {
     font-family: 'Inter';
-    font-size: 1.2em;
-    top: 60%;
+    font-size: 1.25em;
+    top: 75%;
 }
 @media screen and (max-width: 1024px) {
     .footer_section {
@@ -260,7 +260,10 @@ ul {
 }
 
 @media screen and (max-width: 900px) {
-    
+    /* Top Title*/
+    .top_title {
+        font-size: 6em;
+    }
     /* Footer Section */
     .footer_section {
         padding: 0rem 1rem;
@@ -280,7 +283,10 @@ ul {
 }
 
 @media screen and (max-width: 680px){
-    
+    /*Top Title*/
+    .top_title {
+        font-size: 5em;
+    }
     .footer_section {
         height: 8vh;
         padding: 0rem 1rem;

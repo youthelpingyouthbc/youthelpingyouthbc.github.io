@@ -113,7 +113,7 @@ button:hover {
 } */
 
 .center {
-  /*align div center*/
+  margin: 0 auto;
 }
 
 .row {
@@ -186,4 +186,27 @@ button:hover {
   font-family: "Inter", sans-serif;
   line-height: 150%;
   padding-bottom: 20px;
+}
+
+/* TEAM IMAGES */
+#team {
+    display: flex;
+    justify-content: center;
+}
+
+#team-yhylogo {
+    width: 300px;
+    height: 250px;
+
+    position: relative;
+}
+
+.small-circle {
+    background-color: #f5b46b;
+    border-radius: 50%;
+    width: 4em;
+    height: 4em;
+
+    position: absolute;
+    left: 750px;
 }
