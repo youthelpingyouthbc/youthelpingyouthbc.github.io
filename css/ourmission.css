@@ -2,6 +2,60 @@
   box-sizing: border-box;
 }
 
+
+/* MIDDLE SECTION */
+
+.middle_section {
+  background: #FFFFFF;
+  height: auto;
+  width: 100%;
+  position: relative;
+}
+
+.middle_section_container {
+  margin: 0 10%;
+}
+
+.middle_section_container:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+.middle_text_container {
+  width: 50%;
+  float: left;
+  position: relative;
+  height: auto;
+margin: 5% 0px;
+  top: 80px;
+}
+
+.middle_text {
+  font-family: 'Poppins';
+  font-size: 1em;
+  color: #333333;
+  margin-bottom: 0px;
+}
+.middle_image_container {
+  width: 50%;
+  float: left;
+  position: relative;
+  height: auto;
+margin: 5% 0px;
+  top: -100px;
+}
+.middle_yhymember {
+  position: relative;
+  height: 600px;
+  width: auto;
+  float: right;
+}
+
+/* MIDDLE SECTION ^^^ */
+
+
+
 /* #quotes_section{
     background-color: #333333;
     padding: 2rem 0px 2rem 0px;
@@ -210,4 +264,20 @@ button:hover {
 
     position: absolute;
     left: 750px;
+}
+
+
+@media only screen and (max-width: 950px) {
+    .middle_text_container {
+        width: 100%;
+        float: none;
+    }
+    .middle_image_container {
+        width: 100%;
+        float: none;
+        margin-top: 220px;
+    }
+    .middle_yhymember {
+        height: 400px;
+    }
 }
