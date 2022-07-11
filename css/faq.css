@@ -1,0 +1,73 @@
+.faq_section {
+    margin: 5% 10%;
+    overflow-x: hidden;
+
+}
+
+.faq_yhy_logo {
+    width: 100px;
+    height: auto;
+    margin: 0 auto;
+    display: block;
+}
+
+.title {
+    font-weight: bold;
+    color: #333333;
+}
+.info {
+    text-align: center;
+    color: #333333;
+}
+.row {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.col {
+    justify-content: space;
+    width: 100%;
+}
+
+.question {
+    /* width: 500px; */
+    background: #333333;
+    padding: 20px;
+    margin: 20px;
+    color: white;
+    box-shadow: 0px 4px 16px 7px rgba(0, 0, 0, 0.25);
+    cursor: pointer;
+    transition: 0.3s !important;
+}
+
+.question:hover {
+    box-shadow: 0px 8px 16px 12px rgba(0, 0, 0, 0.4);
+}
+
+.cyan_question {
+    background: #55CEBC;
+}
+
+.red_question {
+    background: #FF7257;
+}
+
+.orange_question {
+    background: #F5B46B;
+}
+
+.blue_question {
+    background: #778AB1;
+}
+
+.question_title {
+    font-weight: bold;
+    text-transform: uppercase;
+}
+
+@media only screen and (max-width: 650px) {
+    .row {
+        display: block;
+      }
+}

@@ -1,0 +1,130 @@
+.mini_description_container {
+    margin: 2% 10%;
+}
+
+.current_events {
+    margin: 5% 10%;
+}
+
+.current_events_title {
+    font-size: 2em;
+}
+
+.current_events_container:after {
+    content: "";
+    display: table;
+    clear: both;
+}
+
+.ce_image_container {
+    width: 30%;
+    float: left;
+    position: relative;
+    height: auto;
+	margin: 0% 0px;
+}
+.ce_image {
+    width: 100%;
+    height: auto;
+    left: 0;
+    position: relative;
+}
+
+.ce_text_container {
+    width: 70%;
+    float: left;
+    position: relative;
+    height: auto;
+    left: 40px;
+}
+
+.ce_date {
+    color: #1A3263;
+    text-transform: uppercase;
+    font-weight: 600;
+}
+
+.ce_name {
+    font-size: 2em;
+    font-weight: bold;
+}
+
+@media only screen and (max-width: 680px) {
+    .ce_image_container {
+        width: 100%;
+        float: none;
+        display: block;
+        margin: 0 auto;
+    }
+    .ce_text_container {
+        width: 100%;
+        float: none;
+        display: block;
+        margin: 0 auto;
+        left: 0;
+    }
+    .ce_name {
+        font-size: 1.5em;
+    }
+}
+
+.past_events_containers {
+    margin: 0 10%;
+}
+
+.past_events {
+    position:relative;
+	width: 100%;
+	display:grid;
+	grid-gap: 20px;
+	justify-items: center;
+	grid-template-columns: repeat(auto-fit, minmax(300px , 1fr));
+	margin:0 auto;
+
+    margin-bottom: 50px;
+}
+
+.past_event {
+    background: blue;
+    border-radius: 15px;
+    width: 300px;
+    height: 400px;
+    background-repeat: no-repeat;
+    background-size: cover;
+    overflow: hidden;
+}
+
+.past_event_one {
+    background-image: URL("../imgs/currenteventplaceholder.png");
+}
+
+.past_event_button {
+    position: relative;
+    top: 85%;
+    background: #778AB1;
+    border-radius: 10px;
+    text-align: center;
+
+    display: block;
+    margin: 0 auto;
+    padding: 10px 0px;
+    width: 90%;
+}
+
+.middle_text {
+    margin-bottom: 5%;
+}
+
+
+@media only screen and (max-width: 400px) {
+    .past_events {
+        position:relative;
+        width: 100%;
+        display:block;
+    }
+    .past_event {
+        width: 100%;
+        height: 380px;
+        margin-bottom: 50px;
+    }
+}

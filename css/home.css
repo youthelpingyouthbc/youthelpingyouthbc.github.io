@@ -1,0 +1,259 @@
+/* TOP SECTION */
+.home_top_section {
+    background: #DBE3EE;
+    height: auto;
+    width: 100%;
+    position: relative;
+    margin: 5% 0;
+}
+
+.home_top_section_container {
+    margin: 0 10%;
+}
+
+.home_top_section_container:after {
+    content: "";
+    display: table;
+    clear: both;
+}
+
+.home_top_image_container {
+    width: 50%;
+    float: left;
+    position: relative;
+    height: auto;
+	margin: 0% 0px;
+    top: 100px;
+}
+.home_top_greylogo {
+    position: relative;
+    width: 400px;
+}
+.home_top_text_container {
+    width: 50%;
+    float: left;
+    position: relative;
+    height: auto;
+	margin: 5% 0px;
+    margin-top: 50px;
+}
+
+.home_top_title {
+    font-family: 'Poppins';
+    font-weight: bold;
+    font-size: 3em;
+    text-align: right;
+    color: #333333;
+    margin-bottom: 0px;
+    text-transform: uppercase;
+}
+
+.home_established_date {
+    text-align: right;
+    text-transform: uppercase;
+}
+
+/* TOP SECTION ^^^ */
+
+/* MIDDLE SECTION */
+
+.middle_section {
+    background: #FFFFFF;
+    height: auto;
+    width: 100%;
+    position: relative;
+}
+
+.middle_section_container {
+    margin: 0 10%;
+}
+
+.middle_section_container:after {
+    content: "";
+    display: table;
+    clear: both;
+}
+
+.middle_text_container {
+    width: 50%;
+    float: left;
+    position: relative;
+    height: auto;
+	margin: 5% 0px;
+    top: 80px;
+}
+
+.middle_text {
+    font-family: 'Poppins';
+    font-size: 1em;
+    color: #333333;
+    margin-bottom: 0px;
+}
+.middle_image_container {
+    width: 50%;
+    float: left;
+    position: relative;
+    height: auto;
+	margin: 5% 0px;
+    top: -100px;
+}
+.middle_yhymember {
+    position: relative;
+    height: 600px;
+    width: auto;
+    float: right;
+}
+
+/* MIDDLE SECTION ^^^ */
+
+/* OUR IMPACT SECTION */
+
+.our_impact_section {
+    position: relative;
+    display: block;
+    margin: 0 auto;
+    min-height: 50vh;
+}
+
+.impact_containers:after {
+    content: "";
+    display: table;
+    clear: both;
+  }
+
+.impact {
+    width: 24%;
+    float: left;
+    margin: 0 auto;
+    display: block;
+    text-align: center;
+}
+
+.impact_border {
+    border-right: 1px solid black;
+}
+
+.impact_title {
+    text-align: center;
+    width: 100%;
+    display: block;
+    font-size: 2em;
+}
+.impact_text {
+    font-family: 'Inter';
+    font-weight: bold;
+    font-size: 2em;
+}
+
+/* .impact_divider {
+    height: 90%;
+    width: 1%;
+    position: relative;
+    background: #333;
+} */
+
+
+/* CALENDAR SECTION */
+.calendar {
+    text-align: center;
+    margin: 0 auto;
+    padding: 20px 0;
+}
+
+
+@media only screen and (max-width: 950px) {
+   
+    .home_top_greylogo {
+        width: 250px;
+    }
+}
+
+
+@media only screen and (max-width: 680px) {
+    .home_top_image_container {
+        /* display: none; */
+        width: 100%;
+        float: none;
+        display: block;
+        margin: 0 auto;
+    }
+
+    .home_top_greylogo {
+        position: relative;
+        width: 100px;
+        margin: 0 auto;
+        display: block;
+    }
+
+    .home_top_text_container {
+        width: 100%;
+        float: none;
+        margin-top: 160px;
+        margin-bottom: 60px;
+    }
+    .home_top_title {
+        font-size: 2em;
+        text-align: center;
+    }
+    .home_established_date {
+        text-align: center;
+        text-transform: uppercase;
+    }
+}
+
+
+
+@media only screen and (max-width: 950px) {
+    .middle_text_container {
+        width: 100%;
+        float: none;
+    }
+    .middle_image_container {
+        width: 100%;
+        float: none;
+        margin-top: 220px;
+    }
+    .middle_yhymember {
+        height: 400px;
+    }
+}
+
+@media only screen and (max-width: 800px) {
+
+    .impact_containers:after {
+        content: "";
+        display: table;
+        clear: both;
+      }
+    
+    .impact {
+        width: 50%;
+        float: left;
+        margin: 0 auto;
+        display: block;
+        text-align: center;
+    }
+    .impact_title {
+        text-align: center;
+        width: 100%;
+        display: block;
+        font-size: 2em;
+    }
+    .impact_border {
+        border-right: none;
+    }
+}
+
+
+@media only screen and (max-width: 450px) {
+    .impact_containers:after {
+        content: "";
+        display: table;
+        clear: both;
+      }
+    
+    .impact {
+        width: 100%;
+        float: none;
+    }
+}

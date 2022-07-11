@@ -1,0 +1,425 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<!-- Global site tag (gtag.js) - Google Analytics -->
+		<script async src="https://www.googletagmanager.com/gtag/js?id=G-4T34GYJ9NV"></script>
+		<script>
+		  window.dataLayer = window.dataLayer || [];
+		  function gtag(){dataLayer.push(arguments);}
+		  gtag('js', new Date());
+
+		  gtag('config', 'G-4T34GYJ9NV');
+		</script>
+
+		<!-- Global site tag (gtag.js) - Google Analytics -->
+		<script async src="https://www.googletagmanager.com/gtag/js?id=UA-212164554-1"></script>
+		<script>
+		  window.dataLayer = window.dataLayer || [];
+		  function gtag(){dataLayer.push(arguments);}
+		  gtag('js', new Date());
+
+		  gtag('config', 'UA-212164554-1');
+		</script>
+
+		<title>YouthHacks 2022</title>
+
+		<meta charset="UTF-8">
+		<meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=no">
+		<meta name="keywords" content="Hackathon, Worldwide, Youth, Youth Helping Youth, Global, YHYBC, yhybritishcolumbia, YHY BC, YHY, Opportunities, Youth opportunities , BC youth, BC opportunities, Canadian opportunities, Community, Volunteering, Non profit organization , Non-profit organization in BC, NPO, Non-profit organization in Surrey, hacakathon, free hackathon, hackathons near me, hackathons in bc, hackathons in canada">
+		<meta name="application-name" content="">
+		<meta name="description" content=""/>
+		<meta property="og:title" content="">
+		<meta name="description" content=""/>
+
+				
+		<link rel="icon" href="youthhacks2022/images/logo.png" type="image/icon type">
+		
+		<!-- Social media -->
+			<meta name="url" property="og:url" content="https://youthelpingyouthbc.github.io/"/>
+			<meta name="type" property="og:type" content=""/>
+			<meta name="title" property="og:title" content="YouthHacks 2022 - Hackathon Hosted by YHY British Columbia"/>	
+			<meta name="description" property="og:description" content="YouthHacks 2022 is a hackathon YHY BC is hosting from March 18th - 20th, 2022 that will bring together youth for a weekend full of learning! A variety of events to help you develop your knowledge in STEAM and various workshops by respected speakers will give you some real life insights into the world of STEAM! Decided by our judges, prizes will be given to the best projects on the final day. Best of all, attending YouthHacks 2022 is completely free for all attendees! Beginners are welcome and encouraged to join!"/>
+			<meta name="image" property="og:image"content="youthhacks2022/images/logo.png" /> <!-- logo is placeholder until we get image (pixel-size = 1200x930)-->
+		<!-- Social media ^ ^ ^-->
+
+		<!-- Imports Font Awesome (MUST LOAD BEFORE "style.css" or the fa-bars will appear on desktop) -->
+		<script src="https://kit.fontawesome.com/69c2472d0e.js" crossorigin="anonymous"></script>
+
+        <link rel = "stylesheet" href = "youthhacks2022/style.css">
+		<link rel = "stylesheet" href = "youthhacks2022/responsivedesigns.css">
+		
+		<!-- imports animations -->
+		<link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
+
+		<!-- Imports the Poppins font -->
+		<link rel="preconnect" href="https://fonts.googleapis.com">
+		<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+		<link href="https://fonts.googleapis.com/css2?family=Poppins&display=swap" rel="stylesheet">
+		<!-- Imports the Poppins font ^^^ -->
+
+		<!-- Imports the Inter font -->
+		<link rel="preconnect" href="https://fonts.googleapis.com">
+		<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+		<link href="https://fonts.googleapis.com/css2?family=Inter:wght@300&display=swap" rel="stylesheet">
+		<!-- Imports the Inter font -->
+
+		<!-- Imports Nats-lookalike font -->
+		<link rel="preconnect" href="https://fonts.googleapis.com">
+		<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+		<link href="https://fonts.googleapis.com/css2?family=Kanit:wght@300;400&display=swap" rel="stylesheet">
+	
+	</head>
+		
+	<body>
+        <header>
+            <nav class="desktop_nav">
+                <ul class="navbar_ul">
+					<li class="navbar_li_left"><a class="navbar_li_text" href="index.html"><img class="nav_logo" src="youthhacks2022/images/logo.png"/></a></li>
+                	
+					<li class="navbar_li_left"><a class="navbar_li_text" href="index.html">Youth Helping Youth</a></li>
+                	
+					<li class="navbar_li"><a class="navbar_li_text nav_right" href="#contact">Contact</a></li>
+					<li class="navbar_li"><a class="navbar_li_text nav_right" href="#sponsors">Sponsors</a></li>
+					<li class="navbar_li"><a class="navbar_li_text nav_right" href="#faq">FAQ</a></li>
+					<li class="navbar_li"><a class="navbar_li_text nav_right" href="#judges">Judges</a></li>
+                    <li class="navbar_li"><a class="navbar_li_text nav_right" href="#mentors">Mentors</a></li>
+					<li class="navbar_li"><a class="navbar_li_text nav_right" href="#about">About</a></li>
+					<li class="navbar_li"><a class="navbar_li_text nav_right" href="#home">Home</a></li>
+				
+					<i class="fas fa-bars hamburger_menu" id="nav_ham" onclick="show_mobile_nav()"></i>
+					<i class="fas fa-times close_mobnav_icon" id="nav_cross" onclick="show_mobile_nav()"></i>
+			
+				</ul>
+            </nav>
+			
+			<nav class="mobile_nav" id="mobile_nav_id">
+				<ul class="mobile_navbar_ul">
+					<li class="mobile_navbar_li"><a class="mobile_nav_text" href="#home" onclick="show_mobile_nav()">Home</a></li>
+					<li class="mobile_navbar_li"><a class="mobile_nav_text" href="#about" onclick="show_mobile_nav()">About</a></li>
+					<li class="mobile_navbar_li"><a class="mobile_nav_text" href="#mentors" onclick="show_mobile_nav()">Mentors</a></li>
+					<li class="mobile_navbar_li"><a class="mobile_nav_text" href="#judges" onclick="show_mobile_nav()">Judges</a></li>
+
+					<li class="mobile_navbar_li"><a class="mobile_nav_text" href="#faq" onclick="show_mobile_nav()">FAQ</a></li>
+					<li class="mobile_navbar_li"><a class="mobile_nav_text" href="#sponsors" onclick="show_mobile_nav()">Sponsors</a></li>
+					<li class="mobile_navbar_li"><a class="mobile_nav_text" href="#contact" onclick="show_mobile_nav()">Contact</a></li>
+				
+				</ul>
+			</nav>
+
+			<div class="nav_blur" id="nav_blur" onclick="show_mobile_nav()"></div>
+
+        </header>
+    
+
+		<section id="home" class="home_section">
+
+			<div class="home_content">
+				
+				<div class="home_image_container">
+					<img class="logo_center_image" src="youthhacks2022/images/logo-center.png" alt=" YHY BC's logo center image"/>
+					<img class="logo_wings_image" src="youthhacks2022/images/logo-wings.png" alt=" YHY BC's logo wings image"/>
+				</div>
+
+				<div class="right_content">
+					<p class="home_info">/* SPRING 2022</p>
+					<h1 class="home_title">YouthHacks 2022</h1>
+
+					<!-- Typing effect this -->
+					<p class="home_info" id="typing_animation">W</p>
+		
+					
+					<p class="home_info_mobile" id="mobile_typing_animation">/*SPRING 2022 // WORLDWIDE // MARCH 18TH - 20TH */</p>
+				
+
+					<!-- <a class="sign_up_btn" href="" target="_blank">Registration form coming soon!</a> -->
+					<a class="sign_up_btn" href="https://docs.google.com/forms/u/1/d/e/1FAIpQLSdoH3bigMnthDoTRJES0dDF7BcKLhl-1cBrwJ5jXt7YS2ozAg/viewform" target="_blank">SIGN UP NOW!</a>
+
+					<a class="sign_up_mentor_btn" href="https://docs.google.com/forms/d/e/1FAIpQLSe_AB1nV9_E9qw4KZCju0hr4joMh6TXR4-vlEV_u3JUUz2uag/viewform" target="_blank">BE A MENTOR!</a>
+				</div>
+				<img class="landscape" src="youthhacks2022/images/landscape.svg" alt="Youth Helping Youth BC's vector image of a landscape">
+			</div>
+
+		</section>
+
+		<div class="divider" id="bottom"></div>
+
+		<section id="about" class="about_background">
+
+			<div class="about_content">
+					<div>
+						<div class="top_triangles">
+							<div class="triangle_base outer_triangle_top"></div>
+							<div class="triangle_base middle_triangle_top"></div>
+							<div class="triangle_base inner_triangle_top"></div>
+						</div>
+
+						<img class="about_image" src="youthhacks2022/images/greylogo.png"/>
+						
+						<div class="about_text">
+							<h1 class="about_title">YouthHacks 2022</h1>
+							<p class="about_info">YouthHacks 2022 is a hackathon YHY BC is hosting from March 18th - 20th, 2022 that will bring together youth for a weekend full of learning! 
+								A variety of events to help you develop your knowledge in STEAM and various workshops by respected speakers will give you some real life insights into the world of STEAM! 
+								Decided by our judges, prizes will be given to the best projects on the final day. Best of all, attending YouthHacks 2022 is completely free for all attendees! 
+								Beginners are welcome and encouraged to join! <br> <br> 
+								Attendees will network with diverse like-minded youth across the world, learn about coding and programming, and be inspired to explore on their own. 
+								Our goal is to make YouthHacks an annual event where we can connect students to the possibilities of technology, while providing students with networking opportunities and resources to explore STEAM. 
+								We strive to present Youth with opportunities within the STEAM field that they otherwise would not receive due to the lack of accessibility in schools. <br> <br> 
+								
+								Youth Helping Youth BC is one of the 7 branches of Youth Helping Youth (YHY), a registered non-profit organization that aims to promote youth development and success through virtually marketed opportunities to youth and creating youth-centric opportunities on social media platforms such as <a class="link_styles" href="https://www.instagram.com/yhybritishcolumbia/" target="_blank">Instagram</a>. Before COVID-19, YHY hosted various in-person events, including university panels, workshops, fundraisers, and fairs. Currently, in the midst of the pandemic, YHY BC has hosted online university panels, game nights for our Discord members, and other youthoriented events. Unlike other non-profit organizations, YHY is run entirely by youth volunteers who dedicate themselves to helping other youth in their communities by connecting them to opportunities and other diverse like-minded youth. We strive to positively impact our communities and recognize that the youth today are our future generation of doctors, engineers, scientists, academics and change makers. We hope that our efforts make a difference in the lives we touch.
+								<a class="schedule" href="youthhacks2022/assets/YOUTHHACKS 2022 Event Schedule.pdf" target="_blank">SCHEDULE!</a>
+							</p>
+						</div>
+						
+
+							<div class="triangle_base inner_triangle_bottom"></div>
+							<div class="triangle_base middle_triangle_bottom"></div>
+							<div class="triangle_base outer_triangle_bottom"></div>
+
+					</div>
+				</div>
+				
+			</div>
+		</section>
+
+		<div class="divider" id="top"></div>
+
+		<section class = "what_is_hackathon">
+
+			<div class = "what_is_hckthn">
+
+				<div id="image" data-aos="fade-right" data-aos-duration="2000">
+					<img class="what_is_hackathon_image" src="youthhacks2022/images/person.png" alt="a man working on his coding project"/>                        
+				</div>
+				
+				<div id="text" data-aos="fade-left" data-aos-duration="2000">
+					<div id="title">
+						WHAT IS A HACKATHON?
+					</div>
+
+					<div id="info">
+						A hackathon is typically a 24-48 hour coding event where participants can form teams of a maximum of 4 to create a product within our theme of “helping youth” and present it to a panel of judges. There will be prizes for winning teams, in addition to activities, workshops, and various other events that we will be organizing throughout the Hackathon. Hackathons are a great way for participants to meet new people and develop new skills!
+					</div>
+				</div>
+
+			</div>
+		</section>
+
+		<div class="divider" id="top"></div>
+			<img class="design_section" src="youthhacks2022/images/spacer.png" alt="YHY BC website divider">
+		<div class="divider" id="top"></div>
+
+		<div id="mentors" class="mentors">
+			<p class="title">MENTORS</p>
+
+			<div class="all_mentors">
+
+				<div class="mentor_container">
+					<div class="mentor_image_container">
+						<img class="mentor_image" style="height: 100%; object-position: -65px 0px;" src="./youthhacks2022/images/mentors/ericwongliu.jpg" alt="Eric Wong-Liu, a mentor of YouthHacks 2022"/>
+					</div>
+					<p class="mentor_name">Eric Wong-Liu</p>
+				</div>
+
+				<div class="mentor_container">
+					<div class="mentor_image_container">
+						<img class="mentor_image" style="object-position: 0px -15px;" src="./youthhacks2022/images/mentors/meganyang.png" alt="Megan Yang, a mentor of YouthHacks 2022"/>
+					</div>
+					<p class="mentor_name">Megan Yang</p>
+				</div>
+
+				<div class="mentor_container">
+					<div class="mentor_image_container">
+						<img class="mentor_image" src="./youthhacks2022/images/mentors/DonaldLee.jpg" alt="a mentor of YouthHacks 2022 #3"/>
+					</div>
+					<p class="mentor_name">Donald Lee</p>
+				</div>
+
+				<div class="mentor_container">
+					<div class="mentor_image_container">
+						<img class="mentor_image" src="./youthhacks2022/images/mentors/christinachen.jpg" alt="a mentor of YouthHacks 2022 #4"/>
+					</div>
+					<p class="mentor_name">Christina Chen</p>
+				</div>
+
+
+			</div>
+
+		</div>
+
+		<div class="divider" id="top"></div>
+			<img class="design_section" src="youthhacks2022/images/spacer.png" alt="YHY BC website divider">
+		<div class="divider" id="top"></div>
+
+		<div id="judges" class="mentors">
+			<p class="title">Judges</p>
+
+			<div class="all_mentors">
+
+				<div class="mentor_container">
+					<div class="mentor_image_container">
+						<img class="mentor_image" style="height: 100%; object-position: -65px 0px;" src="./youthhacks2022/images/mentors/ericwongliu.jpg" alt="Eric Wong-Liu, a mentor of YouthHacks 2022"/>
+					</div>
+					<p class="mentor_name">Eric Wong-Liu</p>
+				</div>
+
+				<div class="mentor_container">
+					<div class="mentor_image_container">
+						<img class="mentor_image" src="./youthhacks2022/images/mentors/DonaldLee.jpg" alt="a mentor of YouthHacks 2022 #3"/>
+					</div>
+					<p class="mentor_name">Donald Lee</p>
+				</div>
+
+				<div class="mentor_container">
+					<div class="mentor_image_container">
+						<img class="mentor_image" src="./youthhacks2022/images/mentors/christinachen.jpg" alt="a mentor of YouthHacks 2022 #4"/>
+					</div>
+					<p class="mentor_name">Christina Chen</p>
+				</div>
+
+			</div>
+
+		</div>
+
+		<div class="divider" id="top"></div>
+
+		<section id="faq">
+			
+			<p id="title">FREQUENTLY ASKED QUESTIONS</p>
+			<p id="info">Common questions you may have about YouthHacks 2022 or hackathons in general!</p>
+
+			<div class = "row">
+
+				<div class = "col">
+
+					<div class = "question" data-aos="fade-right" data-aos-duration="2000">
+						<div class = "question_white" id = "2">
+							<p class = "question_title">Do I need a team to participate?</p>
+							<p class = "answer">You can sign up individually or with a team. If you don’t have a team yet, you can build one on our <a class="link_styles" target="_blank" href="https://discord.com/invite/6nh7cu22Se">Discord server</a>!</p>
+						</div>
+					</div>
+					
+					<div class = "question" data-aos="fade-right" data-aos-duration="2000">
+						<div class = "question_teal" id = "4">
+							<p class = "question_title">How much does it cost?</p>
+							<p class = "answer">Nothing! Our Hackathon is entirely free to attend!</p>
+						</div>
+					</div>
+					
+					<div class = "question" data-aos="fade-right" data-aos-duration="2000">
+						<div class = "question_white" id = "6">
+							<p class = "question_title">Will YouthHacks 2022 be online or in-person?</p>
+							<p class = "answer">Due to the COVID-19 pandemic, YouthHacks 2022 will be 100% virtual! </p>
+						</div>
+					</div>
+
+				</div>
+
+				<div class="col">
+
+					<div class = "question" data-aos="fade-left" data-aos-duration="2000">
+						<div class = "question_teal" id = "1">
+							<p class = "question_title">Can I work on my project before the event?</p>
+							<p class = "answer">No, we prohibit participants from bringing and continuing a project they have already worked on, and your final project should be new and only built during the week of the YouthHacks 2022.</p>
+						</div>
+					</div>
+
+					<div class = "question" id="3" data-aos="fade-left" data-aos-duration="2000">
+						<div class = "question_white">
+							<p class = "question_title">What if I’ve never coded before?</p>
+							<p class = "answer">No worries! This hackathon is completely beginner-friendly, and coding workshops will be hosted throughout our event! Other workshops such as academic workshops will be hosted as well!</p>
+						</div>
+					</div>
+					
+					<div class = "question" data-aos="fade-left" data-aos-duration="2000">
+						<div class = "question_teal" id="5">
+							<p class = "question_title">Who can attend?</p>
+							<p class = "answer">All high school students or university students under the age of 24. Beginners are welcome and encouraged to apply!</p>
+						</div>
+					</div>
+
+					<div class = "question" id="call_to_action" data-aos="fade-left" data-aos-duration="2000">
+						<div class = "question_white">
+							<p class = "question_title">Have more questions?</p>
+							<p class = "answer">Reach out to us at <a class="link_styles" href="mailto:bc@youthelpingyouth.org">bc@youthelpingyouth.org</a></p>
+						</div>
+					</div>
+
+				</div>
+			</div>
+
+		</section>
+
+		<div class="divider" id="bottom"></div>
+		
+		<!-- Space for viewing purposes -->
+		<div class="sponsor_section" id="sponsors">
+			<h1 class="sponsorship_title">SPONSORS</h1>
+
+			<div class="sponsor_logos_containers">
+				<a href="https://www.risingyouth.ca/" target="_blank">
+					<img class="sponsor_logos risingyouthlogo" src="youthhacks2022/images/sponsors/risingyouthlogo.png" alt="rising youth logo"/>
+					<img class="sponsor_logos risingyouthfunded" src="youthhacks2022/images/sponsors/risingyouthfunded.png" alt="rising youth funded by"/>
+				</a>
+
+				<a href="https://students.ubc.ca/about-student-services/simon-k-y-lee-global-lounge-resource-centre" target="_blank"><img class="sponsor_logos global_lounge" src="youthhacks2022/images/sponsors/globallounge.png" alt="Global Lounge"/></a>
+				<a href="https://gen.xyz/" target="_blank"><img class="sponsor_logos xyz_logo" src="youthhacks2022/images/sponsors/xyz.png" alt="xyz"/></a>
+				<a href="https://www.panago.com/" target="_blank"><img class="sponsor_logos panago_logo" src="youthhacks2022/images/sponsors/panago.png" alt="Panago"/></a>
+				<a href="https://www.interviewcake.com/" target="_blank"><img class="sponsor_logos taskade_logo" src="youthhacks2022/images/sponsors/interviewcake.png" alt="interviewcake"/></a>	
+				<a href="https://www.taskade.com/" target="_blank"><img class="sponsor_logos taskade_logo" src="youthhacks2022/images/sponsors/taskade.svg" alt="taskade"/></a>
+				<a href="https://1password.com/" target="_blank"><img class="sponsor_logos" src="youthhacks2022/images/sponsors/1password.svg" alt="1password"/></a>
+				<a href="https://www.echo3d.co/" target="_blank"><img class="sponsor_logos" src="youthhacks2022/images/sponsors/echo3D.png" alt="echo3D"/></a>
+				<a href="https://grantme.ca/" target="_blank"><img class="sponsor_logos risingyouthlogo" src="youthhacks2022/images/sponsors/GrantMe.png" alt="GrantMe"/></a>
+
+			</div>
+  
+			<h2 class="sponsorship_text"> Interested in sponsoring <span class="cyan">YOUTHHACKS 2022?</span> <br>Send us an inquiry at <a class="cyan" href="mailto:bc@youthelpingyouth.org">bc@youthelpingyouth.org</a></h2>	
+			<a class="view_sponsor_btn" href="youthhacks2022/assets/sponsorship_package.pdf" target="_blank">View Our Sponsorship Package</a>
+
+		</div>
+			
+		<section id="contact" class="contact_background">
+			<div class="contact_background_sections">
+				<div class="youthhacks2022_container">
+					<h2 class="contact_headings" id="youthhacks2022_title">YouthHacks 2022<h2>
+					<p class="youthhacks2022_text">REGISTER FOR A CODING EXPERIENCE THAT YOU WILL NOT FORGET!</p>			
+				</div>
+				
+				<div class="links_container">
+					<h2 class="contact_headings" id="useful_links_title">USEFUL LINKS<h2>
+					<p class="useful_links_text">
+						<a class="questions_text" href="#about">ABOUT</a>
+						<br>
+						<a class="questions_text" href="#faq">FAQ</a>
+						<br>
+						<a class="questions_text" href="youthhacks2022/assets/sponsorship_package.pdf" target="_blank">SPONSOR PACKAGE</a>
+					</p>
+				</div>
+
+				<div class="questions_container">
+					<h2 class="contact_headings" id="questions_title">QUESTIONS<h2>
+					<p class="questions_text"><a class="questions_text" href="mailto:bc@youthelpingyouth.org">bc@youthelpingyouth.org</a></p>
+				</div>
+				
+				<div class="footer_container">
+					<div class="footer_elements">
+						<a href="https://www.instagram.com/yhybritishcolumbia/" target="_blank"><img class="footer_socials" id="instagram_logo" src="youthhacks2022/images/Instagram-logo.png" alt="YHY BC'S Instagram page"/></a>
+
+						<a href="https://www.facebook.com/youthelpingyouth/?__tn__=%2Cd-UC*F" target="_blank"><img class="footer_socials" id="facebook_logo" src="youthhacks2022/images/facebook-logo.png" alt="YHY's Facebook page"/></a>
+
+						<a href="https://www.linkedin.com/company/youth-helping-youth" target="_blank"><img class="footer_socials" id="linkedin_logo" src="youthhacks2022/images/linkedin-logo.png" alt="YHY's Linkedin page"/></a>
+					</div>
+					<h1 class="footer_text">YOUTH HELPING YOUTH</h1>
+				</div>
+
+			</div>
+		</section>
+
+  	<!-- for animations -->
+  	<script src="https://unpkg.com/aos@next/dist/aos.js"></script>
+	<script>
+    	AOS.init();
+	</script>	
+	
+	</body>
+	<script src="youthhacks2022/script.js"></script>
+</html>
