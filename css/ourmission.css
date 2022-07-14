@@ -27,7 +27,7 @@
   float: left;
   position: relative;
   height: auto;
-margin: 5% 0px;
+  margin: 5% 0px;
   top: 80px;
 }
 
@@ -194,54 +194,82 @@ button:hover {
   box-shadow: 13px 13px rgba(0, 0, 0, 0.25);
 }
 
-/* testimonial colour behind image */
-#quote_teal {
-  background: linear-gradient(180deg, #ffffff 50%, #55cebc 50%);
+/* Testimonials */
+.testimonial_cyan_bg {background: #55CEBC;}
+.testimonial_cyan_text {color: #55CEBC;}
+
+.testimonial_red_bg {background: #FF7257;}
+.testimonial_red_text {color: #FF7257;}
+
+.testimonial_orange_bg {background: #F5B46B;}
+.testimonial_orange_text {color: #F5B46B;}
+
+.testimonials_section {
+  margin: 10% 0%;
+  overflow-x: hidden;
 }
 
-#quote_red {
-  background: linear-gradient(180deg, #ffffff 50%, #ff7257 50%);
-}
-
-#quote_yellow {
-  background: linear-gradient(180deg, #ffffff 50%, #f5b46b 50%);
-}
-
-.question_white:hover {
-  transform: scale(1.05);
-  box-shadow: 15px 15px rgba(0, 0, 0, 0.25);
-}
-
-.question_teal:hover {
-  transform: scale(1.05);
-  box-shadow: 15px 15px rgba(0, 0, 0, 0.25);
-}
-
-.question .question_teal {
-  background-color: var(--main-colour);
-  padding: 2rem;
-  transition: 0.3s;
-}
-
-.question .question_white {
-  background-color: white;
-  padding: 2rem;
-  transition: 0.3s;
-}
-
-.question .question_title {
+.testimonials_title {
   text-align: center;
-  font-family: "Poppins", sans-serif;
-  font-weight: 500;
-  font-size: 22px;
+  width: 100%;
+  display: block;
+  font-size: 2em;
+}
+ 
+#testimonials {
+  position:relative;
+	width: 10000px;
+  display: inline-block;
 }
 
-.question .answer {
-  text-align: center;
-  font-family: "Inter", sans-serif;
-  line-height: 150%;
-  padding-bottom: 20px;
+.testimonial {
+  width: 300px;
+  height: 400px;
+  background: #FFFFFF;
+  filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.25));
+  margin: 20px;
+  display: inline-block;
+  transition: 0.3s;
+  cursor: pointer;
 }
+
+.testimonial:hover {
+  transform: scale(1.1);
+}
+
+
+.quote_container {
+  padding: 15px;
+}
+
+.quotation_mark {
+  font-weight: bold;
+  font-size: 1.4em;
+}
+
+.author_container {
+  position: absolute;
+  bottom: 0;
+  text-align: center;
+  width: 100%;
+}
+
+.author_image_container {
+  position: relative;
+  width: 100px;
+  height: 100px;
+  overflow: hidden;
+  border-radius: 50%;
+  display: block;
+  margin: 0 auto;
+  top: -50px;
+}
+.author_image {
+  width: 100%;
+  height: auto;
+}
+
+/* Testimonials ^^^ */
 
 /* TEAM IMAGES */
 #team {
