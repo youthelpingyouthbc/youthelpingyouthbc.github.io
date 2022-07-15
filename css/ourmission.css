@@ -2,9 +2,7 @@
   box-sizing: border-box;
 }
 
-
 /* MIDDLE SECTION */
-
 .middle_section {
   background: #FFFFFF;
   height: auto;
@@ -42,7 +40,7 @@
   float: left;
   position: relative;
   height: auto;
-margin: 5% 0px;
+  margin: 5% 0px;
   top: -100px;
 }
 .middle_yhymember {
@@ -52,146 +50,63 @@ margin: 5% 0px;
   float: right;
 }
 
-/* MIDDLE SECTION ^^^ */
-
-
-
-/* #quotes_section{
-    background-color: #333333;
-    padding: 2rem 0px 2rem 0px;
-}  */
-#title {
-  font-family: "Poppins", sans-serif;
-  color: black;
-  font-size: 5.6em;
-  font-weight: 600;
-  text-align: center;
-  margin-bottom: 40px;
-}
-
-#m_buttonHeight {
-  padding-top: 3.6vw;
-}
-button {
-  width: 30vw;
-  height: 5vw;
-  background: white;
-  border: 0.2vw solid #000000;
-  box-sizing: border-box;
-  font-family: DM Serif Display;
-  font-style: normal;
-  font-weight: normal;
-  font-size: 3vw;
-  line-height: 5vw;
-  text-align: center;
-  color: #333333;
-  margin-bottom: 1.15vw;
-}
-button:hover {
-  background: #f2f2f2;
-  border: 0px;
-  color: #333333;
-  border: 0px;
-}
-.m_column {
-  float: left;
-  width: 50%;
-  padding: 0.57vw;
-}
-
-#m_values {
-  font-family: Barlow Semi Condensed;
-  font-style: normal;
-  font-weight: normal;
-  font-size: 3.5vw;
-  line-height: 2.4vw;
-  letter-spacing: 0.1em;
-  color: #000000;
-  text-align: center;
-  margin-bottom: auto;
-}
-#m_pronunciation1 {
-  font-family: DM Serif Display;
-  font-style: normal;
-  font-weight: normal;
-  font-size: 3.2vw;
-  line-height: 4.3vw;
-}
-#m_pronunciation2 {
-  font-family: DM Serif Display;
-  font-style: normal;
-  font-weight: normal;
-  font-size: 2vw;
-  line-height: 80%;
-}
-#m_POS {
-  font-family: Barlow;
-  font-style: italic;
-  font-weight: normal;
-  font-size: 2vw;
-}
-#m_definition {
-  font-family: Barlow;
-  font-style: normal;
-  font-weight: 300;
-  font-size: 2.2vw;
-  line-height: 2.6vw;
-}
-.m_word {
-  width: 80%;
-  color: #ffffff;
-  background-color: #333333;
-  font-size: 3.2vw;
-  padding-top: 5%;
-  padding-right: 5%;
-  padding-bottom: 0.1%;
-  padding-left: 5%;
-  text-align: left;
-  height: 28.6vw;
-  line-height: 5.7vw;
-}
-#m_logoYHY {
-  height: 25vw;
-  width: 25vw;
-  display: block;
-}
-.m_wordCentering {
-  padding-top: 3.5vw;
-}
-
-/* #info {
-    font-family: "Poppins", sans-serif;
-    color: black;
-    font-size: 1.1em;
-    text-align: center;
-} */
-
-.center {
-  margin: 0 auto;
-}
-
-.row {
+/* Our Values Section */
+.our_values_section {
   display: flex;
   align-items: center;
-  justify-content: center;
 }
 
-.col {
-  justify-content: space;
+.our_values_column {
+  flex: 1;
 }
 
-.headshot_image {
-  width: 100%;
-  height: 50%;
-  padding: 0.25em;
-  border-radius: 50%;
+button, h5, h6 {
+  font-family: 'DM Serif Display', serif;
 }
 
-.question {
-  float: left;
-  width: 25vw;
-  margin: 4rem;
-  box-shadow: 13px 13px rgba(0, 0, 0, 0.25);
+button, h5 {
+  font-size: 2em;
+}
+
+h5, h6 { /* b/c universal.css has margin: 0 and padding: 0 applied on BODY, which means headings still have margin/padding */
+  padding: 0;
+  margin: 0;
+}
+
+#our_values_words_container {
+  display: flex;
+  flex-direction: column;
+  margin: 1rem 10rem;
+}
+
+button {
+  padding: 1rem;
+  margin: 1rem 0;
+  border: 0.1em solid #333333;
+  background-color: transparent;
+  cursor: pointer;
+}
+
+button:hover {
+  background-color: #F5B46B;
+  transition: 1s all cubic-bezier(0.075, 0.82, 0.165, 1);
+}
+
+#our_values_desc_container {
+  padding: 4rem 3rem;
+  margin: 5rem;
+  background-color: #333333;
+  color: #FFF;
+  height: 100%;
+}
+
+#our_values_type {
+  margin-top: 2rem;
+  font-style: italic;
+}
+
+h6, #our_values_type, #our_values_description {
+  font-size: 1.25em;
 }
 
 /* Testimonials */
