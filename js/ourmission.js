@@ -49,16 +49,16 @@ const sortValueArray = (value_name) => { // function that returns object in ourv
 
 for (const button of ourValueButtons) { // loop through every button
     button.addEventListener('click', function(){ // check if button is clicked
-        const value = button.innerHTML;
+        const value = button.textContent;
         const value_title = document.querySelector('#our_values_title');
         const value_prn = document.querySelector('#our_values_pronounce');
         const value_type = document.querySelector('#our_values_type');
         const value_desc = document.querySelector('#our_values_description');
 
-        value_title.innerHTML = sortValueArray(value).title; // replace the inner html w/ the title value from the object in the array
-        value_prn.innerHTML = sortValueArray(value).pronounce;
-        value_type.innerHTML = sortValueArray(value).type;
-        value_desc.innerHTML = sortValueArray(value).desc;
+        value_title.textContent = sortValueArray(value).title; // replace the inner html w/ the title value from the object in the array
+        value_prn.textContent = sortValueArray(value).pronounce;
+        value_type.textContent = sortValueArray(value).type;
+        value_desc.textContent = sortValueArray(value).desc;
     })
 }
 
