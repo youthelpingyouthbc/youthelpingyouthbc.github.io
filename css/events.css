@@ -91,6 +91,7 @@
     height: 400px;
     background-repeat: no-repeat;
     background-size: cover;
+    overflow: hidden;
 }
 
 .past_event_one {
@@ -112,4 +113,18 @@
 
 .middle_text {
     margin-bottom: 5%;
+}
+
+
+@media only screen and (max-width: 400px) {
+    .past_events {
+        position:relative;
+        width: 100%;
+        display:block;
+    }
+    .past_event {
+        width: 100%;
+        height: 380px;
+        margin-bottom: 50px;
+    }
 }
