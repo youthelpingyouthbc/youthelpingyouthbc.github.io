@@ -1,16 +1,68 @@
-const teamCircles = () => {
-    let yhyLogo = document.querySelector('#team-yhylogo');
-    let headShot = document.querySelectorAll('.small-circle');
-    let logoOffset = 2;
+// Our Values Selection
+const ourValueButtons = document.querySelectorAll('.our_values_words'); // select all the 'our values' buttons
+const ourValueDetails = [ //nodelist of specific pronounciation/etc for words
+    {
+        'title': 'com·mu·ni·ty',
+        'pronounce': '/kəˈmyo͞onədē/',
+        'type': 'noun',
+        'desc': 'a feeling of fellowship with others, as a result of sharing common attitudes, interests, and goals'
+    },
+    {
+        'title': 'em·pow·er·ment',
+        'pronounce': '/əmˈpouərmənt/',
+        'type': 'noun',
+        'desc': 'the process of becoming stronger and more confident, especially in controlling one\'s life and claiming one\'s rights'
+    },
+    {
+        'title': 'in·no·va·tion',
+        'pronounce': '/ˌinəˈvāSH(ə)n/',
+        'type': 'noun',
+        'desc': 'the action or process of innovating'
+    },
+    {
+        'title': 'trans·par·en·cy',
+        'pronounce': '/ˌtran(t)ˈsperənsē/',
+        'type': 'noun',
+        'desc': 'the condition of being transparent'
+    },
+    {
+        'title': 'personal growth',
+        'pronounce': '/test/',
+        'type': 'noun',
+        'desc': 'various techniques for improving one’s habits, behavior, actions and reactions'
+    },
+]
 
-    for (const i in headShot) {
-       
-    }
+const ourValueDetailsArray = Array.from(ourValueDetails); //convert nodelist to array
+
+const sortValueArray = (value_name) => { // function that returns object in ourvaluedetails array (in the format of ourvaluedetails[0])
+    const value_indexes = { // object that corresponds values to numbers
+        'community': 0,
+        'empowerment': 1,
+        'innovation': 2,
+        'transparency': 3,
+        'personal growth': 4
+    };
+
+    return ourValueDetailsArray[value_indexes[value_name]]; //value_indexes[value_name] will return a number based on the value_indexes object
 }
 
-teamCircles()
+for (const button of ourValueButtons) { // loop through every button
+    button.addEventListener('click', function(){ // check if button is clicked
+        const value = button.innerHTML;
+        const value_title = document.querySelector('#our_values_title');
+        const value_prn = document.querySelector('#our_values_pronounce');
+        const value_type = document.querySelector('#our_values_type');
+        const value_desc = document.querySelector('#our_values_description');
 
-// Testimonials animation
+        value_title.innerHTML = sortValueArray(value).title; // replace the inner html w/ the title value from the object in the array
+        value_prn.innerHTML = sortValueArray(value).pronounce;
+        value_type.innerHTML = sortValueArray(value).type;
+        value_desc.innerHTML = sortValueArray(value).desc;
+    })
+}
+
+// Testimonials Animation
 
 testimonials_starting_position = -2000;
 testimonials_position = testimonials_starting_position;
