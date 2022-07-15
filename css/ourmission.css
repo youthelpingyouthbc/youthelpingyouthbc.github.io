@@ -220,6 +220,7 @@ button:hover {
   position:relative;
 	width: 10000px;
   display: inline-block;
+  margin-bottom: 5%;
 }
 
 .testimonial {
@@ -273,26 +274,52 @@ button:hover {
 /* Testimonials ^^^ */
 
 /* TEAM IMAGES */
-#team {
-    display: flex;
-    justify-content: center;
+.team_section {
+  margin: 10% 10%;
+  min-height: 100vh;
 }
 
-#team-yhylogo {
+.team-yhylogo {
     width: 300px;
-    height: 250px;
-
+    height: auto;
     position: relative;
+    display: block;
+    /* Centers the logo */
+    left: 0; 
+    right: 0; 
+    margin-left: auto; 
+    margin-right: auto; 
+    /* Centers the logo ^^^ */
+    top: 100px;
 }
 
-.small-circle {
-    background-color: #f5b46b;
-    border-radius: 50%;
-    width: 4em;
-    height: 4em;
+#team_members_container {
+  position: relative;
+  animation: orbit 18s infinite;
+}
 
+.member_container {
     position: absolute;
-    left: 750px;
+    width: 80px;
+    height: 80px;
+    overflow: hidden;
+    border-radius: 50%;
+    /* left: 20%;
+    top: 0px; */
+}
+
+.member_image {
+    width: 100%;
+    height: auto;
+    animation: orbit_image 18s infinite;
+}
+
+@keyframes orbit {
+  100% {transform: rotate(360deg);}
+}
+
+@keyframes orbit_image {
+  100% {transform: rotate(-360deg);}
 }
 
 
