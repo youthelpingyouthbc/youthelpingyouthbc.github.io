@@ -1,16 +1,4 @@
 // Team animation
-function sleep(ms) {
-    return new Promise(resolve => setTimeout(resolve, ms));
-}
-
-async function addOrbitAnimation() {
-    
-    let members = document.body.querySelectorAll('.member_container');
-    for (let i=0; i<members.length; i++) {
-        members[i].classList.add("inner_orbit");
-        await sleep(1000);
-    }
-}
 
 const teamCircles = () => {
     // Maybe no animation??? just have the heads float near the logo? or just orbit and not go in
@@ -188,22 +176,22 @@ const teamCircles = () => {
         
         switch (team["members"][i]["department"]) {
             case "IT":
-                department_colour = "#778AB1";
+                department_colour = "#55CEBC";
                 break;
             case "Marketing":
                 department_colour = "#FF7257";
                 break;
             case "Events":
-                department_colour = "#1A3263";
+                department_colour = "#000000";
                 break;
             case "HR":
                 department_colour = "#F5B46B";
                 break;
             case "Administration":
-                department_colour = "#778AB1";
+                department_colour = "#000000";
                 break;
             default:
-                department_colour = "#333333";
+                department_colour = "#778AB1"; // President
                 break;
         };
 
@@ -216,8 +204,6 @@ const teamCircles = () => {
         
         team_members_container.appendChild(member_container);
     }
-
-    addOrbitAnimation();
 }
 
 teamCircles()

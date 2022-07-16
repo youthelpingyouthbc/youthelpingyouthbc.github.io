@@ -51,7 +51,22 @@
 }
 
 /* Our Values Section */
+
 .our_values_section {
+  margin: 10% 0%;
+}
+.our_values_title {
+  text-align: center;
+  width: 100%;
+  display: block;
+  font-size: 2em;
+  font-weight: bold;
+  color: #333333;
+}
+.our_values_container {
+  display: block;
+  position: relative;
+  width: 100%;
   display: flex;
   align-items: center;
 }
@@ -210,7 +225,7 @@ h6, #our_values_type, #our_values_description {
 
 #team_members_container {
   position: relative;
-  animation: orbit 18s infinite;
+  animation: orbit 25s infinite;
 }
 
 .member_container {
@@ -226,7 +241,7 @@ h6, #our_values_type, #our_values_description {
 .member_image {
     width: 100%;
     height: auto;
-    animation: orbit_image 18s infinite;
+    animation: orbit_image 25s infinite;
 }
 
 @keyframes orbit {
