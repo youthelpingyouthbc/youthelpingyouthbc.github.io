@@ -75,12 +75,29 @@ ul {
     margin: 0 0.5rem;
     padding: 0.5rem;
     border-radius: 10px;
-    transition: all 0.3s ease-in-out;
+    transition: 0.3s;
+    cursor: pointer;
 }
 
 .nav-links:hover {
     background-color: var(--blue);
 }
+
+.nav-links-selected {
+    background-color: #496BB1;
+}
+
+.nav-links-contact {
+    background-color: var(--blue);
+}
+
+.nav-links-contact:hover {
+    background-color: transparent;
+    outline: 2px solid var(--blue);
+}
+
+
+
 .nav_mobile_nav {
     display: none;
 }
@@ -146,59 +163,46 @@ ul {
 
 /* FOOTER SECTION */
 .footer_section {
-    height: 15vh;
+    height: auto;
     background-color: var(--black);
-    display: flex;
-    align-items: center;
-    justify-content: space-between;
-    padding: 0rem 3rem;
+    padding: 20px 0px;
+    display:grid;
+	grid-gap: 20px;
+	justify-items: center;
+	grid-template-columns: repeat(auto-fit, minmax(300px , 1fr));
 }
 
-
-
 .footer_text {
-    margin-bottom: -22px;
     padding: 3px;
-    left: 80px;
-    line-height: 85%;
 }
 
 .footer_nav {
-    display: flex;
-    left: 59.375rem; /* lol ignore this insane measurement, will fix later dw */
-    justify-content: center;
     list-style: none;
     font-size: 16px;
     font-weight: 400;
+    margin-top: 30px;
 }
 
-
 .footer_links {
-    display: block;
+    display: inline;
     text-decoration: underline;
     text-underline-offset: 2.5px;
-    font-size: 0.9em;
-    margin: 0 0.5rem;
-    padding: 0.5rem;
-    border-radius: 10px;
+    margin: 0 5px;
 }
 
 .footer_socials {
     position: relative;
     margin-left: auto;
+    margin-top: 30px;
 }
 
 .sub_div {
-    position: absolute;
-    margin-top: 1.6rem;
-    margin-left: 2.7rem;
+    position: relative;
+  
 }
 .established_text {
     font-weight: 300;
     font-size: 11px;
-    /* display: flex;
-    justify-content: center;
-    text-align: center; */
 }
 
 .column {
@@ -273,13 +277,6 @@ ul {
     }
 
     /* Footer Section */
-    .footer_section {
-        padding: 0rem 1rem;
-    }
-
-    .footer_title {display: none;}
-    .footer_slogan {display: none;}
-     
     .footer_mobile_nav{
         display: block;
         width: 50px;
@@ -290,7 +287,21 @@ ul {
     
 }
 
-@media screen and (max-width: 680px){
+@media screen and (max-width: 650px){
+    /* Mobile responsive footer */
+
+    .footer_links {
+        display: block;
+        text-align: center;
+        margin: 15px;
+    }
+    
+    
+
+    /* Mobile responsive footer ^^^ */
+}
+
+@media screen and (max-width: 700px){
     /*Top Title*/
     .top-title {
         font-size: 4em;
@@ -301,8 +312,12 @@ ul {
         height: 8vh;
         padding: 0rem 1rem;
     }
-    .footer_links {display: none;}
-    .established_text {display: none;}
+    .footer_links {
+        display: none;
+    }
+    .established_text {
+        display: none;
+    }
     .column {
         padding: 20px;
     }

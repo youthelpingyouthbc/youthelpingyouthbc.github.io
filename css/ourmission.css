@@ -51,7 +51,22 @@
 }
 
 /* Our Values Section */
+
 .our_values_section {
+  margin: 10% 0%;
+}
+.our_values_title {
+  text-align: center;
+  width: 100%;
+  display: block;
+  font-size: 2em;
+  font-weight: bold;
+  color: #333333;
+}
+.our_values_container {
+  display: block;
+  position: relative;
+  width: 100%;
   display: flex;
   align-items: center;
 }
@@ -135,6 +150,7 @@ h6, #our_values_type, #our_values_description {
   position:relative;
 	width: 10000px;
   display: inline-block;
+  margin-bottom: 5%;
 }
 
 .testimonial {
@@ -188,26 +204,52 @@ h6, #our_values_type, #our_values_description {
 /* Testimonials ^^^ */
 
 /* TEAM IMAGES */
-#team {
-    display: flex;
-    justify-content: center;
+.team_section {
+  margin: 10% 10%;
+  min-height: 100vh;
 }
 
-#team-yhylogo {
+.team-yhylogo {
     width: 300px;
-    height: 250px;
-
+    height: auto;
     position: relative;
+    display: block;
+    /* Centers the logo */
+    left: 0; 
+    right: 0; 
+    margin-left: auto; 
+    margin-right: auto; 
+    /* Centers the logo ^^^ */
+    top: 100px;
 }
 
-.small-circle {
-    background-color: #f5b46b;
-    border-radius: 50%;
-    width: 4em;
-    height: 4em;
+#team_members_container {
+  position: relative;
+  animation: orbit 25s infinite;
+}
 
+.member_container {
     position: absolute;
-    left: 750px;
+    width: 80px;
+    height: 80px;
+    overflow: hidden;
+    border-radius: 50%;
+    /* left: 20%;
+    top: 0px; */
+}
+
+.member_image {
+    width: 100%;
+    height: auto;
+    animation: orbit_image 25s infinite;
+}
+
+@keyframes orbit {
+  100% {transform: rotate(360deg);}
+}
+
+@keyframes orbit_image {
+  100% {transform: rotate(-360deg);}
 }
 
 
