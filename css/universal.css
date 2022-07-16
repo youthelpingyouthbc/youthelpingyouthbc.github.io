@@ -75,12 +75,29 @@ ul {
     margin: 0 0.5rem;
     padding: 0.5rem;
     border-radius: 10px;
-    transition: all 0.3s ease-in-out;
+    transition: 0.3s;
+    cursor: pointer;
 }
 
 .nav-links:hover {
     background-color: var(--blue);
 }
+
+.nav-links-selected {
+    background-color: #496BB1;
+}
+
+.nav-links-contact {
+    background-color: var(--blue);
+}
+
+.nav-links-contact:hover {
+    background-color: transparent;
+    outline: 2px solid var(--blue);
+}
+
+
+
 .nav_mobile_nav {
     display: none;
 }
