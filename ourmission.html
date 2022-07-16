@@ -1,21 +1,17 @@
-<!DOCTYPE html PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN">
+<!DOCTYPE html>
 <html>
   <head>
+    <title>YHY BC | Our Mission</title>
     <meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
 
-    <!--IMPORTS INTER FONT-->
+    <!--IMPORT FONTS-->
     <link rel="preconnect" href="https://fonts.googleapis.com" />
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
-    <link
-      href="https://fonts.googleapis.com/css2?family=Inter:wght@300;700&family=Kanit:wght@300;400&display=swap"
-      rel="stylesheet"
-    />
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;700&family=Kanit:wght@300;400&display=swap" rel="stylesheet"/>
+    <link href="https://fonts.googleapis.com/css2?family=DM+Serif+Display&display=swap" rel="stylesheet">
 
     <!--IMPORTS POPPINS FONT-->
-    <link
-      href="https://fonts.googleapis.com/css?family=Poppins"
-      rel="stylesheet"
-    />
+    <link href="https://fonts.googleapis.com/css?family=Poppins" rel="stylesheet"/>
 
     <link rel="stylesheet" href="css/ourmission.css" />
     <link rel="stylesheet" href="css/universal.css">
@@ -32,20 +28,20 @@
 					<h2 class="logo-slogan">Providing opportunities for youth in British Columbia</h2>
 					<img class="nav_mobile_nav" src="imgs/greylogo.png">
 				</div>
-				
+			
 				<ul>
-					<li class="nav-links"><a href="index.html">Home</a></li>
-					<li class="nav-links"><a href="ourmission.html">Our Mission</a></li>
-					<li class="nav-links"><a href="events.html">Events</a></li>
-					<li class="nav-links"><a href="faq.html">FAQ</a></li>
-					<li class="nav-links"><a href="#">Contact</a></li>
+					<li><a class="nav-links" href="index.html">Home</a></li>
+					<li><a class="nav-links nav-links-selected" href="ourmission.html">Our Mission</a></li>
+					<li><a class="nav-links" href="events.html">Events</a></li>
+					<li><a class="nav-links" href="faq.html">FAQ</a></li>
+					<li><a class="nav-links nav-links-contact" href="mailto: bc@youthelpingyouth.org">Contact</a></li>
 				</ul>
 
 				<div id="navbar-burger">
 					<i data-feather="menu"></i>
 				</div>
 			</nav>
-    </header>
+        </header>
 
     <section class="top_section">
 			<h1 class="top_title">OUR MISSION</h1>
@@ -53,10 +49,34 @@
 
 			<img class="events_cover_image" src="imgs/events-cover-image.jpeg" alt="Youth Helping Youth University Panel">
 
-
-		<!-- <section style="height: 100vh; width: 100%; background: rgb(173, 237, 255);">  -->
-
 		</section>
+
+    <section class="our_values_section">
+
+        <p class="our_values_title">Our Values</p>
+
+        <div class="our_values_container">
+
+          <div class="our_values_column">
+            <div id="our_values_words_container">
+              <button class="our_values_words">community</button>
+              <button class="our_values_words">empowerment</button>
+              <button class="our_values_words">innovation</button>
+              <button class="our_values_words">transparency</button>
+              <button class="our_values_words">personal growth</button>
+            </div>
+          </div>
+
+          <div class="our_values_column">
+            <div id="our_values_desc_container">
+              <h5 id="our_values_title">com·mu·ni·ty</h5>
+              <h6 id="our_values_pronounce">/kəˈmyo͞onədē/</h6>
+              <div id="our_values_type">noun</div>
+              <p id="our_values_description">a feeling of fellowship with others, as a result of sharing common attitudes, interests, and goals</p>
+            </div>
+          </div>
+      </div>
+    </section>
 
 		<section class="middle_section">
 			<div class="middle_section_container">
@@ -75,146 +95,180 @@
 			</div>
 		</section>
 
+    <section class="testimonials_section">
+      <h1 class="testimonials_title">Testimonials</h1>
 
-    <div>
-      <div>
-        <p id="m_values">Our Values</p>
-        <br />
-      </div>
-      <div id="m_region" class="m_row">
-        <div class="center">
-          <div class="m_column" id="m_buttonHeight">
-            <button class="m_wordAnimation" id="m_community">Community</button>
-            <button class="m_wordAnimation" id="m_empowerment">
-              Empowerment
-            </button>
-            <button class="m_wordAnimation" id="m_innovation">
-              Innovation
-            </button>
-            <button class="m_wordAnimation" id="m_transparency">
-              Transparency
-            </button>
-            <button class="m_wordAnimation" id="m_personalGrowth">
-              Personal Growth
-            </button>
+      <div id="testimonials">
+
+        <!-- A testimonial -->
+        <div class="testimonial" onmouseenter="stop_testimonial_animation()" onmouseleave="start_testimonial_animation()">
+          <div class="quote_container">
+            <p class="quote"><span class="quotation_mark testimonial_cyan_text">"</span>Vestibulum a urna in neque posuere malesuada a sit amet dolor. Vivamus hendrerit risus ut enim dapibus eleifend. Morbi sed semper dolor. weinkf wefwa fefwef rgre fgrwegfrg.<span class="quotation_mark testimonial_cyan_text">"</span></br></br>- Bob Kev, IT Member</p>
           </div>
-
-          <div class="m_column">
-            <div class="m_wordCentering">
-              <div class="m_word">
-                <p id="m_pronunciation1"></p>
-                <p id="m_pronunciation2"></p>
-                <p id="m_POS"></p>
-                <p id="m_definition"></p>
-                <div class="center">
-                  <img
-                    id="m_logoYHY"
-                    src="./about_files/V3VzKVwVFhlkn9cQFIm5jexZZ4XaRNfistnGQgN0EoeF=s0-d-e1-ft"
-                  />
-                </div>
-              </div>
+          <div class="author_container testimonial_cyan_bg">
+            <div class="author_image_container">
+              <img class="author_image" src="imgs/members/Cathy Ha.jpg">
             </div>
           </div>
         </div>
-      </div>
-    </div>
+        <!-- A testimonial ^^^ -->
 
-    <section id="quotes_section">
-      <p id="info">
-        Scroll below to read testimonials from former members of YHYBC!
-      </p>
-      <p id="title">TESTIMONIALS</p>
-
-      <div class="row">
-        <div class="col">
-          <div class="question" data-aos="fade-up" data-aos-duration="2000">
-            <div class="question_white" id="quote_teal">
-              <p class="question_title">Ronald Reagan, Former Head of Events</p>
-
-              <p class="answer">
-                "During my time at YHYBC, I loved working with other like-minded
-                individuals, learning new skills, and attending meetings. As I'm
-                pursuing the Business field, I was extremely glad that YHYBC was
-                able to provide me with an experience that will prepare me for
-                the career field I plan to pursue!"
-              </p>
-
-              <img
-                class="headshot_image"
-                id="image_teal"
-                src="imgs/headshot.png"
-                alt="headshot"
-              />
-            </div>
+        <!-- A testimonial -->
+        <div class="testimonial" onmouseenter="stop_testimonial_animation()" onmouseleave="start_testimonial_animation()">
+          <div class="quote_container">
+            <p class="quote"><span class="quotation_mark testimonial_red_text">"</span>Vestibulum a urna in neque posuere malesuada a sit amet dolor. Vivamus hendrerit risus ut enim dapibus eleifend. Morbi sed semper dolor. weinkf wefwa fefwef rgre fgrwegfrg.<span class="quotation_mark testimonial_red_text">"</span></br></br>- Bob Kev, IT Member</p>
           </div>
-
-          <div class="question" data-aos="fade-up" data-aos-duration="2000">
-            <div class="question_white" id="quote_red">
-              <p class="question_title">
-                Homer Simpson, Former YHYBC President
-              </p>
-
-              <p class="answer">
-                "During my time at YHYBC, I loved working with other like-minded
-                individuals, learning new skills, and attending meetings. As I'm
-                pursuing the Business field, I was extremely glad that YHYBC was
-                able to provide me with an experience that will prepare me for
-                the career field I plan to pursue!"
-              </p>
-              <img
-                class="headshot_image"
-                id="image_red"
-                src="imgs/headshot.png"
-                alt="headshot"
-              />
-            </div>
-          </div>
-
-          <div class="question" data-aos="fade-up" data-aos-duration="2000">
-            <div class="question_white" id="quote_yellow">
-              <p class="question_title">
-                Naruto Uzumaki, Former Head of Marketing
-              </p>
-
-              <p class="answer">
-                "During my time at YHYBC, I loved working with other like-minded
-                individuals, learning new skills, and attending meetings. As I'm
-                pursuing the Business field, I was extremely glad that YHYBC was
-                able to provide me with an experience that will prepare me for
-                the career field I plan to pursue!"
-              </p>
-
-              <img
-                class="headshot_image"
-                id="image_yellow"
-                src="imgs/headshot.png"
-                alt="headshot"
-              />
+          <div class="author_container testimonial_red_bg">
+            <div class="author_image_container">
+              <img class="author_image" src="imgs/members/Donald_Lee.jpg">
             </div>
           </div>
         </div>
+        <!-- A testimonial ^^^ -->
+
+        <!-- A testimonial -->
+        <div class="testimonial" onmouseenter="stop_testimonial_animation()" onmouseleave="start_testimonial_animation()">
+          <div class="quote_container">
+            <p class="quote"><span class="quotation_mark testimonial_orange_text">"</span>Vestibulum a urna in neque posuere malesuada a sit amet dolor. Vivamus hendrerit risus ut enim dapibus eleifend. Morbi sed semper dolor. weinkf wefwa fefwef rgre fgrwegfrg.<span class="quotation_mark testimonial_orange_text">"</span></br></br>- Bob Kev, IT Member</p>
+          </div>
+          <div class="author_container testimonial_orange_bg">
+            <div class="author_image_container">
+              <img class="author_image" src="imgs/members/emily_qin.JPG">
+            </div>
+          </div>
+        </div>
+        <!-- A testimonial ^^^ -->
+
+        <!-- A testimonial -->
+        <div class="testimonial" onmouseenter="stop_testimonial_animation()" onmouseleave="start_testimonial_animation()">
+          <div class="quote_container">
+            <p class="quote"><span class="quotation_mark testimonial_cyan_text">"</span>Vestibulum a urna in neque posuere malesuada a sit amet dolor. Vivamus hendrerit risus ut enim dapibus eleifend. Morbi sed semper dolor. weinkf wefwa fefwef rgre fgrwegfrg.<span class="quotation_mark testimonial_cyan_text">"</span></br></br>- Bob Kev, IT Member</p>
+          </div>
+          <div class="author_container testimonial_cyan_bg">
+            <div class="author_image_container">
+              <img class="author_image" src="imgs/members/Ramika_De_Silva.PNG">
+            </div>
+          </div>
+        </div>
+        <!-- A testimonial ^^^ -->
+
+        <!-- A testimonial -->
+        <div class="testimonial" onmouseenter="stop_testimonial_animation()" onmouseleave="start_testimonial_animation()">
+          <div class="quote_container">
+            <p class="quote"><span class="quotation_mark testimonial_red_text">"</span>Vestibulum a urna in neque posuere malesuada a sit amet dolor. Vivamus hendrerit risus ut enim dapibus eleifend. Morbi sed semper dolor. weinkf wefwa fefwef rgre fgrwegfrg.<span class="quotation_mark testimonial_red_text">"</span></br></br>- Bob Kev, IT Member</p>
+          </div>
+          <div class="author_container testimonial_red_bg">
+            <div class="author_image_container">
+              <img class="author_image" src="imgs/members/Trinity_Ma.jpg">
+            </div>
+          </div>
+        </div>
+        <!-- A testimonial ^^^ -->
+
+        <!-- A testimonial -->
+        <div class="testimonial" onmouseenter="stop_testimonial_animation()" onmouseleave="start_testimonial_animation()">
+          <div class="quote_container">
+            <p class="quote"><span class="quotation_mark testimonial_orange_text">"</span>Vestibulum a urna in neque posuere malesuada a sit amet dolor. Vivamus hendrerit risus ut enim dapibus eleifend. Morbi sed semper dolor. weinkf wefwa fefwef rgre fgrwegfrg.<span class="quotation_mark testimonial_orange_text">"</span></br></br>- Bob Kev, IT Member</p>
+          </div>
+          <div class="author_container testimonial_orange_bg">
+            <div class="author_image_container">
+              <img class="author_image" src="imgs/members/Cathy Ha.jpg">
+            </div>
+          </div>
+        </div>
+        <!-- A testimonial ^^^ -->
+
+
+
+        <!-- A testimonial -->
+        <div class="testimonial" onmouseenter="stop_testimonial_animation()" onmouseleave="start_testimonial_animation()">
+          <div class="quote_container">
+            <p class="quote"><span class="quotation_mark testimonial_cyan_text">"</span>Vestibulum a urna in neque posuere malesuada a sit amet dolor. Vivamus hendrerit risus ut enim dapibus eleifend. Morbi sed semper dolor. weinkf wefwa fefwef rgre fgrwegfrg.<span class="quotation_mark testimonial_cyan_text">"</span></br></br>- Bob Kev, IT Member</p>
+          </div>
+          <div class="author_container testimonial_cyan_bg">
+            <div class="author_image_container">
+              <img class="author_image" src="imgs/members/Donald_Lee.jpg">
+            </div>
+          </div>
+        </div>
+        <!-- A testimonial ^^^ -->
+
+        <!-- A testimonial -->
+        <div class="testimonial" onmouseenter="stop_testimonial_animation()" onmouseleave="start_testimonial_animation()">
+          <div class="quote_container">
+            <p class="quote"><span class="quotation_mark testimonial_red_text">"</span>Vestibulum a urna in neque posuere malesuada a sit amet dolor. Vivamus hendrerit risus ut enim dapibus eleifend. Morbi sed semper dolor. weinkf wefwa fefwef rgre fgrwegfrg.<span class="quotation_mark testimonial_red_text">"</span></br></br>- Bob Kev, IT Member</p>
+          </div>
+          <div class="author_container testimonial_red_bg">
+            <div class="author_image_container">
+              <img class="author_image" src="imgs/members/emily_qin.JPG">
+            </div>
+          </div>
+        </div>
+        <!-- A testimonial ^^^ -->
+
+        <!-- A testimonial -->
+        <div class="testimonial" onmouseenter="stop_testimonial_animation()" onmouseleave="start_testimonial_animation()">
+          <div class="quote_container">
+            <p class="quote"><span class="quotation_mark testimonial_orange_text">"</span>Vestibulum a urna in neque posuere malesuada a sit amet dolor. Vivamus hendrerit risus ut enim dapibus eleifend. Morbi sed semper dolor. weinkf wefwa fefwef rgre fgrwegfrg.<span class="quotation_mark testimonial_orange_text">"</span></br></br>- Bob Kev, IT Member</p>
+          </div>
+          <div class="author_container testimonial_orange_bg">
+            <div class="author_image_container">
+              <img class="author_image" src="imgs/members/Ramika_De_Silva.PNG">
+            </div>
+          </div>
+        </div>
+        <!-- A testimonial ^^^ -->
+
+        <!-- A testimonial -->
+        <div class="testimonial" onmouseenter="stop_testimonial_animation()" onmouseleave="start_testimonial_animation()">
+          <div class="quote_container">
+            <p class="quote"><span class="quotation_mark testimonial_cyan_text">"</span>Vestibulum a urna in neque posuere malesuada a sit amet dolor. Vivamus hendrerit risus ut enim dapibus eleifend. Morbi sed semper dolor. weinkf wefwa fefwef rgre fgrwegfrg.<span class="quotation_mark testimonial_cyan_text">"</span></br></br>- Bob Kev, IT Member</p>
+          </div>
+          <div class="author_container testimonial_cyan_bg">
+            <div class="author_image_container">
+              <img class="author_image" src="imgs/members/Trinity_Ma.jpg">
+            </div>
+          </div>
+        </div>
+        <!-- A testimonial ^^^ -->
+
+        <!-- A testimonial -->
+        <div class="testimonial" onmouseenter="stop_testimonial_animation()" onmouseleave="start_testimonial_animation()">
+          <div class="quote_container">
+            <p class="quote"><span class="quotation_mark testimonial_red_text">"</span>Vestibulum a urna in neque posuere malesuada a sit amet dolor. Vivamus hendrerit risus ut enim dapibus eleifend. Morbi sed semper dolor. weinkf wefwa fefwef rgre fgrwegfrg.<span class="quotation_mark testimonial_red_text">"</span></br></br>- Bob Kev, IT Member</p>
+          </div>
+          <div class="author_container testimonial_red_bg">
+            <div class="author_image_container">
+              <img class="author_image" src="imgs/members/Cathy Ha.jpg">
+            </div>
+          </div>
+        </div>
+        <!-- A testimonial ^^^ -->
+
+        <!-- A testimonial -->
+        <div class="testimonial" onmouseenter="stop_testimonial_animation()" onmouseleave="start_testimonial_animation()">
+          <div class="quote_container">
+            <p class="quote"><span class="quotation_mark testimonial_orange_text">"</span>Vestibulum a urna in neque posuere malesuada a sit amet dolor. Vivamus hendrerit risus ut enim dapibus eleifend. Morbi sed semper dolor. weinkf wefwa fefwef rgre fgrwegfrg.<span class="quotation_mark testimonial_orange_text">"</span></br></br>- Bob Kev, IT Member</p>
+          </div>
+          <div class="author_container testimonial_orange_bg">
+            <div class="author_image_container">
+              <img class="author_image" src="imgs/members/Donald_Lee.jpg">
+            </div>
+          </div>
+        </div>
+        <!-- A testimonial ^^^ -->
+
       </div>
     </section>
 
-    <section id="team">
-      <img src="./imgs/greylogo.png" id="team-yhylogo">
-      <div id="inner-circle">
-        <div class="small-circle"></div>
-        <div class="small-circle"></div>
-        <div class="small-circle"></div>
-        <div class="small-circle"></div>
-        <div class="small-circle"></div>
-        <div class="small-circle"></div>
-      </div>
+    <section class="team_section">
+      <img src="./imgs/greylogo.png" class="team-yhylogo">
 
-      <div id="outer-circle">
-        <div class="small-circle"></div>
-        <div class="small-circle"></div>
-        <div class="small-circle"></div>
-        <div class="small-circle"></div>
-        <div class="small-circle"></div>
-        <div class="small-circle"></div>
+      <div id="team_members_container">
+          
       </div>
+     
+
     </section>
 
     <div class="footer_section">
@@ -226,12 +280,11 @@
 			<img class="footer_mobile_nav" src="imgs/greylogo.png">
 			
 			<div class="footer_nav">
-				<li class="footer_links"><a href="#">Home</a></li>
+				<li class="footer_links"><a href="index.html">Home</a></li>
 				<li class="footer_links"><a href="ourmission.html">Our Mission</a></li>
 				<li class="footer_links"><a href="events.html">Events</a></li>
-				<li class="footer_links"><a href="#">FAQ</a></li>
+				<li class="footer_links"><a href="faq.html">FAQ</a></li>
 			</div>
-
 			
 			<div class="socials_links">
 				<div class="column">
@@ -252,7 +305,8 @@
 				  </div>
 		
 			</div>
-
+    
+    <script src="js/ourmission.js"></script>
     <!-- for animations -->
     <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
     <script>
