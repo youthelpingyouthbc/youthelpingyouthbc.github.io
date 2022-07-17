@@ -46,25 +46,25 @@ const teamCircles = () => {
             },
             // INNER CORNERS
             {
-                name: "Trinity Ma",
-                department: "",
-                position: "President",
-                image: "imgs/members/Trinity_Ma.jpg",
+                name: "Kelly Hum",
+                department: "IT",
+                position: "IT Member",
+                image: "imgs/members/Kelly_Hum.jpeg",
                 position_x:  "45%",
                 position_y:  "150px"
             },{
-                name: "Donald Lee",
-                department: "IT",
-                position: "Head of IT",
-                image: "imgs/members/Donald_Lee.jpg",
+                name: "Amanda Miao",
+                department: "Marketing",
+                position: "Marketing Manager",
+                image: "imgs/members/Amanda_Miao.JPG",
                 position_x:  "60%",
                 position_y:  "150px"
             },
             {
-                name: "Cathy Ha",
-                department: "Events",
-                position: "Events Manager",
-                image: "imgs/members/Cathy Ha.jpg",
+                name: "Hersimer Dhaliwal",
+                department: "Marketing",
+                position: "Marketing Member",
+                image: "imgs/members/Hersimer_Dhaliwal.png",
                 position_x:  "57%",
                 position_y:  "-250px"
             },

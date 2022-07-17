@@ -161,6 +161,7 @@ ul {
 /* NAV BAR ^^^ */
 
 
+
 /* FOOTER SECTION */
 .footer_section {
     height: auto;
@@ -219,9 +220,10 @@ ul {
 
 /* FOOTER ^^^ */
 
+
+
 /* Top section - FAQ, Events*/
 .top-section {
-    backdrop-filter: blur(50px);
     height: 100vh;
     width: 100%;
 }
@@ -241,7 +243,7 @@ ul {
 .top-container {
     height: 100%;
     width: 100%;
-    backdrop-filter: blur(4px);
+    backdrop-filter: blur(4px) brightness(50%);
     display: flex;
     flex-direction: column;
     justify-content: center;
@@ -255,27 +257,22 @@ ul {
 
 .top-title {
     font-size: 6em;
+    text-align: center;
 }
 
 .top-established {
     font-family: 'Inter';
     font-size: 1.25em;
+    text-align: center;
 }
 
 /* Mobile for footer and top section*/
 
-@media screen and (max-width: 1024px) {
-    .footer_section {
-        padding: 0rem 0.5rem;
-    }
-}
-
 @media screen and (max-width: 900px) {
-    /* Top Title */
-    .top-title {
-        font-size: 5em;
+    /* Top Title*/
+    .top_title {
+        font-size: 6em;
     }
-
     /* Footer Section */
     .footer_mobile_nav{
         display: block;
@@ -289,35 +286,27 @@ ul {
 
 @media screen and (max-width: 650px){
     /* Mobile responsive footer */
-
+    .footer_nav {
+        margin-top: -10px;
+        margin-bottom: -10px;
+    }
+    
     .footer_links {
         display: block;
         text-align: center;
         margin: 15px;
     }
-    
-    
 
     /* Mobile responsive footer ^^^ */
 }
 
+
 @media screen and (max-width: 700px){
     /*Top Title*/
-    .top-title {
-        font-size: 4em;
+    .top_title {
+        font-size: 5em;
     }
 
-    /* Footer Section */
-    .footer_section {
-        height: 8vh;
-        padding: 0rem 1rem;
-    }
-    .footer_links {
-        display: none;
-    }
-    .established_text {
-        display: none;
-    }
     .column {
         padding: 20px;
     }
