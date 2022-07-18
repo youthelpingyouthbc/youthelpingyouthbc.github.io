@@ -161,6 +161,7 @@ ul {
 /* NAV BAR ^^^ */
 
 
+
 /* FOOTER SECTION */
 .footer_section {
     height: auto;
@@ -219,44 +220,53 @@ ul {
 
 /* FOOTER ^^^ */
 
-.top_section {
+
+
+/* Top section - FAQ, Events*/
+.top-section {
     height: 100vh;
     width: 100%;
-    position: relative;
-    margin: none;
-    position: relative;
-    text-align: center;
-    /* background: red; */
-    overflow: hidden;
 }
 
-.events_cover_image {
-    top: 0%;
+#top-section-faq {
+    background: url('../imgs/faq-cover-image.png') no-repeat top;
+}
+
+#top-section-events {
+    background: url('../imgs/events-cover-image.jpeg') no-repeat bottom;
+}
+
+#top-section-faq, #top-section-events {
+    background-size: cover;
+}
+
+.top-container {
+    height: 100%;
     width: 100%;
-    height: auto;
-    object-fit: fill;
-    /* filter: blur(6px); */
-    filter: brightness(50%);
+    backdrop-filter: blur(4px) brightness(50%);
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    row-gap: 10%;
 }
 
-.top_title, .established_date {
-    z-index: 2;
-    position: absolute;
-      left: 50%;
-     transform: translate(-50%, -50%);
-    color: #FFFFFF;
+.top-title, .top-established {
+    color: #FFF;
 }
 
-.top_title {
-    top: 40%;
-    font-size: 5em;
+.top-title {
+    font-size: 6em;
+    text-align: center;
 }
 
-.established_date {
+.top-established {
     font-family: 'Inter';
     font-size: 1.25em;
-    top: 75%;
+    text-align: center;
 }
+
+/* Mobile for footer and top section*/
 
 @media screen and (max-width: 900px) {
     /* Top Title*/
@@ -276,14 +286,16 @@ ul {
 
 @media screen and (max-width: 650px){
     /* Mobile responsive footer */
-
+    .footer_nav {
+        margin-top: -10px;
+        margin-bottom: -10px;
+    }
+    
     .footer_links {
         display: block;
         text-align: center;
         margin: 15px;
     }
-    
-    
 
     /* Mobile responsive footer ^^^ */
 }
@@ -291,8 +303,8 @@ ul {
 
 @media screen and (max-width: 700px){
     /*Top Title*/
-    .top_title {
-        font-size: 5em;
+    .top-title {
+        font-size: 4em;
     }
 
     .column {
