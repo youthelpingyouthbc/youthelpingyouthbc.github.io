@@ -2,6 +2,7 @@
 <html>
   <head>
     <title>YHY BC | Our Mission</title>
+    <link rel="icon" href="youthhacks2022/images/logo.png" type="image/icon type">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
 
@@ -16,6 +17,9 @@
 
     <link rel="stylesheet" href="css/ourmission.css" />
     <link rel="stylesheet" href="css/universal.css">
+
+    <!--Import Feather Icons-->
+    <script src="https://unpkg.com/feather-icons"></script>
 
     <!--IMPORTS ANIMATIONS-->
     <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
@@ -59,11 +63,11 @@
 
           <div class="our_values_column">
             <div id="our_values_words_container">
-              <button class="our_values_words">community</button>
-              <button class="our_values_words">empowerment</button>
-              <button class="our_values_words">innovation</button>
-              <button class="our_values_words">transparency</button>
-              <button class="our_values_words">personal growth</button>
+              <button class="our_values_words" id="community">community</button>
+              <button class="our_values_words" id="empowerment">empowerment</button>
+              <button class="our_values_words" id="innovation">innovation</button>
+              <button class="our_values_words" id="transparency">transparency</button>
+              <button class="our_values_words" id="personal-growth">personal growth</button>
             </div>
           </div>
 
@@ -309,6 +313,9 @@
 		</div> 
     
     <script src="js/ourmission.js"></script>
+    <script src="js/mobile.js"></script>
+    <script>feather.replace()</script>
+
     <!-- for animations -->
     <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
     <script>

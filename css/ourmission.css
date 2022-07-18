@@ -107,8 +107,28 @@ button {
 }
 
 button:hover {
-  background-color: #F5B46B;
   transition: 1s all cubic-bezier(0.075, 0.82, 0.165, 1);
+}
+
+#community:hover {
+  background-color: #1A3263;
+  color: #FFF;
+}
+
+#empowerment:hover {
+  background-color: #55CEBC;
+}
+
+#innovation:hover {
+  background-color: #F5B46B;
+}
+
+#transparency:hover {
+  background-color: #FF7257;
+}
+
+#personal-growth:hover {
+  background-color: #778AB1;
 }
 
 #our_values_desc_container {
@@ -319,14 +339,19 @@ h6, #our_values_type, #our_values_description {
 }
 
 /* Teams section */
-/* @media only screen and (max-width: 850px) {
+@media only screen and (max-width: 650px) {
+  .team_section {
+    margin-top: 30%;
+    padding: 0% 10%;
+  }
+  
   .team-yhylogo {
-    width: 200px;
+    width: 120px;
   }
 
   .member_container {
       width: 60px;
       height: 60px;
   }
-} */
+}
 
