@@ -69,10 +69,10 @@ const teamCircles = () => {
                 position_y:  "-250px"
             },
             {
-                name: "Emily Qin",
-                department: "HR",
-                position: "Head of HR",
-                image: "imgs/members/emily_qin.JPG",
+                name: "Parveen Brar",
+                department: "Administration",
+                position: "Head of Administration",
+                image: "imgs/members/Parveen Brar.jpg",
                 position_x:  "32%",
                 position_y:  "-250px"
             },
