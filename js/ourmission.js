@@ -9,7 +9,7 @@ const teamCircles = () => {
                 department: "",
                 position: "President",
                 image: "imgs/members/Trinity_Ma.jpg",
-                position_x:  "25%",
+                position_x:  "20%",
                 position_y:  "0px"
             },
             {
@@ -17,7 +17,7 @@ const teamCircles = () => {
                 department: "IT",
                 position: "Head of IT",
                 image: "imgs/members/Donald_Lee.jpg",
-                position_x:  "65%",
+                position_x:  "70%",
                 position_y:  "0px"
             },
             {
@@ -33,7 +33,7 @@ const teamCircles = () => {
                 department: "HR",
                 position: "Head of HR",
                 image: "imgs/members/emily_qin.JPG",
-                position_x:  "65%",
+                position_x:  "70%",
                 position_y:  "-150px"
             },
             {
@@ -42,7 +42,7 @@ const teamCircles = () => {
                 position: "Head of Marketing",
                 image: "imgs/members/Ramika_De_Silva.PNG",
                 position_x:  "45%",
-                position_y:  "-250px"
+                position_y:  "-40vh"
             },
             // INNER CORNERS
             {
@@ -51,14 +51,14 @@ const teamCircles = () => {
                 position: "IT Member",
                 image: "imgs/members/Kelly_Hum.jpeg",
                 position_x:  "45%",
-                position_y:  "150px"
+                position_y:  "30vh"
             },{
                 name: "Amanda Miao",
                 department: "Marketing",
                 position: "Marketing Manager",
                 image: "imgs/members/Amanda_Miao.JPG",
                 position_x:  "60%",
-                position_y:  "150px"
+                position_y:  "30vh"
             },
             {
                 name: "Hersimer Dhaliwal",
@@ -66,105 +66,105 @@ const teamCircles = () => {
                 position: "Marketing Member",
                 image: "imgs/members/Hersimer_Dhaliwal.png",
                 position_x:  "57%",
-                position_y:  "-250px"
+                position_y:  "-45vh"
             },
             {
-                name: "Emily Qin",
-                department: "HR",
-                position: "Head of HR",
-                image: "imgs/members/emily_qin.JPG",
+                name: "Parveen Brar",
+                department: "Administration",
+                position: "Head of Administration",
+                image: "imgs/members/Parveen Brar.jpg",
                 position_x:  "32%",
-                position_y:  "-250px"
+                position_y:  "-45vh"
             },
-            {
-                name: "Ramika De Silva",
-                department: "Marketing",
-                position: "Head of Marketing",
-                image: "imgs/members/Ramika_De_Silva.PNG",
-                position_x:  "30%",
-                position_y:  "150px"
-            },
-            // OUTER CIRCLE
-            {
-                name: "Trinity Ma",
-                department: "",
-                position: "President",
-                image: "imgs/members/Trinity_Ma.jpg",
-                position_x:  "10%",
-                position_y:  "20px"
-            },
-            {
-                name: "Donald Lee",
-                department: "IT",
-                position: "Head of IT",
-                image: "imgs/members/Donald_Lee.jpg",
-                position_x:  "80%",
-                position_y:  "30px"
-            },
-            {
-                name: "Cathy Ha",
-                department: "Events",
-                position: "Events Manager",
-                image: "imgs/members/Cathy Ha.jpg",
-                position_x:  "10%",
-                position_y:  "-160px"
-            },
-            {
-                name: "Emily Qin",
-                department: "HR",
-                position: "Head of HR",
-                image: "imgs/members/emily_qin.JPG",
-                position_x:  "80%",
-                position_y:  "-120px"
-            },
-            {
-                name: "Ramika De Silva",
-                department: "Marketing",
-                position: "Head of Marketing",
-                image: "imgs/members/Ramika_De_Silva.PNG",
-                position_x:  "45%",
-                position_y:  "-394px"
-            },
+            // {
+            //     name: "Ramika De Silva",
+            //     department: "Marketing",
+            //     position: "Head of Marketing",
+            //     image: "imgs/members/Ramika_De_Silva.PNG",
+            //     position_x:  "30%",
+            //     position_y:  "150px"
+            // },
+            // // OUTER CIRCLE
+            // {
+            //     name: "Trinity Ma",
+            //     department: "",
+            //     position: "President",
+            //     image: "imgs/members/Trinity_Ma.jpg",
+            //     position_x:  "10%",
+            //     position_y:  "20px"
+            // },
+            // {
+            //     name: "Donald Lee",
+            //     department: "IT",
+            //     position: "Head of IT",
+            //     image: "imgs/members/Donald_Lee.jpg",
+            //     position_x:  "80%",
+            //     position_y:  "30px"
+            // },
+            // {
+            //     name: "Cathy Ha",
+            //     department: "Events",
+            //     position: "Events Manager",
+            //     image: "imgs/members/Cathy Ha.jpg",
+            //     position_x:  "10%",
+            //     position_y:  "-160px"
+            // },
+            // {
+            //     name: "Emily Qin",
+            //     department: "HR",
+            //     position: "Head of HR",
+            //     image: "imgs/members/emily_qin.JPG",
+            //     position_x:  "80%",
+            //     position_y:  "-120px"
+            // },
+            // {
+            //     name: "Ramika De Silva",
+            //     department: "Marketing",
+            //     position: "Head of Marketing",
+            //     image: "imgs/members/Ramika_De_Silva.PNG",
+            //     position_x:  "45%",
+            //     position_y:  "-394px"
+            // },
 
-            {
-                name: "Trinity Ma",
-                department: "",
-                position: "President",
-                image: "imgs/members/Trinity_Ma.jpg",
-                position_x:  "45%",
-                position_y:  "304px"
-            },{
-                name: "Donald Lee",
-                department: "IT",
-                position: "Head of IT",
-                image: "imgs/members/Donald_Lee.jpg",
-                position_x:  "75%",
-                position_y:  "150px"
-            },
-            {
-                name: "Cathy Ha",
-                department: "Events",
-                position: "Events Manager",
-                image: "imgs/members/Cathy Ha.jpg",
-                position_x:  "72%",
-                position_y:  "-255px"
-            },
-            {
-                name: "Emily Qin",
-                department: "HR",
-                position: "Head of HR",
-                image: "imgs/members/emily_qin.JPG",
-                position_x:  "17%",
-                position_y:  "-255px"
-            },
-            {
-                name: "Ramika De Silva",
-                department: "Marketing",
-                position: "Head of Marketing",
-                image: "imgs/members/Ramika_De_Silva.PNG",
-                position_x:  "15%",
-                position_y:  "155px"
-            },
+            // {
+            //     name: "Trinity Ma",
+            //     department: "",
+            //     position: "President",
+            //     image: "imgs/members/Trinity_Ma.jpg",
+            //     position_x:  "45%",
+            //     position_y:  "304px"
+            // },{
+            //     name: "Donald Lee",
+            //     department: "IT",
+            //     position: "Head of IT",
+            //     image: "imgs/members/Donald_Lee.jpg",
+            //     position_x:  "75%",
+            //     position_y:  "150px"
+            // },
+            // {
+            //     name: "Cathy Ha",
+            //     department: "Events",
+            //     position: "Events Manager",
+            //     image: "imgs/members/Cathy Ha.jpg",
+            //     position_x:  "72%",
+            //     position_y:  "-255px"
+            // },
+            // {
+            //     name: "Emily Qin",
+            //     department: "HR",
+            //     position: "Head of HR",
+            //     image: "imgs/members/emily_qin.JPG",
+            //     position_x:  "17%",
+            //     position_y:  "-255px"
+            // },
+            // {
+            //     name: "Ramika De Silva",
+            //     department: "Marketing",
+            //     position: "Head of Marketing",
+            //     image: "imgs/members/Ramika_De_Silva.PNG",
+            //     position_x:  "15%",
+            //     position_y:  "155px"
+            // },
         ]
     }
     
@@ -200,7 +200,7 @@ const teamCircles = () => {
         member_container.style.left = team["members"][i]["position_x"];
 
         member_container.classList.add("member_container")
-        member_container.innerHTML = "<img class='member_image' src='" + team["members"][i]["image"] + "'>";
+        member_container.innerHTML = "<img class='member_image' src='" + team["members"][i]["image"] + "'><span class='tooltiptext'>" + team["members"][i]["name"] + ", " + team["members"][i]["position"] + "</span>";
         
         team_members_container.appendChild(member_container);
     }
