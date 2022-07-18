@@ -2,6 +2,8 @@
   box-sizing: border-box;
 }
 
+body {overflow-x: hidden; /* Hide horizontal scrollbar */}
+
 /* MIDDLE SECTION */
 .middle_section {
   background: #FFFFFF;
@@ -207,12 +209,14 @@ h6, #our_values_type, #our_values_description {
 
 /* TEAM IMAGES */
 .team_section {
-  margin: 10% 10%;
+  margin: 10% 0%;
   min-height: 100vh;
+  margin-bottom: 15%;
+
 }
 
 .team-yhylogo {
-    width: 300px;
+    width: 250px;
     height: auto;
     position: relative;
     display: block;
@@ -225,29 +229,60 @@ h6, #our_values_type, #our_values_description {
     top: 100px;
 }
 
+.member_container {
+    position: absolute;
+    width: 80px;
+    height: 80px;
+    /* overflow: hidden; */
+    border-radius: 50%;
+    cursor: pointer;
+    transition: 0.3s;
+}
+
 #team_members_container {
   position: relative;
   animation: orbit 25s infinite;
 }
 
-.member_container {
-    position: absolute;
-    width: 80px;
-    height: 80px;
-    overflow: hidden;
-    border-radius: 50%;
-    /* left: 20%;
-    top: 0px; */
-}
 
 .member_image {
     width: 100%;
     height: auto;
+    border-radius: 50%;
     animation: orbit_image 25s infinite;
 }
 
+.member_container .tooltiptext {
+  visibility: hidden;
+  width: 130px;
+  background-color: #333;
+  color: #fff;
+  text-align: center;
+  border-radius: 6px;
+  padding: 5px 5px;
+  /* Position the tooltip */
+  position: absolute;
+  z-index: 1;
+  top: 0px;
+  animation: orbit_image 25s infinite;
+}
+
+.member_container:hover .tooltiptext {
+  visibility: visible;
+}
+
 @keyframes orbit {
-  100% {transform: rotate(360deg);}
+  0% {transform: rotate(0deg); margin-top: 20px;}
+  10% {margin-top: 0px;}
+  20% {margin-top: 20px;}
+  30% {margin-top: 0px;}
+  40% {margin-top: 20px;}
+  50% {margin-top: 0px;}
+  60% {margin-top: 20px;}
+  70% {margin-top: 0px;}
+  80% {margin-top: 20px;}
+  90% {margin-top: 0px;}
+  100% {transform: rotate(360deg); margin-top: 20px;}
 }
 
 @keyframes orbit_image {
@@ -282,4 +317,16 @@ h6, #our_values_type, #our_values_description {
     width: 100%;
   }
 }
+
+/* Teams section */
+/* @media only screen and (max-width: 850px) {
+  .team-yhylogo {
+    width: 200px;
+  }
+
+  .member_container {
+      width: 60px;
+      height: 60px;
+  }
+} */
 
