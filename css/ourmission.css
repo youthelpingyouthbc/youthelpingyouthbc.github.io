@@ -105,8 +105,28 @@ button {
 }
 
 button:hover {
-  background-color: #F5B46B;
   transition: 1s all cubic-bezier(0.075, 0.82, 0.165, 1);
+}
+
+#community:hover {
+  background-color: #1A3263;
+  color: #FFF;
+}
+
+#empowerment:hover {
+  background-color: #55CEBC;
+}
+
+#innovation:hover {
+  background-color: #F5B46B;
+}
+
+#transparency:hover {
+  background-color: #FF7257;
+}
+
+#personal-growth:hover {
+  background-color: #778AB1;
 }
 
 #our_values_desc_container {
