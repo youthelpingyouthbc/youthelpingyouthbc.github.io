@@ -10,7 +10,9 @@ const teamCircles = () => {
                 position: "President",
                 image: "imgs/members/Trinity_Ma.jpg",
                 position_x:  "20%",
-                position_y:  "0px"
+                position_y:  "0px",
+                mobile_position_x:  "5%",
+                mobile_position_y:  "0px",
             },
             {
                 name: "Donald Lee",
@@ -18,7 +20,9 @@ const teamCircles = () => {
                 position: "Head of IT",
                 image: "imgs/members/Donald_Lee.jpg",
                 position_x:  "70%",
-                position_y:  "0px"
+                position_y:  "0px",
+                mobile_position_x:  "80%",
+                mobile_position_y:  "0px"
             },
             {
                 name: "Cathy Ha",
@@ -26,7 +30,9 @@ const teamCircles = () => {
                 position: "Events Manager",
                 image: "imgs/members/Cathy Ha.jpg",
                 position_x:  "25%",
-                position_y:  "-150px"
+                position_y:  "-150px",
+                mobile_position_x:  "15%",
+                mobile_position_y:  "-10vh"
             },
             {
                 name: "Emily Qin",
@@ -34,7 +40,9 @@ const teamCircles = () => {
                 position: "Head of HR",
                 image: "imgs/members/emily_qin.JPG",
                 position_x:  "70%",
-                position_y:  "-150px"
+                position_y:  "-150px",
+                mobile_position_x:  "80%",
+                mobile_position_y:  "-150px"
             },
             {
                 name: "Ramika De Silva",
@@ -42,7 +50,9 @@ const teamCircles = () => {
                 position: "Head of Marketing",
                 image: "imgs/members/Ramika_De_Silva.PNG",
                 position_x:  "45%",
-                position_y:  "-40vh"
+                position_y:  "-40vh",
+                mobile_position_x:  "45%",
+                mobile_position_y:  "-10vh"
             },
             // INNER CORNERS
             {
@@ -51,14 +61,18 @@ const teamCircles = () => {
                 position: "IT Member",
                 image: "imgs/members/Kelly_Hum.jpeg",
                 position_x:  "45%",
-                position_y:  "30vh"
+                position_y:  "30vh",
+                mobile_position_x:  "35%",
+                mobile_position_y:  "15vh"
             },{
                 name: "Amanda Miao",
                 department: "Marketing",
                 position: "Marketing Manager",
                 image: "imgs/members/Amanda_Miao.JPG",
                 position_x:  "60%",
-                position_y:  "30vh"
+                position_y:  "30vh",
+                mobile_position_x:  "70%",
+                mobile_position_y:  "10vh",
             },
             {
                 name: "Hersimer Dhaliwal",
@@ -66,7 +80,9 @@ const teamCircles = () => {
                 position: "Marketing Member",
                 image: "imgs/members/Hersimer_Dhaliwal.png",
                 position_x:  "57%",
-                position_y:  "-45vh"
+                position_y:  "-45vh",
+                mobile_position_x:  "57%",
+                mobile_position_y:  "-20vh"
             },
             {
                 name: "Parveen Brar",
@@ -74,7 +90,9 @@ const teamCircles = () => {
                 position: "Head of Administration",
                 image: "imgs/members/Parveen Brar.jpg",
                 position_x:  "32%",
-                position_y:  "-45vh"
+                position_y:  "-45vh",
+                mobile_position_x:  "32%",
+                mobile_position_y:  "-20vh"
             },
             // {
             //     name: "Ramika De Silva",
@@ -196,8 +214,16 @@ const teamCircles = () => {
         };
 
         member_container.style.border = "3px solid" + department_colour;
-        member_container.style.top = team["members"][i]["position_y"];
-        member_container.style.left = team["members"][i]["position_x"];
+
+        if (screen.width > 650) {
+            member_container.style.top = team["members"][i]["position_y"];
+            member_container.style.left = team["members"][i]["position_x"];
+        }
+        else {
+            member_container.style.top = team["members"][i]["mobile_position_y"];
+            member_container.style.left = team["members"][i]["mobile_position_x"];
+        }
+
 
         member_container.classList.add("member_container")
         member_container.innerHTML = "<img class='member_image' src='" + team["members"][i]["image"] + "'><span class='tooltiptext'>" + team["members"][i]["name"] + ", " + team["members"][i]["position"] + "</span>";

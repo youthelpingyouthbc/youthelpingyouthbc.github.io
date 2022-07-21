@@ -339,14 +339,19 @@ h6, #our_values_type, #our_values_description {
 }
 
 /* Teams section */
-/* @media only screen and (max-width: 850px) {
+@media only screen and (max-width: 650px) {
+  .team_section {
+    margin-top: 30%;
+    padding: 0% 10%;
+  }
+  
   .team-yhylogo {
-    width: 200px;
+    width: 120px;
   }
 
   .member_container {
       width: 60px;
       height: 60px;
   }
-} */
+}
 
