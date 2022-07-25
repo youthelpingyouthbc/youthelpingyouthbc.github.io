@@ -304,7 +304,7 @@ testimonials_starting_position = -2000;
 testimonials_position = testimonials_starting_position;
 function testimonials_animation() {
     testimonials = document.getElementById("testimonials");
-    testimonials_position += 5;
+    testimonials_position += 1;
     testimonials.style.transform = "translateX(" + testimonials_position +"px)";
 
     if (testimonials.style.transform == "translateX(300px)") {
@@ -317,7 +317,7 @@ function stop_testimonial_animation() {
 }
 
 function start_testimonial_animation() {
-    testimonials_interval = setInterval(testimonials_animation, 25);
+    testimonials_interval = setInterval(testimonials_animation, 10);
 }
 
 start_testimonial_animation()
