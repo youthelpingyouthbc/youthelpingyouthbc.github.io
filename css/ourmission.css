@@ -186,6 +186,7 @@ h6, #our_values_type, #our_values_description {
   display: inline-block;
   transition: 0.3s;
   cursor: pointer;
+  overflow: hidden;
 }
 
 .testimonial:hover {
@@ -354,4 +355,3 @@ h6, #our_values_type, #our_values_description {
       height: 60px;
   }
 }
-
