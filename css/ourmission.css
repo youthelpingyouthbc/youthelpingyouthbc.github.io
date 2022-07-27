@@ -220,6 +220,7 @@ h6, #our_values_type, #our_values_description {
   display: block;
   margin: 0 auto;
   top: -50px;
+  z-index: 2;
 }
 .author_image {
   width: 100%;
