@@ -149,13 +149,13 @@ h6, #our_values_type, #our_values_description {
 }
 
 /* Testimonials */
-/* .testimonial_cyan_bg {background-color: #55CEBC;} */
+.testimonial_cyan_bg {background-color: #55CEBC;}
 .testimonial_cyan_text {color: #55CEBC;}
 
-/* .testimonial_red_bg {background-color: #FF7257;} */
+.testimonial_red_bg {background-color: #FF7257;}
 .testimonial_red_text {color: #FF7257;}
 
-/* .testimonial_orange_bg {background-color: #F5B46B;} */
+.testimonial_orange_bg {background-color: #F5B46B;}
 .testimonial_orange_text {color: #F5B46B;}
 
 .testimonials_section {
@@ -187,6 +187,8 @@ h6, #our_values_type, #our_values_description {
   transition: 0.3s;
   cursor: pointer;
   overflow: hidden;
+  transform: scale(1.1);
+  filter: drop-shadow(0px 8px 8px rgba(0, 0, 0, 0.5));
 }
 
 .testimonial:hover {
@@ -239,7 +241,6 @@ h6, #our_values_type, #our_values_description {
   margin: 10% 0%;
   min-height: 100vh;
   margin-bottom: 15%;
-
 }
 
 .team-yhylogo {
