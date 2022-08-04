@@ -159,7 +159,7 @@ h6, #our_values_type, #our_values_description {
 .testimonial_orange_text {color: #F5B46B;}
 
 .testimonials_section {
-  margin: 10% 0%;
+  /* margin: 10% 0%; */
   overflow-x: hidden;
 }
 
@@ -237,46 +237,43 @@ h6, #our_values_type, #our_values_description {
 
 /* TEAM IMAGES */
 .team_section {
-  margin: 10% 0%;
   min-height: 100vh;
+<<<<<<< Updated upstream
   margin-bottom: 15%;
+=======
+  position: relative;
+  overflow: hidden;
+  margin-bottom: 5%;
+>>>>>>> Stashed changes
 }
 
 .team-yhylogo {
-    width: 250px;
-    height: auto;
-    position: relative;
-    display: block;
-    /* Centers the logo */
-    left: 0; 
-    right: 0; 
-    margin-left: auto; 
-    margin-right: auto; 
-    /* Centers the logo ^^^ */
-    top: 100px;
-}
-
-.member_container {
-    position: absolute;
-    width: 80px;
-    height: 80px;
-    /* overflow: hidden; */
-    border-radius: 50%;
-    cursor: pointer;
-    transition: 0.3s;
+  width: 200px;
+  position: absolute;
+  top: 50%;
+  right: 50%;
+  transform: translate(50%, -50%);
 }
 
 #team_members_container {
-  position: relative;
-  animation: orbit 25s infinite;
+  border-radius: 50%;
+  position: absolute;
+  top: 50%;
+  right: 50%;
+  transform: translate(50%, -50%);
+  animation:  bounce 3s ease-in-out infinite;
+  animation-direction: alternate;
 }
 
-
-.member_image {
-    width: 100%;
-    height: auto;
-    border-radius: 50%;
-    animation: orbit_image 25s infinite;
+.member_container {
+  position: absolute;
+  width: 100px;
+  height: 100px;
+  margin: -50px;
+  background-position: center;
+  background-size: cover;
+  border-radius: 50%;
+  transition: 0.3s;
 }
 
 .member_container .tooltiptext {
@@ -289,33 +286,29 @@ h6, #our_values_type, #our_values_description {
   padding: 5px 5px;
   /* Position the tooltip */
   position: absolute;
-  z-index: 1;
   top: 0px;
-  animation: orbit_image 25s infinite;
+  left: 110%;
+  
 }
 
 .member_container:hover .tooltiptext {
   visibility: visible;
 }
 
-@keyframes orbit {
-  0% {transform: rotate(0deg); margin-top: 20px;}
-  10% {margin-top: 0px;}
-  20% {margin-top: 20px;}
-  30% {margin-top: 0px;}
-  40% {margin-top: 20px;}
-  50% {margin-top: 0px;}
-  60% {margin-top: 20px;}
-  70% {margin-top: 0px;}
-  80% {margin-top: 20px;}
-  90% {margin-top: 0px;}
-  100% {transform: rotate(360deg); margin-top: 20px;}
+.member_container:hover {
+  z-index: 4;
 }
 
-@keyframes orbit_image {
-  100% {transform: rotate(-360deg);}
-}
 
+/* ---------- Animation ---------- */
+@keyframes bounce {
+  from {
+    margin-top: -20px;
+  }
+  to {
+    margin-top: 20px;
+  }
+}
 
 @media only screen and (max-width: 950px) {
     .middle_text_container {
@@ -332,6 +325,7 @@ h6, #our_values_type, #our_values_description {
     }
 }
 
+/* our values */
 @media only screen and (max-width: 850px) {
   .our_values_container {
     display: block;
@@ -343,21 +337,27 @@ h6, #our_values_type, #our_values_description {
     display: block;
     width: 100%;
   }
+  #our_values_desc_container{
+    padding: 2.5rem 2rem;
+  }
+  #our_values_title{
+    font-size: 1.5rem;
+  }
+  .our_values_words{
+    font-size: 1.7rem;
+  }
 }
 
 /* Teams section */
 @media only screen and (max-width: 650px) {
-  .team_section {
-    margin-top: 30%;
-    padding: 0% 10%;
+  .team_section{
+    margin-bottom: 0%;
   }
   
-  .team-yhylogo {
-    width: 120px;
-  }
-
-  .member_container {
-      width: 60px;
-      height: 60px;
+  .team_container {
+    transform: scale(0.6) translate(50%, -50%);
+    position: absolute;
+    top: 50%;
+    left: 50%;
   }
 }
