@@ -129,9 +129,9 @@ const teamCircles = () => {
     const COLORS = {
         IT: "#55CEBC",
         Marketing: "#FF7257",
-        Event: "#000000",
+        Event: "#333333",
         HR : "#F5B46B",
-        Administration : "#000000"
+        Administration : "#1A3263"
     }
     team.members.forEach((member, index) => {
         const member_container = document.createElement("div");
