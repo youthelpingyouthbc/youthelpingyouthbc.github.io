@@ -11,13 +11,6 @@ const teamCircles = () => {
                 image: "imgs/members/Trinity_Ma.jpg",
             },
             {
-                name: "Donald Lee",
-                department: "IT",
-                position: "Former Head of IT",
-                image: "imgs/members/Donald_Lee.jpg",
-
-            },
-            {
                 name: "Cathy Ha",
                 department: "Events",
                 position: "Events Manager",
@@ -122,7 +115,7 @@ const teamCircles = () => {
     }
     
     let team_members_container = document.getElementById("team_members_container");
-    let baseRadius = 150;
+    let baseRadius = 190;
     const innerLayerCirclePositions = [0, 45, 90, 135, 180, 225, 270, 315]; //angles at which the small circles are located
     const outerLayerCirclePositions = [22.5, 67.5, 112.5, 157.5, 202.5, 247.5, 292.5, 337.5];
     let  currentLayerCirclePositions = innerLayerCirclePositions;
@@ -147,7 +140,7 @@ const teamCircles = () => {
         }
         else if (index >= 8 ){
             currentLayerCirclePositions = outerLayerCirclePositions;
-            const offset = 100;
+            const offset = 120;
             radius += offset;
             currentLayer = 2;
         }
