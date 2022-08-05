@@ -238,13 +238,9 @@ h6, #our_values_type, #our_values_description {
 /* TEAM IMAGES */
 .team_section {
   min-height: 100vh;
-<<<<<<< Updated upstream
-  margin-bottom: 15%;
-=======
   position: relative;
   overflow: hidden;
   margin-bottom: 5%;
->>>>>>> Stashed changes
 }
 
 .team-yhylogo {
