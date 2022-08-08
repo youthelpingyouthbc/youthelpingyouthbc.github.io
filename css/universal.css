@@ -96,8 +96,6 @@ ul {
     outline: 2px solid var(--blue);
 }
 
-
-
 .nav_mobile_nav {
     display: none;
 }
@@ -191,10 +189,23 @@ ul {
     margin: 0 5px;
 }
 
-.footer_socials {
-    position: relative;
-    margin-left: auto;
-    margin-top: 30px;
+svg {
+    transition: 0.75s cubic-bezier(0.075, 0.82, 0.165, 1);
+}
+
+svg:hover {
+    color: var(--peach);
+}
+
+#discord {
+    height: auto;
+    width: 1.85rem;
+    color: var(--white);
+    fill: var(--white);
+}
+
+#discord:hover {
+    fill: var(--peach);
 }
 
 .sub_div {
@@ -219,8 +230,6 @@ ul {
 }
 
 /* FOOTER ^^^ */
-
-
 
 /* Top section - FAQ, Events*/
 .top-section {
