@@ -11,6 +11,13 @@ const teamCircles = () => {
                 image: "imgs/members/Trinity_Ma.jpg",
             },
             {
+                name: "Gagan Mann",
+                department: "Events",
+                position: "Head of Events",
+                image: "imgs/members/Gagan_Mann.jpg",
+  
+            },
+            {
                 name: "Cathy Ha",
                 department: "Events",
                 position: "Events Manager",
