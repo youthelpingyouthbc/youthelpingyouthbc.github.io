@@ -179,7 +179,7 @@ h6, #our_values_type, #our_values_description {
 
 .testimonial {
   width: 300px;
-  height: 50vh;
+  height: 30rem;
   background: #FFFFFF;
   filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.25));
   margin: 20px;
