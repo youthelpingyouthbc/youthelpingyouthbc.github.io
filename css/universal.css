@@ -275,6 +275,11 @@ svg:hover {
     text-align: center;
 }
 
+.post-secondary-link {
+    color: var(--peach);
+    font-weight: 600;
+}
+
 /* Mobile for footer and top section*/
 
 @media screen and (max-width: 900px) {
