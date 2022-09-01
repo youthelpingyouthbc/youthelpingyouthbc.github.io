@@ -86,29 +86,26 @@
 
 .past_event {
     border-radius: 15px;
-    width: 300px;
+    width: 350px;
     height: 400px;
     background-repeat: no-repeat;
     background-size: cover;
+    background-position: center;
     overflow: hidden;
 }
 
 .past_event_one {
-    background-image: URL("../imgs/events-cover-image.jpeg");
+    background-image: URL("../imgs/YOUTHHACKS\ 2022\ \(1\).png");
 }
 
 .past_event_two {
-    background-image: URL("../imgs/events-cover-image.jpeg");
-}
-
-.past_event_three {
-    background-image: URL("../imgs/events-cover-image.jpeg");
+    background-image: URL("../imgs/post\ secondary\ 21.PNG");
 }
 
 .past_event_title {
     position: relative;
     text-align: center;
-    margin-top: 300px;
+    margin-top: 250px;
     margin-bottom: -320px;
     font-weight: bold;
     font-size: 1.5em;
