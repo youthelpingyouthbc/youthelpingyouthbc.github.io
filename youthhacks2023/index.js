@@ -88,86 +88,86 @@ const TEAM = [
     name: "Kelly H.",
     department: "IT",
     position: "Head of IT",
-    image: "images/members/Kelly_Hum.jpeg",
+    image: "./images/members/Kelly_Hum.jpeg",
   },
   {
     name: "Anna F.",
     department: "IT",
     position: "IT Member",
-    image: "images/members/Anna_Fang.jpg",
+    image: "./images/members/Anna_Fang.jpg",
   },
   {
     name: "Hannah L.",
     department: "IT",
     position: "IT Member",
-    image: "images/members/Hannah_Li.jpg",
+    image: "./images/members/Hannah_Li.jpg",
   },
   {
     name: "Trinity M.",
     department: "President",
     position: "President",
-    image: "images/members/Trinity_Ma.jpg",
+    image: "./images/members/Trinity_Ma.jpg",
   },
   {
     name: "Emily Q.",
     department: "HR",
     position: "Head of HR",
-    image: "images/members/emily_qin.JPG",
+    image: "./images/members/emily_qin.JPG",
   },
   {
     name: "Ramika S.",
     department: "Marketing",
     position: "Head of Marketing",
-    image: "images/members/Ramika_De_Silva.PNG",
+    image: "./images/members/Ramika_De_Silva.PNG",
   },
   
   {
     name: "Amanda M.",
     department: "Marketing",
     position: "Marketing Manager",
-    image: "images/members/Amanda_Miao.JPG",
+    image: "./images/members/Amanda_Miao.JPG",
   },
   {
     name: "Hersimer D.",
     department: "Marketing",
     position: "Marketing Member",
-    image: "images/members/Hersimer_Dhaliwal.png",
+    image: "./images/members/Hersimer_Dhaliwal.png",
   },
   {
     name: "Parveen B.",
     department: "Admin",
     position: "Head of Administration",
-    image: "images/members/Parveen Brar.jpg",
+    image: "./images/members/Parveen Brar.jpg",
   },
   {
     name: "Chetan B.",
     department: "Events",
     position: "Events Manager",
-    image: "images/members/Chetan_Brar.jpg",
+    image: "./images/members/Chetan_Brar.jpg",
   },
   {
     name: "Arabella M.",
     department: "Marketing",
     position: "Marketing Member",
-    image: "images/members/Arabella_Mew.jpg",
+    image: "./images/members/Arabella_Mew.jpg",
   },
   {
     name: "Ethan Y.",
     department: "Marketing",
     position: "Marketing Member",
-    image: "images/members/Ethan_Yiu.jpg",
+    image: "./images/members/Ethan_Yiu.jpg",
   },
   {
     name: "Goldspring H.",
     department: "Marketing",
     position: "Marketing Member",
-    image: "images/members/Goldspring_Ha.jpg",
+    image: "./images/members/Goldspring_Ha.jpg",
   },
   {
     name: "Tej N.",
     department: "Admin",
     position: "Administration Member",
-    image: "images/members/Tej_Nathoo.jpg",
+    image: "./images/members/Tej_Nathoo.jpg",
   },
 ];
 
@@ -187,7 +187,7 @@ TEAM.forEach((element, count) => {
   
   memberName.innerHTML = name;
   memberTeam.innerHTML = department;
-  // memberProfile.src = "https://images.pexels.com/photos/614810/pexels-photo-614810.jpeg?auto=format%2Ccompress&cs=tinysrgb&dpr=2&h=650&w=940";
+  // memberProfile.src = "https://./images.pexels.com/photos/614810/pexels-photo-614810.jpeg?auto=format%2Ccompress&cs=tinysrgb&dpr=2&h=650&w=940";
   memberProfile.src = image;
 
   memberProfile.classList.add("member-profile")
