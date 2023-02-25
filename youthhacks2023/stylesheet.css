@@ -219,6 +219,8 @@ nav {
   border: solid 3px #e88272;
   transition: 0.4s ease;
   letter-spacing: 0.05em;
+  color: #fff;
+  text-decoration: none;
 }
 .apply-link:hover{
   background-color: #e6958938;
