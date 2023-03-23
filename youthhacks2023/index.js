@@ -27,7 +27,7 @@ const hourEl = document.getElementsByClassName("hour")[0];
 const minEl = document.getElementsByClassName("min")[0];
 const secEl = document.getElementsByClassName("sec")[0];
 
-const countDownDate = new Date("Mar 15, 2023 12:00:00").getTime();
+const countDownDate = new Date("Mar 23, 2023 12:00:00").getTime();
 
 // Update the count down every 1 second
 const x = setInterval(function () {
